@@ -93,6 +93,19 @@
 
 <hr>
 
+<h2>🎨 Documents generators </h2>
+
+<table>
+  <thead>
+    <tr><th>🖌️ Tool</th><th>🔗 Link</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Residential Lease Agreement</td><td><a href="https://documentsgenerator.airenovationcalculator.com/pages/apartment-rental-en.html">Visit</a></td></tr>
+    <tr><td>Handover Protocol</td><td><a href="https://documentsgenerator.airenovationcalculator.com/pages/handover-protocol-en.html">Visit</a></td></tr>
+    <tr><td>Renovation Contract</td><td><a href="https://documentsgenerator.airenovationcalculator.com/pages/works-contract-en.html">Visit</a></td></tr>
+  </tbody>
+</table>
+
 <h2>🎨 Design & Visualization Tools</h2>
 
 <table>
