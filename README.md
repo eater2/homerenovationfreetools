@@ -17,23 +17,88 @@
     </tr>
   </thead>
   <tbody>
-    <tr><td>Paint Calculator</td><td><a href="https://airenovationcalculator.com/paint-calculator">Go to Tool</a></td></tr>
-    <tr><td>Tile Calculator</td><td><a href="https://airenovationcalculator.com/tile-calculator">Go to Tool</a></td></tr>
-    <tr><td>Flooring Calculator</td><td><a href="https://airenovationcalculator.com/flooring-calculator">Go to Tool</a></td></tr>
-    <tr><td>Concrete Calculator</td><td><a href="https://airenovationcalculator.com/concrete-calculator">Go to Tool</a></td></tr>
-    <tr><td>Drywall Calculator</td><td><a href="https://airenovationcalculator.com/drywall-calculator">Go to Tool</a></td></tr>
-    <tr><td>Insulation Calculator</td><td><a href="https://airenovationcalculator.com/insulation-calculator">Go to Tool</a></td></tr>
-    <tr><td>Roofing Calculator</td><td><a href="https://airenovationcalculator.com/roofing-calculator">Go to Tool</a></td></tr>
-    <tr><td>Decking Calculator</td><td><a href="https://airenovationcalculator.com/decking-calculator">Go to Tool</a></td></tr>
-    <tr><td>Fencing Calculator</td><td><a href="https://airenovationcalculator.com/fencing-calculator">Go to Tool</a></td></tr>
-    <tr><td>Wallpaper Calculator</td><td><a href="https://airenovationcalculator.com/wallpaper-calculator">Go to Tool</a></td></tr>
-    <tr><td>Baseboard Calculator</td><td><a href="https://airenovationcalculator.com/baseboard-calculator">Go to Tool</a></td></tr>
-    <tr><td>Crown Molding Calculator</td><td><a href="https://airenovationcalculator.com/crown-molding-calculator">Go to Tool</a></td></tr>
-    <tr><td>Stair Calculator</td><td><a href="https://airenovationcalculator.com/stair-calculator">Go to Tool</a></td></tr>
-    <tr><td>Window & Door Calculator</td><td><a href="https://airenovationcalculator.com/window-door-calculator">Go to Tool</a></td></tr>
-    <tr><td>HVAC Load Calculator</td><td><a href="https://airenovationcalculator.com/hvac-calculator">Go to Tool</a></td></tr>
-    <tr><td>Electrical Load Calculator</td><td><a href="https://airenovationcalculator.com/electrical-load-calculator">Go to Tool</a></td></tr>
-    <tr><td>Plumbing Pipe Size Calculator</td><td><a href="https://airenovationcalculator.com/plumbing-calculator">Go to Tool</a></td></tr>
+<h2>🔢 Featured Renovation Calculators</h2>
+<p>Utilize these reliable calculators to estimate materials and costs for your home renovation projects:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>🧮 Calculator</th>
+      <th>🔗 Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Paint Calculator</td>
+      <td><a href="https://airenovationcalculator.com/paint-calculator">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Tile Calculator</td>
+      <td><a href="https://airenovationcalculator.com/tile-calculator">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Flooring Calculator</td>
+      <td><a href="https://measuresquare.com/tools/flooring-calculator/">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Concrete Calculator</td>
+      <td><a href="https://www.homedepot.com/c/calculator_concrete">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Drywall Calculator</td>
+      <td><a href="https://www.homedepot.com/project-seller/drywall-calculator">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Insulation Calculator</td>
+      <td><a href="https://www.lowes.com/n/calculators/insulation-calculator">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Roofing Calculator</td>
+      <td><a href="https://www.calculator.net/roofing-calculator.html">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Decking Calculator</td>
+      <td><a href="https://www.homedepot.com/c/calculator_decking">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Fencing Calculator</td>
+      <td><a href="https://www.homedepot.com/c/calculator_fencing">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Wallpaper Calculator</td>
+      <td><a href="https://www.lowes.com/n/calculators/wallpaper-calculator">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Baseboard Calculator</td>
+      <td><a href="https://www.blocklayer.com/baseboard.aspx">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Crown Molding Calculator</td>
+      <td><a href="https://www.blocklayer.com/crown-molding.aspx">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Stair Calculator</td>
+      <td><a href="https://www.blocklayer.com/stairs.aspx">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Window & Door Calculator</td>
+      <td><a href="https://www.lowes.com/n/calculators/door-calculator">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>HVAC Load Calculator</td>
+      <td><a href="https://www.homedepot.com/c/calculator_hvac">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Electrical Load Calculator</td>
+      <td><a href="https://www.lowes.com/n/calculators/electrical-calculator">Go to Tool</a></td>
+    </tr>
+    <tr>
+      <td>Plumbing Pipe Size Calculator</td>
+      <td><a href="https://www.blocklayer.com/plumbing.aspx">Go to Tool</a></td>
+    </tr>
+  </tbody>
+</table>
+
   </tbody>
 </table>
 
