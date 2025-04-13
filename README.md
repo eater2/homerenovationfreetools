@@ -4,10 +4,6 @@
   A curated collection of <strong>free tools, calculators, and design resources</strong> to help homeowners and DIYers successfully plan and execute renovation projects.
 </p>
 
-<hr>
-
-<h2>🔢 Featured Renovation Calculators</h2>
-<p>These tools come from <a href="https://airenovationcalculator.com/calculators" target="_blank">AirenovationCalculator.com</a> — your go-to hub for accurate material and cost estimations.</p>
 
 <table>
   <thead>
@@ -30,11 +26,11 @@
   <tbody>
     <tr>
       <td>Paint Calculator</td>
-      <td><a href="https://airenovationcalculator.com/paint-calculator">Go to Tool</a></td>
+      <td><a href="https://airenovationcalculator.com/calculators/paint">Go to Tool</a></td>
     </tr>
     <tr>
       <td>Tile Calculator</td>
-      <td><a href="https://airenovationcalculator.com/tile-calculator">Go to Tool</a></td>
+      <td><a href="https://airenovationcalculator.com/calculators/tiles">Go to Tool</a></td>
     </tr>
     <tr>
       <td>Flooring Calculator</td>
