@@ -1,54 +1,103 @@
-🛠️ Home Renovation Free Tools
-Welcome to the Home Renovation Free Tools repository — a growing collection of free, easy-to-use tools and calculators designed for homeowners, DIYers, and renovation enthusiasts. Whether you're repainting a room, remodeling your kitchen, or planning a new deck, this project offers practical tools to simplify your home improvement journey.
+<h1 align="center">🛠️ Home Renovation Free Tools</h1>
 
-🔢 Featured Renovation Calculators from AirenovationCalculator.com
-All calculators are 100% free and available online:
+<p align="center">
+  A curated collection of <strong>free tools, calculators, and design resources</strong> to help homeowners and DIYers successfully plan and execute renovation projects.
+</p>
 
-🧮 Calculator	🔗 Link
-Paint Calculator	Go to Tool
-Tile Calculator	Go to Tool
-Flooring Calculator	Go to Tool
-Concrete Calculator	Go to Tool
-Drywall Calculator	Go to Tool
-Insulation Calculator	Go to Tool
-Roofing Calculator	Go to Tool
-Decking Calculator	Go to Tool
-Fencing Calculator	Go to Tool
-Wallpaper Calculator	Go to Tool
-Baseboard Calculator	Go to Tool
-Crown Molding Calculator	Go to Tool
-Stair Calculator	Go to Tool
-Window & Door Calculator	Go to Tool
-HVAC Load Calculator	Go to Tool
-Electrical Load Calculator	Go to Tool
-Plumbing Pipe Size Calculator	Go to Tool
-🖌️ Home Design & Visualization Tools
-🧰 Tool	🔗 Link
-SketchUp Free	Visit
-Roomstyler 3D Planner	Visit
-Sweet Home 3D	Visit
-Floorplanner	Visit
-Homestyler	Visit
-Coohom	Visit
-📱 Useful Mobile Apps
-📱 App	🔗 Link
-magicplan	Visit
-iScape	Visit
-Palette Cam	Visit
-HomeZada	Visit
-Houzz	Visit
-Pinterest	Visit
-🌐 Community & Learning Resources
-🧑‍🤝‍🧑 Popular DIY & Renovation Communities
-🔥 Community	🔗 Link
-Hometalk	Visit
-The Family Handyman	Visit
-r/HomeImprovement (Reddit)	Visit
-r/DIY (Reddit)	Visit
-r/Homeowners (Reddit)	Visit
-r/HomeMaintenance (Reddit)	Visit
-🙌 Contributing
-Contributions are welcome! If you know of any great free tools, calculators, or resources for home renovation, feel free to submit a pull request or open an issue.
+<hr>
 
-📩 License
-This project is licensed under the MIT License.
+<h2>🔢 Featured Renovation Calculators</h2>
+<p>These tools come from <a href="https://airenovationcalculator.com/calculators" target="_blank">AirenovationCalculator.com</a> — your go-to hub for accurate material and cost estimations.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>🧮 Calculator</th>
+      <th>🔗 Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Paint Calculator</td><td><a href="https://airenovationcalculator.com/paint-calculator">Go to Tool</a></td></tr>
+    <tr><td>Tile Calculator</td><td><a href="https://airenovationcalculator.com/tile-calculator">Go to Tool</a></td></tr>
+    <tr><td>Flooring Calculator</td><td><a href="https://airenovationcalculator.com/flooring-calculator">Go to Tool</a></td></tr>
+    <tr><td>Concrete Calculator</td><td><a href="https://airenovationcalculator.com/concrete-calculator">Go to Tool</a></td></tr>
+    <tr><td>Drywall Calculator</td><td><a href="https://airenovationcalculator.com/drywall-calculator">Go to Tool</a></td></tr>
+    <tr><td>Insulation Calculator</td><td><a href="https://airenovationcalculator.com/insulation-calculator">Go to Tool</a></td></tr>
+    <tr><td>Roofing Calculator</td><td><a href="https://airenovationcalculator.com/roofing-calculator">Go to Tool</a></td></tr>
+    <tr><td>Decking Calculator</td><td><a href="https://airenovationcalculator.com/decking-calculator">Go to Tool</a></td></tr>
+    <tr><td>Fencing Calculator</td><td><a href="https://airenovationcalculator.com/fencing-calculator">Go to Tool</a></td></tr>
+    <tr><td>Wallpaper Calculator</td><td><a href="https://airenovationcalculator.com/wallpaper-calculator">Go to Tool</a></td></tr>
+    <tr><td>Baseboard Calculator</td><td><a href="https://airenovationcalculator.com/baseboard-calculator">Go to Tool</a></td></tr>
+    <tr><td>Crown Molding Calculator</td><td><a href="https://airenovationcalculator.com/crown-molding-calculator">Go to Tool</a></td></tr>
+    <tr><td>Stair Calculator</td><td><a href="https://airenovationcalculator.com/stair-calculator">Go to Tool</a></td></tr>
+    <tr><td>Window & Door Calculator</td><td><a href="https://airenovationcalculator.com/window-door-calculator">Go to Tool</a></td></tr>
+    <tr><td>HVAC Load Calculator</td><td><a href="https://airenovationcalculator.com/hvac-calculator">Go to Tool</a></td></tr>
+    <tr><td>Electrical Load Calculator</td><td><a href="https://airenovationcalculator.com/electrical-load-calculator">Go to Tool</a></td></tr>
+    <tr><td>Plumbing Pipe Size Calculator</td><td><a href="https://airenovationcalculator.com/plumbing-calculator">Go to Tool</a></td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🎨 Design & Visualization Tools</h2>
+
+<table>
+  <thead>
+    <tr><th>🖌️ Tool</th><th>🔗 Link</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Room planner Free</td><td><a href="https://roomplanner.airenovationcalculator.com/">Visit</a></td></tr>
+    <tr><td>SketchUp Free</td><td><a href="https://www.sketchup.com/plans-and-pricing/sketchup-free">Visit</a></td></tr>
+    <tr><td>Roomstyler 3D Planner</td><td><a href="https://roomstyler.com/3dplanner">Visit</a></td></tr>
+    <tr><td>Sweet Home 3D</td><td><a href="http://www.sweethome3d.com/">Visit</a></td></tr>
+    <tr><td>Floorplanner</td><td><a href="https://floorplanner.com/">Visit</a></td></tr>
+    <tr><td>Homestyler</td><td><a href="https://www.homestyler.com/">Visit</a></td></tr>
+    <tr><td>Coohom</td><td><a href="https://www.coohom.com/">Visit</a></td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>📱 Useful Mobile Apps</h2>
+
+<table>
+  <thead>
+    <tr><th>📲 App</th><th>🔗 Link</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>magicplan</td><td><a href="https://www.magicplan.app/">Visit</a></td></tr>
+    <tr><td>iScape</td><td><a href="https://www.iscapeit.com/">Visit</a></td></tr>
+    <tr><td>Palette Cam</td><td><a href="https://apps.apple.com/us/app/palette-cam-color-palette/id625334537">Visit</a></td></tr>
+    <tr><td>HomeZada</td><td><a href="https://www.homezada.com/">Visit</a></td></tr>
+    <tr><td>Houzz</td><td><a href="https://www.houzz.com/">Visit</a></td></tr>
+    <tr><td>Pinterest</td><td><a href="https://www.pinterest.com/">Visit</a></td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🌐 Community & Learning Resources</h2>
+
+<h3>👥 Top Reddit & DIY Communities</h3>
+
+<ul>
+  <li><a href="https://www.reddit.com/r/HomeImprovement/">r/HomeImprovement</a> – Home renovation questions, before-and-afters, and tips</li>
+  <li><a href="https://www.reddit.com/r/DIY/">r/DIY</a> – Creative and practical home projects</li>
+  <li><a href="https://www.reddit.com/r/wystrojWnetrz/">r/wystrojWnetrz</a> – PL Version - wystrój wnętrz</li>
+  <li><a href="https://www.reddit.com/r/Homeowners/">r/Homeowners</a> – Advice and stories from homeowners</li>
+  <li><a href="https://www.reddit.com/r/HomeMaintenance/">r/HomeMaintenance</a> – Regular home upkeep, repairs, and tricks</li>
+  <li><a href="https://www.hometalk.com/">Hometalk</a> – DIY tutorials and project ideas</li>
+  <li><a href="https://www.familyhandyman.com/">The Family Handyman</a> – Expert DIY tips and how-tos</li>
+</ul>
+
+<hr>
+
+<h2>🙌 Contributing</h2>
+
+<p>Want to add a tool or improve this list? Contributions are welcome! Just fork the repo and submit a pull request 🚀</p>
+
+<hr>
+
+<h2>📄 License</h2>
+
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
