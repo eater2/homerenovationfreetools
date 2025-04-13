@@ -6,13 +6,6 @@
 
 
 <table>
-  <thead>
-    <tr>
-      <th>🧮 Calculator</th>
-      <th>🔗 Link</th>
-    </tr>
-  </thead>
-  <tbody>
 <h2>🔢 Featured Renovation Calculators</h2>
 <p>Utilize these reliable calculators to estimate materials and costs for your home renovation projects:</p>
 
