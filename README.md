@@ -114,6 +114,7 @@
   </thead>
   <tbody>
     <tr><td>Room planner Free</td><td><a href="https://roomplanner.airenovationcalculator.com/">Visit</a></td></tr>
+    <tr><td>Wall Color Palette tryout</td><td><a href="https://airenovationcalculator.com/en/calculators/colors">Visit</a></td></tr>
     <tr><td>SketchUp Free</td><td><a href="https://www.sketchup.com/plans-and-pricing/sketchup-free">Visit</a></td></tr>
     <tr><td>Roomstyler 3D Planner</td><td><a href="https://roomstyler.com/3dplanner">Visit</a></td></tr>
     <tr><td>Sweet Home 3D</td><td><a href="http://www.sweethome3d.com/">Visit</a></td></tr>
