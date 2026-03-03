@@ -13,77 +13,95 @@
   <thead>
     <tr>
       <th>🧮 Calculator</th>
-      <th>🔗 Link</th>
+      <th>🇬🇧 EN</th>
+      <th>🇵🇱 PL</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Paint Calculator</td>
-      <td><a href="https://airenovationcalculator.com/free-tools/paint">EN</a> · <a href="https://kalkulatorremontu.pl/kalkulator-farb">PL</a></td>
+      <td><a href="https://airenovationcalculator.com/paint-calculator">Go to Tool</a></td>
+      <td><a href="https://kalkulatorremontu.pl/kalkulator-farb">Przejdź</a></td>
     </tr>
     <tr>
       <td>Tile Calculator</td>
-      <td><a href="https://airenovationcalculator.com/free-tools/tiles">EN</a> · <a href="https://kalkulatorremontu.pl/kalkulator-plytek">PL</a></td>
+      <td><a href="https://airenovationcalculator.com/tile-calculator">Go to Tool</a></td>
+      <td><a href="https://kalkulatorremontu.pl/kalkulator-plytek">Przejdź</a></td>
     </tr>
     <tr>
       <td>Flooring Calculator</td>
       <td><a href="https://measuresquare.com/tools/flooring-calculator/">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Concrete Calculator</td>
       <td><a href="https://www.homedepot.com/c/calculator_concrete">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Drywall Calculator</td>
       <td><a href="https://www.homedepot.com/project-seller/drywall-calculator">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Insulation Calculator</td>
       <td><a href="https://www.lowes.com/n/calculators/insulation-calculator">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Roofing Calculator</td>
       <td><a href="https://www.calculator.net/roofing-calculator.html">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Decking Calculator</td>
       <td><a href="https://www.homedepot.com/c/calculator_decking">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Fencing Calculator</td>
       <td><a href="https://www.homedepot.com/c/calculator_fencing">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Wallpaper Calculator</td>
       <td><a href="https://www.lowes.com/n/calculators/wallpaper-calculator">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Baseboard Calculator</td>
       <td><a href="https://www.blocklayer.com/baseboard.aspx">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Crown Molding Calculator</td>
       <td><a href="https://www.blocklayer.com/crown-molding.aspx">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Stair Calculator</td>
       <td><a href="https://www.blocklayer.com/stairs.aspx">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Window & Door Calculator</td>
       <td><a href="https://www.lowes.com/n/calculators/door-calculator">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>HVAC Load Calculator</td>
       <td><a href="https://www.homedepot.com/c/calculator_hvac">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Electrical Load Calculator</td>
       <td><a href="https://www.lowes.com/n/calculators/electrical-calculator">Go to Tool</a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td>Plumbing Pipe Size Calculator</td>
       <td><a href="https://www.blocklayer.com/plumbing.aspx">Go to Tool</a></td>
+      <td>—</td>
     </tr>
   </tbody>
 </table>
@@ -97,12 +115,12 @@
 
 <table>
   <thead>
-    <tr><th>🖌️ Tool</th><th>🔗 Link</th></tr>
+    <tr><th>🖌️ Tool</th><th>🇬🇧 EN</th><th>🇵🇱 PL</th></tr>
   </thead>
   <tbody>
-    <tr><td>Residential Lease Agreement</td><td><a href="https://docs.airenovationcalculator.com/pages/apartment-rental-en.html">EN</a> · <a href="https://dokumenty.kalkulatorremontu.pl/pages/apartment-rental-pl.html">PL</a></td></tr>
-    <tr><td>Handover Protocol</td><td><a href="https://docs.airenovationcalculator.com/pages/handover-protocol-en.html">EN</a> · <a href="https://dokumenty.kalkulatorremontu.pl/pages/handover-protocol-pl.html">PL</a></td></tr>
-    <tr><td>Renovation Contract</td><td><a href="https://docs.airenovationcalculator.com/pages/works-contract-en.html">EN</a> · <a href="https://dokumenty.kalkulatorremontu.pl/pages/works-contract-pl.html">PL</a></td></tr>
+    <tr><td>Residential Lease Agreement</td><td><a href="https://docs.airenovationcalculator.com/pages/apartment-rental-en.html">Visit</a></td><td><a href="https://dokumenty.kalkulatorremontu.pl/pages/apartment-rental-pl.html">Przejdź</a></td></tr>
+    <tr><td>Handover Protocol</td><td><a href="https://docs.airenovationcalculator.com/pages/handover-protocol-en.html">Visit</a></td><td><a href="https://dokumenty.kalkulatorremontu.pl/pages/handover-protocol-pl.html">Przejdź</a></td></tr>
+    <tr><td>Renovation Contract</td><td><a href="https://docs.airenovationcalculator.com/pages/works-contract-en.html">Visit</a></td><td><a href="https://dokumenty.kalkulatorremontu.pl/pages/works-contract-pl.html">Przejdź</a></td></tr>
   </tbody>
 </table>
 
@@ -110,17 +128,17 @@
 
 <table>
   <thead>
-    <tr><th>🖌️ Tool</th><th>🔗 Link</th></tr>
+    <tr><th>🖌️ Tool</th><th>🇬🇧 EN</th><th>🇵🇱 PL</th></tr>
   </thead>
   <tbody>
-    <tr><td>Room Planner</td><td><a href="https://roomplanner.airenovationcalculator.com/">EN</a> · <a href="https://planer.kalkulatorremontu.pl">PL</a></td></tr>
-    <tr><td>Wall Color Palette</td><td><a href="https://airenovationcalculator.com/free-tools/colors">EN</a> · <a href="https://kalkulatorremontu.pl/paleta-kolorow">PL</a></td></tr>
-    <tr><td>SketchUp Free</td><td><a href="https://www.sketchup.com/plans-and-pricing/sketchup-free">Visit</a></td></tr>
-    <tr><td>Roomstyler 3D Planner</td><td><a href="https://roomstyler.com/3dplanner">Visit</a></td></tr>
-    <tr><td>Sweet Home 3D</td><td><a href="http://www.sweethome3d.com/">Visit</a></td></tr>
-    <tr><td>Floorplanner</td><td><a href="https://floorplanner.com/">Visit</a></td></tr>
-    <tr><td>Homestyler</td><td><a href="https://www.homestyler.com/">Visit</a></td></tr>
-    <tr><td>Coohom</td><td><a href="https://www.coohom.com/">Visit</a></td></tr>
+    <tr><td>Room Planner</td><td><a href="https://roomplanner.airenovationcalculator.com/">Visit</a></td><td><a href="https://planer.kalkulatorremontu.pl">Przejdź</a></td></tr>
+    <tr><td>Wall Color Palette</td><td><a href="https://airenovationcalculator.com/color-palette">Visit</a></td><td><a href="https://kalkulatorremontu.pl/paleta-kolorow">Przejdź</a></td></tr>
+    <tr><td>SketchUp Free</td><td><a href="https://www.sketchup.com/plans-and-pricing/sketchup-free">Visit</a></td><td>—</td></tr>
+    <tr><td>Roomstyler 3D Planner</td><td><a href="https://roomstyler.com/3dplanner">Visit</a></td><td>—</td></tr>
+    <tr><td>Sweet Home 3D</td><td><a href="http://www.sweethome3d.com/">Visit</a></td><td>—</td></tr>
+    <tr><td>Floorplanner</td><td><a href="https://floorplanner.com/">Visit</a></td><td>—</td></tr>
+    <tr><td>Homestyler</td><td><a href="https://www.homestyler.com/">Visit</a></td><td>—</td></tr>
+    <tr><td>Coohom</td><td><a href="https://www.coohom.com/">Visit</a></td><td>—</td></tr>
   </tbody>
 </table>
 
@@ -130,10 +148,10 @@
 
 <table>
   <thead>
-    <tr><th>📋 Resource</th><th>🔗 Link</th></tr>
+    <tr><th>📋 Resource</th><th>🇬🇧 EN</th><th>🇵🇱 PL</th></tr>
   </thead>
   <tbody>
-    <tr><td>Renovation Company Catalog</td><td><a href="https://airenovationcalculator.com/companies">EN</a> · <a href="https://kalkulatorremontu.pl/katalog-firm">PL</a></td></tr>
+    <tr><td>Renovation Company Catalog</td><td><a href="https://airenovationcalculator.com/companies">Visit</a></td><td><a href="https://kalkulatorremontu.pl/katalog-firm">Przejdź</a></td></tr>
   </tbody>
 </table>
 
@@ -143,15 +161,15 @@
 
 <table>
   <thead>
-    <tr><th>📲 App</th><th>🔗 Link</th></tr>
+    <tr><th>📲 App</th><th>🇬🇧 EN</th><th>🇵🇱 PL</th></tr>
   </thead>
   <tbody>
-    <tr><td>magicplan</td><td><a href="https://www.magicplan.app/">Visit</a></td></tr>
-    <tr><td>iScape</td><td><a href="https://www.iscapeit.com/">Visit</a></td></tr>
-    <tr><td>Palette Cam</td><td><a href="https://apps.apple.com/us/app/palette-cam-color-palette/id625334537">Visit</a></td></tr>
-    <tr><td>HomeZada</td><td><a href="https://www.homezada.com/">Visit</a></td></tr>
-    <tr><td>Houzz</td><td><a href="https://www.houzz.com/">Visit</a></td></tr>
-    <tr><td>Pinterest</td><td><a href="https://www.pinterest.com/">Visit</a></td></tr>
+    <tr><td>magicplan</td><td><a href="https://www.magicplan.app/">Visit</a></td><td>—</td></tr>
+    <tr><td>iScape</td><td><a href="https://www.iscapeit.com/">Visit</a></td><td>—</td></tr>
+    <tr><td>Palette Cam</td><td><a href="https://apps.apple.com/us/app/palette-cam-color-palette/id625334537">Visit</a></td><td>—</td></tr>
+    <tr><td>HomeZada</td><td><a href="https://www.homezada.com/">Visit</a></td><td>—</td></tr>
+    <tr><td>Houzz</td><td><a href="https://www.houzz.com/">Visit</a></td><td>—</td></tr>
+    <tr><td>Pinterest</td><td><a href="https://www.pinterest.com/">Visit</a></td><td>—</td></tr>
   </tbody>
 </table>
 
