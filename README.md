@@ -1,13 +1,17 @@
-<h1 align="center">🛠️ Home Renovation Free Tools</h1>
+<h1 align="center">🛠️ Home Renovation Free Tools & Calculators</h1>
 
 <p align="center">
-  A curated collection of <strong>free tools, calculators, and design resources</strong> to help homeowners and DIYers successfully plan and execute renovation projects.
+  A curated collection of <strong>free home renovation calculators, room planners, design tools, and document generators</strong> for DIY homeowners and contractors. Estimate paint, tiles, flooring, roofing, and more — available in English and Polish.
+</p>
+
+<p align="center">
+  <a href="https://airenovationcalculator.com/free-tools">🇬🇧 airenovationcalculator.com</a> · <a href="https://kalkulatorremontu.pl/darmowe-narzedzia">🇵🇱 kalkulatorremontu.pl</a>
 </p>
 
 
 <table>
-<h2>🔢 Featured Renovation Calculators</h2>
-<p>Utilize these reliable calculators to estimate materials and costs for your home renovation projects:</p>
+<h2>🔢 Free Renovation Calculators</h2>
+<p>Free online calculators to estimate materials and costs for home renovation projects — paint, tiles, flooring, concrete, drywall, roofing, and more:</p>
 
 <table>
   <thead>
@@ -111,7 +115,7 @@
 
 <hr>
 
-<h2>🎨 Documents generators </h2>
+<h2>📄 Free Document Generators for Renovation</h2>
 
 <table>
   <thead>
@@ -124,7 +128,7 @@
   </tbody>
 </table>
 
-<h2>🎨 Design & Visualization Tools</h2>
+<h2>🎨 Free Room Design & Visualization Tools</h2>
 
 <table>
   <thead>
@@ -144,7 +148,7 @@
 
 <hr>
 
-<h2>🏢 Company Catalog</h2>
+<h2>🏢 Renovation Company Catalog</h2>
 
 <table>
   <thead>
@@ -157,7 +161,7 @@
 
 <hr>
 
-<h2>📱 Useful Mobile Apps</h2>
+<h2>📱 Best Free Mobile Apps for Home Renovation</h2>
 
 <table>
   <thead>
@@ -175,9 +179,9 @@
 
 <hr>
 
-<h2>🌐 Community & Learning Resources</h2>
+<h2>🌐 Home Improvement Communities & DIY Resources</h2>
 
-<h3>👥 Top Reddit & DIY Communities</h3>
+<h3>👥 Top Reddit & DIY Communities for Homeowners</h3>
 
 <ul>
   <li><a href="https://www.reddit.com/r/HomeImprovement/">r/HomeImprovement</a> – Home renovation questions, before-and-afters, and tips</li>
