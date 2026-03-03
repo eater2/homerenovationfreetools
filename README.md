@@ -19,11 +19,11 @@
   <tbody>
     <tr>
       <td>Paint Calculator</td>
-      <td><a href="https://airenovationcalculator.com/calculators/paint">Go to Tool</a></td>
+      <td><a href="https://airenovationcalculator.com/free-tools/paint">EN</a> · <a href="https://kalkulatorremontu.pl/kalkulator-farb">PL</a></td>
     </tr>
     <tr>
       <td>Tile Calculator</td>
-      <td><a href="https://airenovationcalculator.com/calculators/tiles">Go to Tool</a></td>
+      <td><a href="https://airenovationcalculator.com/free-tools/tiles">EN</a> · <a href="https://kalkulatorremontu.pl/kalkulator-plytek">PL</a></td>
     </tr>
     <tr>
       <td>Flooring Calculator</td>
@@ -100,9 +100,9 @@
     <tr><th>🖌️ Tool</th><th>🔗 Link</th></tr>
   </thead>
   <tbody>
-    <tr><td>Residential Lease Agreement</td><td><a href="https://documentsgenerator.airenovationcalculator.com/pages/apartment-rental-en.html">Visit</a></td></tr>
-    <tr><td>Handover Protocol</td><td><a href="https://documentsgenerator.airenovationcalculator.com/pages/handover-protocol-en.html">Visit</a></td></tr>
-    <tr><td>Renovation Contract</td><td><a href="https://documentsgenerator.airenovationcalculator.com/pages/works-contract-en.html">Visit</a></td></tr>
+    <tr><td>Residential Lease Agreement</td><td><a href="https://docs.airenovationcalculator.com/pages/apartment-rental-en.html">EN</a> · <a href="https://dokumenty.kalkulatorremontu.pl/pages/apartment-rental-pl.html">PL</a></td></tr>
+    <tr><td>Handover Protocol</td><td><a href="https://docs.airenovationcalculator.com/pages/handover-protocol-en.html">EN</a> · <a href="https://dokumenty.kalkulatorremontu.pl/pages/handover-protocol-pl.html">PL</a></td></tr>
+    <tr><td>Renovation Contract</td><td><a href="https://docs.airenovationcalculator.com/pages/works-contract-en.html">EN</a> · <a href="https://dokumenty.kalkulatorremontu.pl/pages/works-contract-pl.html">PL</a></td></tr>
   </tbody>
 </table>
 
@@ -113,14 +113,27 @@
     <tr><th>🖌️ Tool</th><th>🔗 Link</th></tr>
   </thead>
   <tbody>
-    <tr><td>Room planner Free</td><td><a href="https://roomplanner.airenovationcalculator.com/">Visit</a></td></tr>
-    <tr><td>Wall Color Palette tryout</td><td><a href="https://airenovationcalculator.com/en/calculators/colors">Visit</a></td></tr>
+    <tr><td>Room Planner</td><td><a href="https://roomplanner.airenovationcalculator.com/">EN</a> · <a href="https://planer.kalkulatorremontu.pl">PL</a></td></tr>
+    <tr><td>Wall Color Palette</td><td><a href="https://airenovationcalculator.com/free-tools/colors">EN</a> · <a href="https://kalkulatorremontu.pl/paleta-kolorow">PL</a></td></tr>
     <tr><td>SketchUp Free</td><td><a href="https://www.sketchup.com/plans-and-pricing/sketchup-free">Visit</a></td></tr>
     <tr><td>Roomstyler 3D Planner</td><td><a href="https://roomstyler.com/3dplanner">Visit</a></td></tr>
     <tr><td>Sweet Home 3D</td><td><a href="http://www.sweethome3d.com/">Visit</a></td></tr>
     <tr><td>Floorplanner</td><td><a href="https://floorplanner.com/">Visit</a></td></tr>
     <tr><td>Homestyler</td><td><a href="https://www.homestyler.com/">Visit</a></td></tr>
     <tr><td>Coohom</td><td><a href="https://www.coohom.com/">Visit</a></td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>🏢 Company Catalog</h2>
+
+<table>
+  <thead>
+    <tr><th>📋 Resource</th><th>🔗 Link</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Renovation Company Catalog</td><td><a href="https://airenovationcalculator.com/companies">EN</a> · <a href="https://kalkulatorremontu.pl/katalog-firm">PL</a></td></tr>
   </tbody>
 </table>
 
@@ -151,7 +164,8 @@
 <ul>
   <li><a href="https://www.reddit.com/r/HomeImprovement/">r/HomeImprovement</a> – Home renovation questions, before-and-afters, and tips</li>
   <li><a href="https://www.reddit.com/r/DIY/">r/DIY</a> – Creative and practical home projects</li>
-  <li><a href="https://www.reddit.com/r/wystrojWnetrz/">r/wystrojWnetrz</a> – PL Version - wystrój wnętrz</li>
+  <li><a href="https://www.reddit.com/r/renovationToolsApps/">r/renovationToolsApps</a> – Renovation tools, apps, and calculators (EN)</li>
+  <li><a href="https://www.reddit.com/r/wystrojWnetrz/">r/wystrojWnetrz</a> – Wystrój wnętrz (PL)</li>
   <li><a href="https://www.reddit.com/r/Homeowners/">r/Homeowners</a> – Advice and stories from homeowners</li>
   <li><a href="https://www.reddit.com/r/HomeMaintenance/">r/HomeMaintenance</a> – Regular home upkeep, repairs, and tricks</li>
   <li><a href="https://www.hometalk.com/">Hometalk</a> – DIY tutorials and project ideas</li>
