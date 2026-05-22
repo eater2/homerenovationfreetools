@@ -221,6 +221,7 @@
   </thead>
   <tbody>
     <tr><td>Room Planner</td><td><a href="https://roomplanner.airenovationcalculator.com/">Visit</a></td><td><a href="https://planer.kalkulatorremontu.pl">Przejdź</a></td><td>Planer pomieszczeń</td></tr>
+    <tr><td>LandscapioAI</td><td><a href="https://www.landscapioai.com/">Visit</a></td><td>—</td><td>Generator projektów krajobrazu AI z szacunkowymi kosztami</td></tr>
     <tr><td>Wall Color Palette</td><td><a href="https://airenovationcalculator.com/color-palette">Visit</a></td><td><a href="https://kalkulatorremontu.pl/paleta-kolorow">Przejdź</a></td><td>Paleta kolorów ścian</td></tr>
     <tr><td>SketchUp Free</td><td><a href="https://www.sketchup.com/plans-and-pricing/sketchup-free">Visit</a></td><td>—</td><td>Modelowanie 3D</td></tr>
     <tr><td>Roomstyler 3D Planner</td><td><a href="https://roomstyler.com/3dplanner">Visit</a></td><td>—</td><td>Planer 3D pokoju</td></tr>
