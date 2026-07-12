@@ -44,6 +44,12 @@
     <tr>
       <td>Concrete Calculator</td>
       <td><a href="https://www.homedepot.com/c/calculator_concrete">Go to Tool</a></td>
+    <tr>
+      <td>Concrete Calculator Hub</td>
+      <td><a href="https://concreteestimatorhub.com/">Go to Tool</a></td>
+      <td>-</td>
+      <td>Free concrete bag coverage, volume, and cost estimator</td>
+    </tr>
       <td>—</td>
       <td>Kalkulator betonu</td>
     </tr>
