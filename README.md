@@ -162,6 +162,12 @@
       <td>Kalkulator drewna budowlanego – ilość i koszt</td>
     </tr>
     <tr>
+      <td>Board Foot Calculator</td>
+      <td><a href="https://www.calculatorcampus.com/calculators/board-foot-calculator">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator stóp deskowych – objętość i koszt tarcicy</td>
+    </tr>
+    <tr>
       <td>Countertop Calculator</td>
       <td><a href="https://www.calculator.net/countertop-calculator.html">Go to Tool</a></td>
       <td>—</td>
