@@ -1,0 +1,3 @@
+# Social networks reject automated requests
+^https://www\.facebook\.com/
+^https://www\.instagram\.com/

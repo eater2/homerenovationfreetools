@@ -1,0 +1,35 @@
+name: Link check
+
+on:
+  push:
+    branches: [main]
+    paths: [README.md, .lycheeignore, .github/workflows/link-check.yml]
+  pull_request:
+    paths: [README.md]
+  schedule:
+    - cron: "0 6 * * 1" # every Monday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      # 403/429 are accepted because big retailers (Home Depot, Lowe's, Angi...)
+      # block CI runners even though the pages work in a browser.
+      - name: Check links in README
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-retries 3
+            --retry-wait-time 5
+            --timeout 30
+            --accept "200..=299,403,429"
+            --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
+            README.md
+          fail: true
