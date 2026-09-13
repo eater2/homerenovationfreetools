@@ -66,7 +66,7 @@
     </tr>
     <tr>
       <td>Concrete Calculator</td>
-      <td><a href="https://www.homedepot.com/c/calculator_concrete">Go to Tool</a></td>
+      <td><a href="https://www.inchcalculator.com/concrete-calculator/">Go to Tool</a></td>
       <td>—</td>
       <td>Kalkulator betonu</td>
     </tr>
@@ -78,13 +78,13 @@
     </tr>
     <tr>
       <td>Drywall Calculator</td>
-      <td><a href="https://www.homedepot.com/project-seller/drywall-calculator">Go to Tool</a></td>
+      <td><a href="https://www.omnicalculator.com/construction/drywall">Go to Tool</a></td>
       <td>—</td>
       <td>Kalkulator płyt gipsowych</td>
     </tr>
     <tr>
       <td>Insulation Calculator</td>
-      <td><a href="https://www.lowes.com/n/calculators/insulation-calculator">Go to Tool</a></td>
+      <td><a href="https://www.omnicalculator.com/construction/insulation">Go to Tool</a></td>
       <td>—</td>
       <td>Kalkulator izolacji</td>
     </tr>
@@ -96,19 +96,19 @@
     </tr>
     <tr>
       <td>Decking Calculator</td>
-      <td><a href="https://www.homedepot.com/c/calculator_decking">Go to Tool</a></td>
+      <td><a href="https://www.omnicalculator.com/construction/decking">Go to Tool</a></td>
       <td>—</td>
       <td>Kalkulator tarasu</td>
     </tr>
     <tr>
       <td>Fencing Calculator</td>
-      <td><a href="https://www.homedepot.com/c/calculator_fencing">Go to Tool</a></td>
+      <td><a href="https://www.omnicalculator.com/construction/fence">Go to Tool</a></td>
       <td>—</td>
       <td>Kalkulator ogrodzenia</td>
     </tr>
     <tr>
       <td>Wallpaper Calculator</td>
-      <td><a href="https://www.lowes.com/n/calculators/wallpaper-calculator">Go to Tool</a></td>
+      <td><a href="https://www.omnicalculator.com/construction/wallpaper">Go to Tool</a></td>
       <td>—</td>
       <td>Kalkulator tapety</td>
     </tr>
@@ -131,20 +131,26 @@
       <td>Kalkulator schodów</td>
     </tr>
     <tr>
-      <td>Window & Door Calculator</td>
-      <td><a href="https://www.lowes.com/n/calculators/door-calculator">Go to Tool</a></td>
+      <td>Window Replacement Cost Calculator</td>
+      <td><a href="https://www.homewyse.com/services/cost_to_install_replacement_windows.html">Go to Tool</a></td>
       <td>—</td>
-      <td>Kalkulator okien i drzwi</td>
+      <td>Kalkulator kosztu wymiany okien – materiał i montaż</td>
     </tr>
     <tr>
-      <td>HVAC Load Calculator</td>
-      <td><a href="https://www.homedepot.com/c/calculator_hvac">Go to Tool</a></td>
+      <td>Exterior Door Installation Cost Calculator</td>
+      <td><a href="https://www.homewyse.com/services/cost_to_install_exterior_door.html">Go to Tool</a></td>
       <td>—</td>
-      <td>Kalkulator obciążenia HVAC</td>
+      <td>Kalkulator kosztu montażu drzwi zewnętrznych</td>
+    </tr>
+    <tr>
+      <td>HVAC Load Calculator (Manual J)</td>
+      <td><a href="https://www.loadcalc.net/">Go to Tool</a></td>
+      <td>—</td>
+      <td>Obliczenie zapotrzebowania domu na ogrzewanie i chłodzenie (Manual J)</td>
     </tr>
     <tr>
       <td>Electrical Load Calculator</td>
-      <td><a href="https://www.lowes.com/n/calculators/electrical-calculator">Go to Tool</a></td>
+      <td><a href="https://ask-the-electrician.com/residential-electrical-load-calculation.html">Go to Tool</a></td>
       <td>—</td>
       <td>Kalkulator obciążenia elektrycznego</td>
     </tr>
@@ -156,7 +162,7 @@
     </tr>
     <tr>
       <td>Carpet Calculator</td>
-      <td><a href="https://www.lowes.com/n/calculators/carpet-measurement-calculator">Go to Tool</a></td>
+      <td><a href="https://www.inchcalculator.com/carpet-calculator/">Go to Tool</a></td>
       <td>—</td>
       <td>Kalkulator wykładziny dywanowej – oblicz ilość i koszt</td>
     </tr>
@@ -204,19 +210,19 @@
     </tr>
     <tr>
       <td>Siding Calculator</td>
-      <td><a href="https://www.lowes.com/n/calculators/siding-calculator">Go to Tool</a></td>
+      <td><a href="https://www.omnicalculator.com/construction/siding">Go to Tool</a></td>
       <td>—</td>
       <td>Kalkulator elewacji – ilość paneli i materiałów</td>
     </tr>
     <tr>
       <td>Gutter Calculator</td>
-      <td><a href="https://www.lowes.com/n/calculators/gutter-calculator">Go to Tool</a></td>
+      <td><a href="https://www.homewyse.com/services/cost_to_install_gutters.html">Go to Tool</a></td>
       <td>—</td>
-      <td>Kalkulator rynien – długość i osprzęt dachowy</td>
+      <td>Kalkulator kosztu montażu rynien – długość i osprzęt</td>
     </tr>
     <tr>
       <td>Bathroom Remodel Cost Calculator</td>
-      <td><a href="https://modernize.com/bathroom-remodel/cost-calculator">Go to Tool</a></td>
+      <td><a href="https://www.homewyse.com/project_costs/cost_of_typical_bathroom_remodel.html">Go to Tool</a></td>
       <td>—</td>
       <td>Kalkulator kosztu remontu łazienki</td>
     </tr>
@@ -225,6 +231,120 @@
       <td><a href="https://foundationcostcalculator.com/">Go to Tool</a></td>
       <td>—</td>
       <td>Kalkulator kosztu fundamentów i napraw</td>
+    </tr>
+    <tr>
+      <td>Square Footage Calculator</td>
+      <td><a href="https://www.calculator.net/square-footage-calculator.html">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator powierzchni – metraż pomieszczeń i działki</td>
+    </tr>
+    <tr>
+      <td>Plywood Calculator</td>
+      <td><a href="https://www.omnicalculator.com/construction/plywood">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator sklejki i płyt OSB – liczba arkuszy</td>
+    </tr>
+    <tr>
+      <td>Shiplap Calculator</td>
+      <td><a href="https://www.omnicalculator.com/construction/shiplap">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator desek ściennych shiplap – ilość i koszt</td>
+    </tr>
+    <tr>
+      <td>Epoxy Calculator</td>
+      <td><a href="https://www.omnicalculator.com/construction/epoxy">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator żywicy epoksydowej – posadzki i blaty</td>
+    </tr>
+    <tr>
+      <td>Rebar Calculator</td>
+      <td><a href="https://www.omnicalculator.com/construction/rebar">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator zbrojenia – liczba i długość prętów</td>
+    </tr>
+    <tr>
+      <td>Paver Calculator</td>
+      <td><a href="https://www.inchcalculator.com/paver-calculator/">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator kostki brukowej – ilość, podsypka i koszt</td>
+    </tr>
+    <tr>
+      <td>Retaining Wall Calculator</td>
+      <td><a href="https://www.omnicalculator.com/construction/retaining-wall">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator muru oporowego – bloczki i materiały</td>
+    </tr>
+    <tr>
+      <td>Sand Calculator</td>
+      <td><a href="https://www.omnicalculator.com/construction/sand">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator piasku – objętość i waga</td>
+    </tr>
+    <tr>
+      <td>Asphalt Calculator</td>
+      <td><a href="https://www.omnicalculator.com/construction/asphalt">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator asfaltu – podjazdy i ścieżki</td>
+    </tr>
+    <tr>
+      <td>Roof Pitch Calculator</td>
+      <td><a href="https://www.omnicalculator.com/construction/roof-pitch">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator kąta nachylenia dachu</td>
+    </tr>
+    <tr>
+      <td>BTU Calculator</td>
+      <td><a href="https://www.calculator.net/btu-calculator.html">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator mocy grzewczej i chłodniczej pomieszczenia (BTU)</td>
+    </tr>
+    <tr>
+      <td>Heat Demand Calculator (OZC)</td>
+      <td>—</td>
+      <td><a href="https://policzcieplo.pl/">Przejdź</a></td>
+      <td>Darmowy kalkulator OZC wg PN-EN 12831 – dobór mocy źródła ciepła</td>
+    </tr>
+    <tr>
+      <td>U-Value Calculator</td>
+      <td>—</td>
+      <td><a href="https://budowlaneabc.gov.pl/charakterystyka-energetyczna-budynkow/kalkulatory/calc-wpc/">Przejdź</a></td>
+      <td>Kalkulator współczynnika przenikania ciepła U przegród (Budowlane ABC, MRiT)</td>
+    </tr>
+    <tr>
+      <td>Wire Size Calculator</td>
+      <td><a href="https://www.omnicalculator.com/physics/wire-size">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator przekroju przewodów elektrycznych</td>
+    </tr>
+    <tr>
+      <td>Voltage Drop Calculator</td>
+      <td><a href="https://www.calculator.net/voltage-drop-calculator.html">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator spadku napięcia w instalacji elektrycznej</td>
+    </tr>
+    <tr>
+      <td>Lumen Calculator</td>
+      <td><a href="https://www.omnicalculator.com/physics/lumen">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator oświetlenia – lumeny, luksy i liczba lamp</td>
+    </tr>
+    <tr>
+      <td>Electricity Cost Calculator</td>
+      <td><a href="https://www.calculator.net/electricity-calculator.html">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator kosztu prądu zużywanego przez urządzenia</td>
+    </tr>
+    <tr>
+      <td>Solar Panel Calculator</td>
+      <td><a href="https://www.omnicalculator.com/ecology/solar-panel">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator fotowoltaiki – liczba paneli i moc instalacji</td>
+    </tr>
+    <tr>
+      <td>Electrification Savings Calculator (Rewiring America)</td>
+      <td><a href="https://homes.rewiringamerica.org/calculator">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator dopłat i oszczędności na pompy ciepła, PV i izolację (USA)</td>
     </tr>
   </tbody>
 </table>
@@ -254,6 +374,10 @@
     <tr><td>Subcontractor Agreement</td><td><a href="https://www.jotform.com/pdf-templates/subcontractor-agreement">Visit</a></td><td>—</td><td>Umowa z podwykonawcą – darmowy wzór PDF</td></tr>
     <tr><td>Construction Change Order Form</td><td><a href="https://www.jotform.com/form-templates/construction-change-order-form">Visit</a></td><td>—</td><td>Formularz zmiany zakresu prac budowlanych</td></tr>
     <tr><td>Interior Design Contract</td><td><a href="https://www.pandadoc.com/interior-design-contract-template/">Visit</a></td><td>—</td><td>Umowa z projektantem wnętrz</td></tr>
+    <tr><td>Construction Estimate Templates</td><td><a href="https://www.smartsheet.com/content/construction-estimate-templates">Visit</a></td><td>—</td><td>Szablony kosztorysów budowlanych – Excel, Word, PDF</td></tr>
+    <tr><td>Punch List Templates</td><td><a href="https://www.smartsheet.com/free-punch-list-templates">Visit</a></td><td>—</td><td>Szablony list usterek do odbioru prac</td></tr>
+    <tr><td>Construction Invoice Template</td><td><a href="https://eforms.com/invoice-template/construction/">Visit</a></td><td>—</td><td>Wzór faktury za prace budowlane – PDF i Word</td></tr>
+    <tr><td>Invoice Generator</td><td><a href="https://invoice-generator.com/">Visit</a></td><td>—</td><td>Generator faktur online dla wykonawców i fachowców</td></tr>
   </tbody>
 </table>
 
@@ -281,6 +405,10 @@
     <tr><td>Space Designer 3D</td><td><a href="https://www.spacedesigner3d.com/">Visit</a></td><td>—</td><td>Projektowanie przestrzeni 3D online w przeglądarce</td></tr>
     <tr><td>Foyr Neo</td><td><a href="https://foyr.com/">Visit</a></td><td>—</td><td>Zaawansowane projektowanie wnętrz z AI i renderingiem</td></tr>
     <tr><td>Home Design 3D</td><td><a href="https://en.homedesign3d.net/">Visit</a></td><td>—</td><td>Projektowanie domu 2D/3D – ponad 60 mln użytkowników</td></tr>
+    <tr><td>DreamPlan Home Design</td><td><a href="https://www.nchsoftware.com/design/index.html">Visit</a></td><td>—</td><td>Darmowy program do projektowania domu i ogrodu 3D (użytek domowy)</td></tr>
+    <tr><td>Floor Plan Creator</td><td><a href="https://floorplancreator.net/">Visit</a></td><td>—</td><td>Rysowanie rzutów mieszkań i domów – przeglądarka i Android</td></tr>
+    <tr><td>FreeCAD</td><td><a href="https://www.freecad.org/">Visit</a></td><td>—</td><td>Darmowy program CAD 3D open source, także do projektów budowlanych (BIM)</td></tr>
+    <tr><td>LibreCAD</td><td><a href="https://librecad.org/">Visit</a></td><td>—</td><td>Darmowy program CAD 2D open source do rzutów i rysunków technicznych</td></tr>
   </tbody>
 </table>
 
@@ -302,8 +430,13 @@
     <tr><td>BuildZoom</td><td><a href="https://www.buildzoom.com/">Visit</a></td><td>—</td><td>Weryfikowani wykonawcy budowlani – licencje i zezwolenia</td></tr>
     <tr><td>TaskRabbit</td><td><a href="https://www.taskrabbit.com/">Visit</a></td><td>—</td><td>Platforma do zlecania małych prac domowych (IKEA)</td></tr>
     <tr><td>Checkatrade</td><td><a href="https://www.checkatrade.com/">Visit</a></td><td>—</td><td>Sprawdzeni fachowcy z opiniami klientów (Wielka Brytania)</td></tr>
+    <tr><td>Houzz Pros</td><td><a href="https://www.houzz.com/professionals">Visit</a></td><td>—</td><td>Katalog architektów, projektantów i wykonawców z portfolio i opiniami</td></tr>
+    <tr><td>Better Business Bureau (BBB)</td><td><a href="https://www.bbb.org/">Visit</a></td><td>—</td><td>Sprawdź oceny i skargi na firmę przed zleceniem (USA, Kanada)</td></tr>
     <tr><td>Fixly.pl</td><td>—</td><td><a href="https://fixly.pl/">Przejdź</a></td><td>Polski katalog wykonawców – elektrycy, hydraulicy, remontowcy</td></tr>
     <tr><td>Oferteo.pl</td><td>—</td><td><a href="https://www.oferteo.pl/">Przejdź</a></td><td>Porównaj oferty firm remontowych w Polsce</td></tr>
+    <tr><td>CEIDG Business Search</td><td>—</td><td><a href="https://www.biznes.gov.pl/pl/wyszukiwarka-firm">Przejdź</a></td><td>Sprawdź, czy firma remontowa jest zarejestrowana (CEIDG, biznes.gov.pl)</td></tr>
+    <tr><td>KRS Company Search</td><td>—</td><td><a href="https://wyszukiwarka-krs.ms.gov.pl/">Przejdź</a></td><td>Sprawdź spółkę w Krajowym Rejestrze Sądowym</td></tr>
+    <tr><td>VAT Taxpayer Whitelist</td><td>—</td><td><a href="https://www.podatki.gov.pl/wykaz-podatnikow-vat-wyszukiwarka/">Przejdź</a></td><td>Biała lista VAT – sprawdź konto i status VAT wykonawcy przed przelewem</td></tr>
   </tbody>
 </table>
 
@@ -328,6 +461,10 @@
     <tr><td>Home Design 3D (mobile)</td><td><a href="https://play.google.com/store/apps/details?id=fr.anuman.HomeDesign3D">Android</a> / <a href="https://apps.apple.com/us/app/home-design-3d-draw-plan/id463768717">iOS</a></td><td>—</td><td>Projektuj rzuty i wnętrza 3D na smartfonie</td></tr>
     <tr><td>Planner 5D (mobile)</td><td><a href="https://play.google.com/store/apps/details?id=com.planner5d.planner5d">Android</a> / <a href="https://apps.apple.com/us/app/planner-5d-ai-home-design/id606173978">iOS</a></td><td>—</td><td>Aplikacja mobilna do projektowania domów z AI</td></tr>
     <tr><td>RoomScan Pro</td><td><a href="https://apps.apple.com/us/app/roomscan-pro-lidar-floor-plans/id1504050801">iOS</a></td><td>—</td><td>Automatyczne skanowanie pomieszczeń i tworzenie rzutów</td></tr>
+    <tr><td>Polycam</td><td><a href="https://poly.cam/">Visit</a></td><td>—</td><td>Skanowanie 3D pomieszczeń i rzuty z LiDAR lub zdjęć</td></tr>
+    <tr><td>Measure (Apple)</td><td><a href="https://apps.apple.com/us/app/measure/id1383426740">iOS</a></td><td>—</td><td>Wbudowana miarka AR w iPhonie i iPadzie</td></tr>
+    <tr><td>Color Portfolio (Benjamin Moore)</td><td><a href="https://play.google.com/store/apps/details?id=com.benjaminmoore.colorportfolio">Android</a> / <a href="https://apps.apple.com/us/app/color-portfolio/id1490161691">iOS</a></td><td>—</td><td>Wirtualny wzornik kolorów Benjamin Moore z podglądem AR</td></tr>
+    <tr><td>Bubble Level</td><td><a href="https://play.google.com/store/apps/details?id=net.androgames.level">Android</a></td><td>—</td><td>Poziomica w telefonie – montaż półek, szafek i obrazów</td></tr>
   </tbody>
 </table>
 
@@ -351,15 +488,41 @@
   <li><a href="https://www.reddit.com/r/InteriorDesign/">r/InteriorDesign</a> – 1M+ members sharing interior design inspiration and advice</li>
   <li><a href="https://www.reddit.com/r/woodworking/">r/woodworking</a> – Woodworkers and DIYers sharing wood projects</li>
   <li><a href="https://www.reddit.com/r/landscaping/">r/landscaping</a> – Garden, lawn, and landscaping advice</li>
+  <li><a href="https://www.reddit.com/r/Renovations/">r/Renovations</a> – Renovation projects, progress photos, and advice</li>
+  <li><a href="https://www.reddit.com/r/remodel/">r/remodel</a> – Kitchen, bathroom, and whole-house remodeling discussions</li>
+  <li><a href="https://www.reddit.com/r/Plumbing/">r/Plumbing</a> – Plumbing questions answered by DIYers and pros</li>
+  <li><a href="https://www.reddit.com/r/electricians/">r/electricians</a> – Community of electricians discussing wiring and code</li>
+  <li><a href="https://www.reddit.com/r/hvacadvice/">r/hvacadvice</a> – Heating, cooling, and ventilation advice</li>
+  <li><a href="https://www.reddit.com/r/Flooring/">r/Flooring</a> – Choosing and installing floors</li>
+  <li><a href="https://www.reddit.com/r/Roofing/">r/Roofing</a> – Roof repairs, replacement, and materials</li>
+  <li><a href="https://diy.stackexchange.com/">Home Improvement Stack Exchange</a> – Q&A site for contractors and serious DIYers</li>
   <li><a href="https://www.hometalk.com/">Hometalk</a> – DIY tutorials and project ideas</li>
   <li><a href="https://www.familyhandyman.com/">The Family Handyman</a> – Expert DIY tips and how-tos</li>
   <li><a href="https://www.bobvila.com/">Bob Vila</a> – Renovation tips and DIY projects from the TV home improvement expert</li>
   <li><a href="https://www.thisoldhouse.com/">This Old House</a> – Home restoration, how-to guides, and renovation trends</li>
   <li><a href="https://www.finehomebuilding.com/">Fine Homebuilding</a> – Professional advice for builders and remodelers</li>
   <li><a href="https://www.instructables.com/Home-Projects/">Instructables – Home Projects</a> – Step-by-step DIY home projects from the community</li>
+  <li><a href="https://www.youtube.com/@thisoldhouse">This Old House on YouTube</a> – Renovation how-to videos from the long-running TV show</li>
+  <li><a href="https://www.youtube.com/@HomeRenoVisionDIY">Home RenoVision DIY</a> – Detailed renovation tutorials from a professional contractor</li>
   <li><a href="https://muratordom.pl/">Muratordom.pl</a> – Building and renovating a house: advice, designs, forum (PL)</li>
   <li><a href="https://forum.murator.pl/">Forum Muratora</a> – The largest Polish building and renovation forum (PL)</li>
   <li><a href="https://forum.budujemydom.pl/">BudujemyDom.pl – Forum</a> – Homeowners and contractors sharing experience (PL)</li>
+</ul>
+
+<h3>📚 Cost Guides, Energy Efficiency & Official Resources</h3>
+
+<ul>
+  <li><a href="https://homeguide.com/costs">HomeGuide Cost Guides</a> – Current home improvement and repair prices (USA)</li>
+  <li><a href="https://www.fixr.com/costs">Fixr Cost Guides</a> – Pricing guides for remodeling projects (USA)</li>
+  <li><a href="https://www.jlconline.com/cost-vs-value/">Cost vs Value Report</a> – Annual report on remodeling costs and resale value (USA)</li>
+  <li><a href="https://www.energystar.gov/saveathome/seal_insulate">ENERGY STAR – Seal and Insulate</a> – DIY guide to air sealing and insulation</li>
+  <li><a href="https://www.energystar.gov/productfinder/">ENERGY STAR Product Finder</a> – Compare certified appliances, windows, and heat pumps</li>
+  <li><a href="https://www.epa.gov/lead/lead-renovation-repair-and-painting-program">EPA Lead Renovation, Repair and Painting (RRP)</a> – Lead-safe rules for renovating pre-1978 homes (USA)</li>
+  <li><a href="https://www.greenbuildingadvisor.com/">Green Building Advisor</a> – Building science and energy-efficient remodeling</li>
+  <li><a href="https://buildingscience.com/">Building Science Corporation</a> – Research on insulation, moisture, and ventilation</li>
+  <li><a href="https://czystepowietrze.gov.pl/">Czyste Powietrze</a> – Government grants for thermal modernization and heat source replacement (PL)</li>
+  <li><a href="https://www.podatki.gov.pl/ulgi-i-odliczenia/ulga-termomodernizacyjna-pit">Ulga termomodernizacyjna</a> – Tax deduction for insulation, windows, heat pumps, and PV (PL)</li>
+  <li><a href="https://zone.gunb.gov.pl/">ZONE / CEEB</a> – Government portal for building heat source declarations (PL)</li>
 </ul>
 
 <hr>

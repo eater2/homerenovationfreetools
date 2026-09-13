@@ -19,8 +19,9 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      # 403/429 are accepted because big retailers (Home Depot, Lowe's, Angi...)
+      # 403/429 are accepted because some big sites (Angi, HomeAdvisor, BBB, App Store...)
       # block CI runners even though the pages work in a browser.
+      # Deep links that can only be checked in a browser should not be added to the list.
       - name: Check links in README
         uses: lycheeverse/lychee-action@v2
         with:

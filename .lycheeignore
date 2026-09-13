@@ -1,3 +1,6 @@
 # Social networks reject automated requests
 ^https://www\.facebook\.com/
 ^https://www\.instagram\.com/
+
+# Bot protection with a cookie redirect loop (works in a browser)
+^https://wyszukiwarka-krs\.ms\.gov\.pl/
