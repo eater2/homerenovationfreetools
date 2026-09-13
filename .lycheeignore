@@ -4,3 +4,6 @@
 
 # Bot protection with a cookie redirect loop (works in a browser)
 ^https://wyszukiwarka-krs\.ms\.gov\.pl/
+
+# Server sends the wrong intermediate TLS certificate; browsers fetch the right one, lychee cannot
+^https://czystepowietrze\.gov\.pl/
