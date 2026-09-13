@@ -185,6 +185,12 @@
       <td>—</td>
       <td>Kalkulator kosztu remontu łazienki</td>
     </tr>
+    <tr>
+      <td>Foundation Cost Calculator</td>
+      <td><a href="https://foundationcostcalculator.com/">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator kosztu fundamentów i napraw</td>
+    </tr>
   </tbody>
 </table>
 
