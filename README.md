@@ -196,6 +196,13 @@
       <td>—</td>
       <td>Kalkulator drewna budowlanego – ilość i koszt</td>
     </tr>
+    
+    <tr>
+      <td>Stud Calculator</td>
+      <td><a href="https://dashcalculator.com/calculators/stud">Go to Tool</a></td>
+          <td>—</td>
+            <td>Kalkulator słupków ściennych – rozstaw 16 lub 24 cale, pozycje słupków</td>
+            </tr>
     <tr>
       <td>Board Foot Calculator</td>
       <td><a href="https://www.calculatorcampus.com/calculators/board-foot-calculator">Go to Tool</a></td>
