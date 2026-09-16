@@ -113,6 +113,12 @@
       <td>Kalkulator tapety</td>
     </tr>
     <tr>
+      <td>WallVive Paint Calculator</td>
+      <td><a href="https://wallvive.com/paint">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator farby – litry, puszki i koszt z widocznymi wzorami pokrycia</td>
+    </tr>
+    <tr>
       <td>Baseboard Calculator</td>
       <td><a href="https://miniwebtool.com/baseboard-trim-calculator/">Go to Tool</a></td>
       <td>—</td>
