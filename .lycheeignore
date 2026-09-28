@@ -7,3 +7,6 @@
 
 # Server sends the wrong intermediate TLS certificate; browsers fetch the right one, lychee cannot
 ^https://czystepowietrze\.gov\.pl/
+
+# Drops connections from datacenter IPs (GitHub runners time out); fine from a browser
+^https://www\.blocklayer\.com/
