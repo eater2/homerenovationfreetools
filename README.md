@@ -346,6 +346,12 @@
       <td>—</td>
       <td>Kalkulator dopłat i oszczędności na pompy ciepła, PV i izolację (USA)</td>
     </tr>
+    <tr>
+      <td>Quote &amp; VAT Calculator for Trades (UK)</td>
+      <td><a href="https://theaitill.com/tools/free/quote-calculator">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator wyceny dla wykonawców: materiały z marżą, robocizna i VAT (Wielka Brytania)</td>
+    </tr>
   </tbody>
 </table>
 
