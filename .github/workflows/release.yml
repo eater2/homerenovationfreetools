@@ -1,7 +1,7 @@
 name: Release
 
 # On a version tag (v1.0.0 ...): publish the npm package, the MCP Registry entry and a GitHub release
-# with the skill ZIP and the catalog, signed with Sigstore build provenance, and rescan the Smithery listing.
+# with the skill ZIP and the catalog, signed with Sigstore build provenance, and try a Smithery rescan.
 # Bump the version in package.json, server.json (twice), .claude-plugin/*.json and mcp/core.mjs first;
 # python scripts/build.py checks they match.
 on:
@@ -85,7 +85,7 @@ jobs:
           else cat publish.log; exit 1; fi
 
       - name: Rescan on Smithery (when the SMITHERY_API_KEY secret is set)
-        # Smithery keeps the tool list from its last scan of the remote endpoint; republish so the listing matches this release.
+        # Since 2026-10 Smithery answers 403 "Updating servers has been removed" to CLI publishes; the listing is managed on smithery.ai.
         env:
           SMITHERY_API_KEY: ${{ secrets.SMITHERY_API_KEY }}
         run: |

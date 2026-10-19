@@ -109,12 +109,28 @@ def list_item(it):
     return f'  <li>{esc(it["name"])} – {esc(it["desc_en"])} ({alts})</li>'
 
 
+def badges():
+    """Listings under the title: (alt, image, link)."""
+    sh = "https://img.shields.io/badge/"
+    gh = "https://github.com/eater2/homerenovationfreetools#ai-agents"
+    return [
+        ("Official MCP Registry", sh + "MCP_Registry-io.github.eater2%2Fhome--renovation--free--tools-0A66C2?logo=modelcontextprotocol&logoColor=white",
+         "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.eater2/home-renovation-free-tools"),
+        ("npm", "https://img.shields.io/npm/v/home-renovation-free-tools?logo=npm&label=npm&color=CB3837",
+         "https://www.npmjs.com/package/home-renovation-free-tools"),
+        ("Claude Code plugin", sh + "Claude_Code-plugin-D97757?logo=claude&logoColor=white", gh),
+        ("Remote MCP endpoint", sh + "remote_MCP-free%2C_no_API_key-2EA44F?logo=vercel&logoColor=white", gh),
+    ]
+
+
 def readme(d, ratings):
-    out = [f'<h1 align="center">{esc(d["title"])}</h1>\n\n<p align="center">\n  {d["tagline"]}\n</p>\n\n'
+    badge_html = " ".join(f'<a href="{esc(link)}"><img alt="{alt}" src="{esc(img)}"></a>' for alt, img, link in badges())
+    out = [f'<p align="right"><a href="{SITE}/">Website</a> · <a href="llms.txt">llms.txt</a> · <a href="catalog.json">catalog.json</a>'
+           ' · <a href="AGENTS.md">AGENTS.md</a></p>\n\n'
+           f'<h1 align="center">{esc(d["title"])}</h1>\n\n<p align="center">{badge_html}</p>\n\n'
+           f'<p align="center">\n  {d["tagline"]}\n</p>\n\n'
            '<p align="center">\n  <a href="https://airenovationcalculator.com/free-tools">🇬🇧 airenovationcalculator.com</a>'
-           ' · <a href="https://kalkulatorremontu.pl/darmowe-narzedzia">🇵🇱 kalkulatorremontu.pl</a>\n</p>\n\n'
-           f'<p align="center">\n  <sub>🌐 <a href="{SITE}/">Website</a> · 🤖 For AI agents: <a href="llms.txt">llms.txt</a> · <a href="catalog.json">catalog.json</a>'
-           ' · <a href="#ai-agents">Claude skill</a></sub>\n</p>\n\n\n']
+           ' · <a href="https://kalkulatorremontu.pl/darmowe-narzedzia">🇵🇱 kalkulatorremontu.pl</a>\n</p>\n\n\n']
     out.append(ratings_note(ratings))
     for sec in d["sections"]:
         out.append(f'<h2>{esc(sec["title"])}</h2>\n')

@@ -1,4 +1,8 @@
+<p align="right"><a href="https://home-renovation-free-tools.vercel.app/">Website</a> · <a href="llms.txt">llms.txt</a> · <a href="catalog.json">catalog.json</a> · <a href="AGENTS.md">AGENTS.md</a></p>
+
 <h1 align="center">🛠️ Home Renovation Free Tools &amp; Calculators</h1>
+
+<p align="center"><a href="https://registry.modelcontextprotocol.io/v0/servers?search=io.github.eater2/home-renovation-free-tools"><img alt="Official MCP Registry" src="https://img.shields.io/badge/MCP_Registry-io.github.eater2%2Fhome--renovation--free--tools-0A66C2?logo=modelcontextprotocol&amp;logoColor=white"></a> <a href="https://www.npmjs.com/package/home-renovation-free-tools"><img alt="npm" src="https://img.shields.io/npm/v/home-renovation-free-tools?logo=npm&amp;label=npm&amp;color=CB3837"></a> <a href="https://github.com/eater2/homerenovationfreetools#ai-agents"><img alt="Claude Code plugin" src="https://img.shields.io/badge/Claude_Code-plugin-D97757?logo=claude&amp;logoColor=white"></a> <a href="https://github.com/eater2/homerenovationfreetools#ai-agents"><img alt="Remote MCP endpoint" src="https://img.shields.io/badge/remote_MCP-free%2C_no_API_key-2EA44F?logo=vercel&amp;logoColor=white"></a></p>
 
 <p align="center">
   A curated collection of <strong>free home renovation calculators, room planners, design tools, and document generators</strong> for DIY homeowners and contractors. Estimate paint, tiles, flooring, roofing, and more — available in English and Polish.
@@ -6,10 +10,6 @@
 
 <p align="center">
   <a href="https://airenovationcalculator.com/free-tools">🇬🇧 airenovationcalculator.com</a> · <a href="https://kalkulatorremontu.pl/darmowe-narzedzia">🇵🇱 kalkulatorremontu.pl</a>
-</p>
-
-<p align="center">
-  <sub>🌐 <a href="https://home-renovation-free-tools.vercel.app/">Website</a> · 🤖 For AI agents: <a href="llms.txt">llms.txt</a> · <a href="catalog.json">catalog.json</a> · <a href="#ai-agents">Claude skill</a></sub>
 </p>
 
 
