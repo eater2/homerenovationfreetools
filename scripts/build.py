@@ -226,6 +226,7 @@ def skill_zip():
     """Skill ZIP for claude.ai, byte-identical on every OS: LF text, stored (no compression), fixed timestamp."""
     md = (ROOT / "skills" / SKILL / "SKILL.md").read_text(encoding="utf-8").replace("\r\n", "\n")
     info = zipfile.ZipInfo(f"{SKILL}/SKILL.md", date_time=(2026, 1, 1, 0, 0, 0))
+    info.create_system = 3  # "Unix", so Windows and Linux write the same header
     info.external_attr = 0o644 << 16
     with zipfile.ZipFile(ROOT / "site" / f"{SKILL}-skill.zip", "w", zipfile.ZIP_STORED) as z:
         z.writestr(info, md.encode("utf-8"))
