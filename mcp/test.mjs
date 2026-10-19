@@ -11,8 +11,10 @@ const transport = new StdioClientTransport({
 const client = new Client({ name: "smoke-test", version: "1.0.0" });
 await client.connect(transport);
 
-const tools = (await client.listTools()).tools.map((t) => t.name).sort();
+const listed = (await client.listTools()).tools;
+const tools = listed.map((t) => t.name).sort();
 assert.deepEqual(tools, ["get_tool", "list_categories", "search_tools"]);
+assert.ok(listed.every((t) => t.annotations?.title && t.annotations.readOnlyHint === true && t.annotations.destructiveHint === false));
 
 const call = async (name, args = {}) => JSON.parse((await client.callTool({ name, arguments: args })).content[0].text);
 

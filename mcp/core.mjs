@@ -100,6 +100,9 @@ function summary(e, language) {
   return out;
 }
 
+// Every tool only reads the list; the directory's review asks for these hints.
+const readOnly = (title) => ({ title, readOnlyHint: true, destructiveHint: false, idempotentHint: true, openWorldHint: false });
+
 const text = (obj) => ({ content: [{ type: "text", text: JSON.stringify(obj, null, 1) }] });
 
 export function createServer() {
@@ -118,7 +121,8 @@ export function createServer() {
 
   server.registerTool(
     "list_categories",
-    { title: "List tool categories", description: "List the categories with a description and the number of tools in each.", inputSchema: {} },
+    { title: "List tool categories", description: "List the categories with a description and the number of tools in each.", inputSchema: {},
+      annotations: readOnly("List tool categories") },
     async () => {
       const counts = {};
       for (const e of catalog) counts[e.category] = (counts[e.category] || 0) + 1;
@@ -143,6 +147,7 @@ export function createServer() {
         min_rating: z.number().min(1).max(5).optional().describe("Only tools with a user rating at least this (tools without ratings are excluded)"),
         limit: z.number().int().min(1).max(50).optional().describe("Max results, default 8"),
       },
+      annotations: readOnly("Search free renovation tools"),
     },
     async ({ query, category, language = "en", min_rating, limit = 8 }) => {
       const groups = terms(query);
@@ -163,6 +168,7 @@ export function createServer() {
       title: "Get one tool",
       description: "All details of one tool by id: English and Polish links, app store links, descriptions in both languages and every rating with its source and date.",
       inputSchema: { id: z.string().describe("Tool id from search_tools, e.g. 'tile-calculator'") },
+      annotations: readOnly("Get one tool"),
     },
     async ({ id }) => {
       const e = catalog.find((x) => x.id === id);
