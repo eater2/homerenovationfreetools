@@ -540,7 +540,9 @@
 <ul>
   <li><a href="https://raw.githubusercontent.com/eater2/homerenovationfreetools/main/llms.txt">llms.txt</a> – short plain-text index, one line per tool</li>
   <li><a href="https://raw.githubusercontent.com/eater2/homerenovationfreetools/main/catalog.json">catalog.json</a> – every tool with category, links (EN/PL), descriptions and ratings</li>
+  <li><b>MCP server</b> – tools <code>search_tools</code>, <code>get_tool</code>, <code>list_categories</code>; English or Polish queries; no key needed.<br>Remote endpoint: <code>https://home-renovation-free-tools.vercel.app/mcp</code><br>Local: <code>{"mcpServers": {"home-renovation-free-tools": {"command": "npx", "args": ["-y", "home-renovation-free-tools"]}}}</code></li>
   <li><b>Claude Code plugin with a skill</b> – install it and Claude suggests free calculators, planners and templates when you plan a renovation:<br><code>/plugin install home-renovation-free-tools --marketplace eater2/homerenovationfreetools</code></li>
+  <li><b>claude.ai</b>: upload <a href="https://home-renovation-free-tools.vercel.app/home-renovation-free-tools-skill.zip">the skill ZIP</a> in Settings → Capabilities → Skills</li>
   <li>Other agents: copy <a href="skills/home-renovation-free-tools/SKILL.md">SKILL.md</a> into your skills folder, or point the agent at <a href="AGENTS.md">AGENTS.md</a></li>
 </ul>
 

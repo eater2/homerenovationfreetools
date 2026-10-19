@@ -7,3 +7,9 @@ Desktop.ini
 .vscode/
 .idea/
 __pycache__/
+node_modules/
+.vercel/
+dist/
+
+.vercel
+.env*

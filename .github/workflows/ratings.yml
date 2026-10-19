@@ -2,7 +2,7 @@ name: Ratings and generated files
 
 on:
   pull_request:
-    paths: [data/**, scripts/**, README.md, catalog.json, llms.txt]
+    paths: [data/**, scripts/**, mcp/**, skills/**, README.md, catalog.json, llms.txt, package.json, server.json, .claude-plugin/**]
   schedule:
     - cron: "30 6 * * 1" # every Monday 06:30 UTC
   workflow_dispatch:
@@ -25,6 +25,12 @@ jobs:
           python scripts/build.py
           git diff --exit-code || (echo "Edit data/tools.json, run python scripts/build.py and commit the result." && exit 1)
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: MCP server smoke test
+        run: npm ci && npm test
+
       - name: Fetch ratings and rebuild
         if: github.event_name != 'pull_request'
         env:
@@ -38,5 +44,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/ratings.json README.md catalog.json llms.txt
+          git add data/ratings.json README.md catalog.json llms.txt site/
           git diff --cached --quiet || (git commit -m "Weekly ratings $(date -u +%F)" && git push)

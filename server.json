@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.eater2/home-renovation-free-tools",
+  "title": "Home Renovation Free Tools",
+  "description": "Free renovation calculators, contract templates, room planners and contractor directories (EN/PL)",
+  "websiteUrl": "https://github.com/eater2/homerenovationfreetools",
+  "repository": {
+    "url": "https://github.com/eater2/homerenovationfreetools",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://home-renovation-free-tools.vercel.app/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "home-renovation-free-tools",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

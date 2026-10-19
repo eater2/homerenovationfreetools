@@ -1,0 +1,34 @@
+{
+  "name": "home-renovation-free-tools",
+  "version": "1.0.0",
+  "mcpName": "io.github.eater2/home-renovation-free-tools",
+  "description": "MCP server: search 170 free home renovation calculators, contract templates, room planners, contractor directories and DIY apps (English and Polish), with user ratings.",
+  "type": "module",
+  "bin": {
+    "home-renovation-free-tools": "mcp/server.mjs"
+  },
+  "files": [
+    "mcp/core.mjs",
+    "mcp/server.mjs",
+    "catalog.json"
+  ],
+  "scripts": {
+    "start": "node mcp/server.mjs",
+    "test": "node mcp/test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["mcp", "model-context-protocol", "renovation", "home-improvement", "diy", "calculator", "contractor"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eater2/homerenovationfreetools.git"
+  },
+  "homepage": "https://github.com/eater2/homerenovationfreetools#readme",
+  "license": "MIT",
+  "author": "Marek Papis",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.7"
+  }
+}

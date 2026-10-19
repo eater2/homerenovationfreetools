@@ -4,12 +4,18 @@ Edit the data files, then run: python scripts/build.py
 """
 import html
 import json
+import re
+import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 RAW = "https://raw.githubusercontent.com/eater2/homerenovationfreetools/main"
 MIN_REVIEWS = 3
+SKILL = "home-renovation-free-tools"
+SITE = "https://home-renovation-free-tools.vercel.app"
+MCP_URL = f"{SITE}/mcp"
+SKILL_ZIP_URL = f"{SITE}/{SKILL}-skill.zip"
 
 
 def esc(s):
@@ -126,8 +132,12 @@ def readme(d, ratings):
         "<ul>\n"
         f'  <li><a href="{RAW}/llms.txt">llms.txt</a> – short plain-text index, one line per tool</li>\n'
         f'  <li><a href="{RAW}/catalog.json">catalog.json</a> – every tool with category, links (EN/PL), descriptions and ratings</li>\n'
+        "  <li><b>MCP server</b> – tools <code>search_tools</code>, <code>get_tool</code>, <code>list_categories</code>; English or Polish queries; no key needed."
+        f"<br>Remote endpoint: <code>{MCP_URL}</code>"
+        '<br>Local: <code>{"mcpServers": {"home-renovation-free-tools": {"command": "npx", "args": ["-y", "home-renovation-free-tools"]}}}</code></li>\n'
         "  <li><b>Claude Code plugin with a skill</b> – install it and Claude suggests free calculators, planners and templates when you plan a renovation:"
         "<br><code>/plugin install home-renovation-free-tools --marketplace eater2/homerenovationfreetools</code></li>\n"
+        f'  <li><b>claude.ai</b>: upload <a href="{SKILL_ZIP_URL}">the skill ZIP</a> in Settings → Capabilities → Skills</li>\n'
         '  <li>Other agents: copy <a href="skills/home-renovation-free-tools/SKILL.md">SKILL.md</a> into your skills folder, or point the agent at <a href="AGENTS.md">AGENTS.md</a></li>\n'
         "</ul>\n\n<hr>\n\n"
         "<h2>🙌 Contributing</h2>\n\n"
@@ -212,6 +222,29 @@ def llms(d, cat):
     return "\n".join(out)
 
 
+def skill_zip():
+    """Skill ZIP for claude.ai, byte-identical on every OS: LF text, stored (no compression), fixed timestamp."""
+    md = (ROOT / "skills" / SKILL / "SKILL.md").read_text(encoding="utf-8").replace("\r\n", "\n")
+    info = zipfile.ZipInfo(f"{SKILL}/SKILL.md", date_time=(2026, 1, 1, 0, 0, 0))
+    info.external_attr = 0o644 << 16
+    with zipfile.ZipFile(ROOT / "site" / f"{SKILL}-skill.zip", "w", zipfile.ZIP_STORED) as z:
+        z.writestr(info, md.encode("utf-8"))
+
+
+def check_versions():
+    """One version in package.json, server.json, the plugin manifests and the MCP server code."""
+    def j(p):
+        return json.loads((ROOT / p).read_text(encoding="utf-8"))
+    server = j("server.json")
+    core = re.search(r'VERSION = "([^"]+)"', (ROOT / "mcp" / "core.mjs").read_text(encoding="utf-8")).group(1)
+    versions = {"package.json": j("package.json")["version"], "server.json": server["version"],
+                "server.json packages": server["packages"][0]["version"],
+                "plugin.json": j(".claude-plugin/plugin.json")["version"],
+                "marketplace.json": j(".claude-plugin/marketplace.json")["plugins"][0]["version"], "mcp/core.mjs": core}
+    assert len(set(versions.values())) == 1, f"versions differ: {versions}"
+    assert j("package.json")["mcpName"] == server["name"], "package.json mcpName must equal server.json name"
+
+
 def write(name, text):
     (ROOT / name).write_text(text, encoding="utf-8", newline="\n")
 
@@ -228,6 +261,8 @@ def main():
     write("README.md", readme(d, ratings))
     write("catalog.json", json.dumps(cat, ensure_ascii=False, indent=2) + "\n")
     write("llms.txt", llms(d, cat))
+    skill_zip()
+    check_versions()
     print(f"{len(cat)} tools, {sum(1 for e in cat if e.get('ratings'))} with ratings")
 
 

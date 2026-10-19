@@ -1,0 +1,95 @@
+name: Release
+
+# On a version tag (v1.0.0 ...): publish the npm package, the MCP Registry entry and a GitHub release
+# with the skill ZIP and the catalog, signed with Sigstore build provenance, and rescan the Smithery listing.
+# Bump the version in package.json, server.json (twice), .claude-plugin/*.json and mcp/core.mjs first;
+# python scripts/build.py checks they match.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag to release, e.g. v1.0.0"
+        required: true
+
+permissions:
+  contents: write
+  id-token: write
+  attestations: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      TAG: ${{ inputs.tag || github.ref_name }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ inputs.tag || github.ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generated files match the sources
+        run: |
+          python scripts/build.py
+          git diff --exit-code
+
+      - name: Tag matches the version
+        run: test "$(jq -r .version package.json)" = "${TAG#v}" || { echo "package.json version != $TAG"; exit 1; }
+
+      - run: npm ci && npm test
+
+      - name: Collect release files
+        run: |
+          mkdir -p dist
+          npm pack --pack-destination dist
+          cp catalog.json llms.txt site/home-renovation-free-tools-skill.zip dist/
+          (cd dist && sha256sum * > SHA256SUMS)
+
+      - name: Sign build provenance (Sigstore)
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: dist/*
+
+      - name: Publish release
+        run: |
+          gh release view "$TAG" >/dev/null 2>&1 && gh release upload "$TAG" dist/* --clobber \
+            || gh release create "$TAG" dist/* --title "$TAG" --generate-notes
+
+      - name: Publish to npm (when the NPM_TOKEN secret is set)
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -z "$NODE_AUTH_TOKEN" ]; then echo "NPM_TOKEN not set, skipping npm publish"; exit 0; fi
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
+          if npm view "$(jq -r .name package.json)@${TAG#v}" version >/dev/null 2>&1; then
+            echo "${TAG#v} is already on npm, skipping"; exit 0
+          fi
+          npm publish --provenance --access public
+
+      - name: Publish server.json to the MCP Registry (GitHub OIDC, no stored token)
+        run: |
+          test "$(jq -r .version server.json)" = "${TAG#v}" || { echo "server.json version != $TAG"; exit 1; }
+          curl -sL https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_linux_amd64.tar.gz | tar xz mcp-publisher
+          ./mcp-publisher login github-oidc
+          # The registry checks that the npm version exists; a fresh npm release can take a minute to show up.
+          for i in $(seq 1 20); do npm view "$(jq -r .name package.json)@${TAG#v}" version >/dev/null 2>&1 && break; sleep 15; done
+          if ./mcp-publisher publish > publish.log 2>&1; then cat publish.log
+          elif grep -qi "cannot publish duplicate\|already exists" publish.log; then cat publish.log; echo "version already in the registry"
+          else cat publish.log; exit 1; fi
+
+      - name: Rescan on Smithery (when the SMITHERY_API_KEY secret is set)
+        # Smithery keeps the tool list from its last scan of the remote endpoint; republish so the listing matches this release.
+        env:
+          SMITHERY_API_KEY: ${{ secrets.SMITHERY_API_KEY }}
+        run: |
+          if [ -z "$SMITHERY_API_KEY" ]; then echo "SMITHERY_API_KEY not set, skipping"; exit 0; fi
+          sleep 60  # give Vercel time to deploy this commit
+          npx -y @smithery/cli@4 mcp publish https://home-renovation-free-tools.vercel.app/mcp -n eater2/home-renovation-free-tools \
+            || echo "::warning::Smithery publish failed"
