@@ -99,6 +99,13 @@
           "desc_en": "Drywall sheets for walls and ceilings"
         },
         {
+          "id": "stud-calculator",
+          "name": "Stud Calculator",
+          "en": "https://dashcalculator.com/calculators/stud",
+          "desc_pl": "Kalkulator słupków ściennych – rozstaw 16 lub 24 cale, pozycje słupków",
+          "desc_en": "Wall stud count and positions at 16\" or 24\" on centre"
+        },
+        {
           "id": "insulation-calculator",
           "name": "Insulation Calculator",
           "en": "https://www.omnicalculator.com/construction/insulation",
@@ -970,18 +977,6 @@
           ],
           "desc_pl": "Miara AR – mierz odległości i powierzchnie telefonem",
           "desc_en": "AR tape measure: measure distances and areas with your phone"
-        },
-        {
-          "id": "photo-measures",
-          "name": "Photo Measures",
-          "en": [
-            {
-              "label": "iOS",
-              "url": "https://apps.apple.com/us/app/photo-measures/id415038787"
-            }
-          ],
-          "desc_pl": "Zapisuj wymiary bezpośrednio na zdjęciach pomieszczeń",
-          "desc_en": "Write measurements directly on photos of rooms"
         },
         {
           "id": "home-design-3d-mobile",

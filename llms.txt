@@ -18,6 +18,7 @@ Fields per line: name | English link | Polish link | what it does | rating (when
 - Concrete Calculator | https://www.inchcalculator.com/concrete-calculator/ | - | Concrete volume for slabs, footings and columns
 - Concrete Calculator Hub | https://concreteestimatorhub.com/ | - | Concrete bags, volume and cost, ready-mix vs bags
 - Drywall Calculator | https://www.omnicalculator.com/construction/drywall | - | Drywall sheets for walls and ceilings
+- Stud Calculator | https://dashcalculator.com/calculators/stud | - | Wall stud count and positions at 16" or 24" on centre
 - Insulation Calculator | https://www.omnicalculator.com/construction/insulation | - | Insulation quantity for walls, attics and floors
 - Roofing Calculator | https://www.calculator.net/roofing-calculator.html | - | Roofing material quantity (squares, shingles)
 - Decking Calculator | https://www.omnicalculator.com/construction/decking | - | Deck boards, joists and fasteners for a deck
@@ -139,7 +140,6 @@ Fields per line: name | English link | Polish link | what it does | rating (when
 - ColorSnap Visualizer (Sherwin-Williams) | https://www.sherwin-williams.com/homeowners/color-through-the-decades/color-tools/colorsnap-mobile | - | Preview Sherwin-Williams paint colours on your walls (AR)
 - Dulux Visualizer | Android: https://play.google.com/store/apps/details?id=com.akzonobel.uk.dulux / iOS: https://apps.apple.com/gb/app/dulux-visualiser/id404007106 | - | Preview Dulux colours on your wall in real time (AR) | 4.4/5 from 2535 (appstore)
 - AR Ruler App | Android: https://play.google.com/store/apps/details?id=com.grymala.aruler / iOS: https://apps.apple.com/us/app/ar-ruler-digital-tape-measure/id1326773975 | - | AR tape measure: measure distances and areas with your phone | 4.7/5 from 975 (appstore)
-- Photo Measures | iOS: https://apps.apple.com/us/app/photo-measures/id415038787 | - | Write measurements directly on photos of rooms | 4.6/5 from 528 (appstore)
 - Home Design 3D (mobile) | Android: https://play.google.com/store/apps/details?id=fr.anuman.HomeDesign3D / iOS: https://apps.apple.com/us/app/home-design-3d-draw-plan/id463768717 | - | Design floor plans and 3D interiors on a smartphone | 4.3/5 from 104861 (appstore)
 - Planner 5D (mobile) | Android: https://play.google.com/store/apps/details?id=com.planner5d.planner5d / iOS: https://apps.apple.com/us/app/planner-5d-ai-home-design/id606173978 | - | Mobile home design app with AI | 4.4/5 from 42063 (appstore)
 - RoomScan Pro | iOS: https://apps.apple.com/us/app/roomscan-pro-lidar-floor-plans/id1504050801 | - | Scan rooms automatically and create floor plans | 4.3/5 from 2124 (appstore)

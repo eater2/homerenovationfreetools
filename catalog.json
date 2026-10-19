@@ -106,6 +106,16 @@
     "maintainer_tool": false
   },
   {
+    "id": "stud-calculator",
+    "name": "Stud Calculator",
+    "category": "calculators",
+    "category_name": "Free Renovation Calculators",
+    "desc_en": "Wall stud count and positions at 16\" or 24\" on centre",
+    "desc_pl": "Kalkulator słupków ściennych – rozstaw 16 lub 24 cale, pozycje słupków",
+    "url_en": "https://dashcalculator.com/calculators/stud",
+    "maintainer_tool": false
+  },
+  {
     "id": "insulation-calculator",
     "name": "Insulation Calculator",
     "category": "calculators",
@@ -1547,33 +1557,6 @@
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id1326773975",
-        "fetched_at": "2026-10-19T08:35Z"
-      }
-    ]
-  },
-  {
-    "id": "photo-measures",
-    "name": "Photo Measures",
-    "category": "apps",
-    "category_name": "Best Free Mobile Apps for Home Renovation",
-    "desc_en": "Write measurements directly on photos of rooms",
-    "desc_pl": "Zapisuj wymiary bezpośrednio na zdjęciach pomieszczeń",
-    "links": [
-      {
-        "label": "iOS",
-        "url": "https://apps.apple.com/us/app/photo-measures/id415038787"
-      }
-    ],
-    "maintainer_tool": false,
-    "ratings": [
-      {
-        "source": "appstore",
-        "app": "Photo Measures",
-        "rating": 4.58,
-        "count": 528,
-        "price": "$6.99",
-        "country": "us",
-        "url": "https://apps.apple.com/us/app/id415038787",
         "fetched_at": "2026-10-19T08:35Z"
       }
     ]

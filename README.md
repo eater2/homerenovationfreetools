@@ -89,6 +89,12 @@
       <td>Kalkulator płyt gipsowych</td>
     </tr>
     <tr>
+      <td>Stud Calculator</td>
+      <td><a href="https://dashcalculator.com/calculators/stud">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator słupków ściennych – rozstaw 16 lub 24 cale, pozycje słupków</td>
+    </tr>
+    <tr>
       <td>Insulation Calculator</td>
       <td><a href="https://www.omnicalculator.com/construction/insulation">Go to Tool</a></td>
       <td>—</td>
@@ -463,7 +469,6 @@
     <tr><td>ColorSnap Visualizer (Sherwin-Williams)</td><td><a href="https://www.sherwin-williams.com/homeowners/color-through-the-decades/color-tools/colorsnap-mobile">Visit</a></td><td>—</td><td>Wizualizacja kolorów farb Sherwin-Williams na ścianach (AR)</td></tr>
     <tr><td>Dulux Visualizer<br>⭐⭐⭐⭐ <b>4.4</b>/5 · <a href="https://apps.apple.com/gb/app/id404007106" title="App Store">2.5k ratings</a> <sub>App Store</sub></td><td><a href="https://play.google.com/store/apps/details?id=com.akzonobel.uk.dulux">Android</a> / <a href="https://apps.apple.com/gb/app/dulux-visualiser/id404007106">iOS</a></td><td>—</td><td>Podgląd kolorów Dulux na ścianie w czasie rzeczywistym (AR)</td></tr>
     <tr><td>AR Ruler App<br>⭐⭐⭐⭐⭐ <b>4.7</b>/5 · <a href="https://apps.apple.com/us/app/id1326773975" title="App Store">975 ratings</a> <sub>App Store</sub></td><td><a href="https://play.google.com/store/apps/details?id=com.grymala.aruler">Android</a> / <a href="https://apps.apple.com/us/app/ar-ruler-digital-tape-measure/id1326773975">iOS</a></td><td>—</td><td>Miara AR – mierz odległości i powierzchnie telefonem</td></tr>
-    <tr><td>Photo Measures<br>⭐⭐⭐⭐⭐ <b>4.6</b>/5 · <a href="https://apps.apple.com/us/app/id415038787" title="App Store">528 ratings</a> <sub>App Store</sub></td><td><a href="https://apps.apple.com/us/app/photo-measures/id415038787">iOS</a></td><td>—</td><td>Zapisuj wymiary bezpośrednio na zdjęciach pomieszczeń</td></tr>
     <tr><td>Home Design 3D (mobile)<br>⭐⭐⭐⭐ <b>4.3</b>/5 · <a href="https://apps.apple.com/us/app/id463768717" title="App Store">104.9k ratings</a> <sub>App Store</sub></td><td><a href="https://play.google.com/store/apps/details?id=fr.anuman.HomeDesign3D">Android</a> / <a href="https://apps.apple.com/us/app/home-design-3d-draw-plan/id463768717">iOS</a></td><td>—</td><td>Projektuj rzuty i wnętrza 3D na smartfonie</td></tr>
     <tr><td>Planner 5D (mobile)<br>⭐⭐⭐⭐ <b>4.4</b>/5 · <a href="https://apps.apple.com/us/app/id606173978" title="App Store">42.1k ratings</a> <sub>App Store</sub></td><td><a href="https://play.google.com/store/apps/details?id=com.planner5d.planner5d">Android</a> / <a href="https://apps.apple.com/us/app/planner-5d-ai-home-design/id606173978">iOS</a></td><td>—</td><td>Aplikacja mobilna do projektowania domów z AI</td></tr>
     <tr><td>RoomScan Pro<br>⭐⭐⭐⭐ <b>4.3</b>/5 · <a href="https://apps.apple.com/us/app/id1504050801" title="App Store">2.1k ratings</a> <sub>App Store</sub></td><td><a href="https://apps.apple.com/us/app/roomscan-pro-lidar-floor-plans/id1504050801">iOS</a></td><td>—</td><td>Automatyczne skanowanie pomieszczeń i tworzenie rzutów</td></tr>
