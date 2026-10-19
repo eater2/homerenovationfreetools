@@ -71,6 +71,13 @@
           "own": true
         },
         {
+          "id": "roof-cost-data",
+          "name": "Roof Cost Data",
+          "en": "https://roofcostdata.com/roof-replacement-cost-calculator",
+          "desc_pl": "Kalkulator zakresu kosztów wymiany dachu w USA według powierzchni, materiału, lokalizacji i demontażu",
+          "desc_en": "US roof replacement cost range by roof size, material, location and tear-off choice"
+        },
+        {
           "id": "flooring-calculator",
           "name": "Flooring Calculator",
           "en": "https://measuresquare.com/tools/flooring-calculator/",
