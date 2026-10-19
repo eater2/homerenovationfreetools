@@ -42,7 +42,7 @@ const STOP = new Set(["a", "an", "the", "to", "of", "for", "and", "or", "in", "o
   "free", "tool", "tools", "calculator", "calculators", "app", "i", "need", "do", "na", "do", "i", "w", "z", "jak", "ile",
   "kalkulator", "darmowy", "narzędzie"]);
 // Escapes, not literal characters: the Vercel bundle broke the literal combining-mark range and "ł".
-const fold = (s) => (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ł/g, "l");
+const fold = (s) => (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\u0142/g, "l");
 const words = (s) => fold(s).split(/[^a-z0-9]+/).filter((w) => w.length > 1 && !STOP.has(w));
 // Words meet when one starts with the other (4+ letters) or they share the first 5 letters,
 // so "tiles"/"tile", "flooring"/"floor" and "płytek"/"płytki" match.
