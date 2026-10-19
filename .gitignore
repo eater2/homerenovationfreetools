@@ -6,3 +6,4 @@ Desktop.ini
 # Editor/IDE
 .vscode/
 .idea/
+__pycache__/
