@@ -8,7 +8,7 @@ Instructions for AI agents (Claude, GPT, Gemini, Copilot, …) that read or edit
 - Each entry has `desc_en` (what it does), `url_en` / `url_pl` or `links` (app stores), `category`, `maintainer_tool` (a tool by the list's maintainer, airenovationcalculator.com / kalkulatorremontu.pl) and, for some, `ratings`.
 - `ratings` are public user opinions with source, count and `fetched_at`: SourceForge or App Store rating and number of reviews, GitHub stars. Always quote the count with the score.
 - Prefer the Polish link for Polish-speaking users. Never invent links.
-- Claude skill with usage rules: `skills/home-renovation-free-tools/SKILL.md`.
+- Claude skill with usage rules: `plugin/skills/home-renovation-free-tools/SKILL.md`.
 
 ## Editing the list
 

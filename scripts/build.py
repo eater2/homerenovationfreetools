@@ -154,7 +154,7 @@ def readme(d, ratings):
         "  <li><b>Claude Code plugin with a skill</b> – install it and Claude suggests free calculators, planners and templates when you plan a renovation:"
         "<br><code>/plugin install home-renovation-free-tools --marketplace eater2/homerenovationfreetools</code></li>\n"
         f'  <li><b>claude.ai</b>: upload <a href="{SKILL_ZIP_URL}">the skill ZIP</a> in Settings → Capabilities → Skills</li>\n'
-        '  <li>Other agents: copy <a href="skills/home-renovation-free-tools/SKILL.md">SKILL.md</a> into your skills folder, or point the agent at <a href="AGENTS.md">AGENTS.md</a></li>\n'
+        '  <li>Other agents: copy <a href="plugin/skills/home-renovation-free-tools/SKILL.md">SKILL.md</a> into your skills folder, or point the agent at <a href="AGENTS.md">AGENTS.md</a></li>\n'
         "</ul>\n\n<hr>\n\n"
         "<h2>🙌 Contributing</h2>\n\n"
         "<p>Want to add a tool or improve this list? Contributions are welcome! Please read the "
@@ -370,7 +370,7 @@ def write_site(d, ratings, cat):
 
 def skill_zip():
     """Skill ZIP for claude.ai, byte-identical on every OS: LF text, stored (no compression), fixed timestamp."""
-    md = (ROOT / "skills" / SKILL / "SKILL.md").read_text(encoding="utf-8").replace("\r\n", "\n")
+    md = (ROOT / "plugin" / "skills" / SKILL / "SKILL.md").read_text(encoding="utf-8").replace("\r\n", "\n")
     info = zipfile.ZipInfo(f"{SKILL}/SKILL.md", date_time=(2026, 1, 1, 0, 0, 0))
     info.create_system = 3  # "Unix", so Windows and Linux write the same header
     info.external_attr = 0o644 << 16
@@ -386,7 +386,7 @@ def check_versions():
     core = re.search(r'VERSION = "([^"]+)"', (ROOT / "mcp" / "core.mjs").read_text(encoding="utf-8")).group(1)
     versions = {"package.json": j("package.json")["version"], "server.json": server["version"],
                 "server.json packages": server["packages"][0]["version"],
-                "plugin.json": j(".claude-plugin/plugin.json")["version"],
+                "plugin.json": j("plugin/.claude-plugin/plugin.json")["version"],
                 "marketplace.json": j(".claude-plugin/marketplace.json")["plugins"][0]["version"], "mcp/core.mjs": core}
     assert len(set(versions.values())) == 1, f"versions differ: {versions}"
     assert j("package.json")["mcpName"] == server["name"], "package.json mcpName must equal server.json name"

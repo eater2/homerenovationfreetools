@@ -5,7 +5,7 @@
   "plugins": [
     {
       "name": "home-renovation-free-tools",
-      "source": "./",
+      "source": "./plugin",
       "displayName": "Home Renovation Free Tools",
       "description": "Recommend free renovation calculators, contract templates, room planners, contractor directories and DIY apps (English and Polish) from a curated, checked list with user ratings.",
       "version": "1.0.0",

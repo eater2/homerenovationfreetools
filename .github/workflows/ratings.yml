@@ -2,7 +2,7 @@ name: Ratings and generated files
 
 on:
   pull_request:
-    paths: [data/**, scripts/**, mcp/**, skills/**, README.md, catalog.json, llms.txt, package.json, server.json, .claude-plugin/**]
+    paths: [data/**, scripts/**, mcp/**, plugin/**, README.md, catalog.json, llms.txt, package.json, server.json, .claude-plugin/**]
   schedule:
     - cron: "30 6 * * 1" # every Monday 06:30 UTC
   workflow_dispatch:
