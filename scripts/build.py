@@ -113,7 +113,7 @@ def readme(d, ratings):
     out = [f'<h1 align="center">{esc(d["title"])}</h1>\n\n<p align="center">\n  {d["tagline"]}\n</p>\n\n'
            '<p align="center">\n  <a href="https://airenovationcalculator.com/free-tools">🇬🇧 airenovationcalculator.com</a>'
            ' · <a href="https://kalkulatorremontu.pl/darmowe-narzedzia">🇵🇱 kalkulatorremontu.pl</a>\n</p>\n\n'
-           '<p align="center">\n  <sub>🤖 For AI agents: <a href="llms.txt">llms.txt</a> · <a href="catalog.json">catalog.json</a>'
+           f'<p align="center">\n  <sub>🌐 <a href="{SITE}/">Website</a> · 🤖 For AI agents: <a href="llms.txt">llms.txt</a> · <a href="catalog.json">catalog.json</a>'
            ' · <a href="#ai-agents">Claude skill</a></sub>\n</p>\n\n\n']
     out.append(ratings_note(ratings))
     for sec in d["sections"]:
@@ -222,6 +222,136 @@ def llms(d, cat):
     return "\n".join(out)
 
 
+# ---------- website (site/, served by Vercel) ----------
+
+SITE_NAME = "Home Renovation Free Tools"
+SITE_CSS = """
+:root{--bg:#fff;--text:#1e293b;--muted:#64748b;--line:#e2e8f0;--card:#f8fafc;--accent:#2563eb;--accent-2:#1e3a8a}
+@media (prefers-color-scheme:dark){:root{--bg:#0f172a;--text:#e2e8f0;--muted:#94a3b8;--line:#1e293b;--card:#111c33;--accent:#60a5fa;--accent-2:#bfdbfe}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:var(--accent)}header,main,footer{max-width:1100px;margin:0 auto;padding:0 16px}
+header{padding-top:32px;display:flex;gap:20px;align-items:center}header img{width:72px;height:72px;flex:none}
+h1{margin:0;font-size:clamp(26px,4vw,38px);line-height:1.15;color:var(--accent-2)}.lead{color:var(--muted);max-width:780px}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}nav a{border:1px solid var(--line);border-radius:999px;padding:4px 12px;text-decoration:none;font-size:14px}
+h2{margin:40px 0 4px;font-size:24px}h3{margin:24px 0 8px;font-size:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-top:12px}
+.tool{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.tool h4{margin:0 0 4px;font-size:16px}.tool p{margin:0 0 6px;font-size:14px}.tool .pl{color:var(--muted);font-size:13px}
+.links{display:flex;gap:12px;flex-wrap:wrap;font-size:14px;font-weight:600}.rate{font-size:13px;color:var(--muted);margin:2px 0 6px}
+ul.res{padding-left:20px}ul.res li{margin:4px 0}footer{margin:48px auto;color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+code{font-size:13px;word-break:break-all}
+"""
+
+
+def site_rating(r):
+    out = []
+    for s in r:
+        if s.get("rating") and s.get("count", 0) >= MIN_REVIEWS:
+            label = "SourceForge" if s["source"] == "sourceforge" else "App Store"
+            out.append(f'★ {s["rating"]:.1f}/5 · <a href="{esc(s["url"])}" rel="nofollow">{short_count(s["count"])} {label} '
+                       f'{"reviews" if s["source"] == "sourceforge" else "ratings"}</a>')
+        elif s.get("stars"):
+            out.append(f'★ {short_count(s["stars"])} <a href="{esc(s["url"])}" rel="nofollow">GitHub stars</a>')
+    return f'<div class="rate">{" · ".join(out)}</div>' if out else ""
+
+
+def site_card(it, ratings, label):
+    links = []
+    en = it.get("en") or it.get("url")
+    if isinstance(en, str):
+        links.append(f'<a href="{esc(en)}">{"English" if it.get("pl") else label}</a>')
+    elif en:
+        links += [f'<a href="{esc(l["url"])}">{esc(l["label"])}</a>' for l in en]
+    links += [f'<a href="{esc(l["url"])}">{esc(l["label"])}</a>' for l in it.get("links", [])]
+    if it.get("pl"):
+        links.append(f'<a href="{esc(it["pl"])}" hreflang="pl">Polski</a>')
+    pl = f'<p class="pl" lang="pl">{esc(it["desc_pl"])}</p>' if it.get("desc_pl") else ""
+    return (f'<article class="tool"><h4>{esc(it["name"])}</h4>{site_rating(ratings.get(it["id"], []))}'
+            f'<p>{esc(it["desc_en"])}</p>{pl}<div class="links">{"".join(links)}</div></article>')
+
+
+def site_html(d, ratings, cat):
+    n = len(cat)
+    # Google shows about 60 characters of a title and 155 of a description.
+    title = f"{SITE_NAME}: {n} Calculators & Room Planners"
+    desc = (f"{n} free home renovation tools (EN/PL): paint, tile, flooring and concrete calculators, room planners, "
+            "contract templates and contractor directories.")
+    ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "alternateName": "HomeRenovationFreeTools",
+           "url": SITE + "/", "inLanguage": ["en", "pl"]},
+          {"@context": "https://schema.org", "@type": "Organization", "name": SITE_NAME, "url": SITE + "/",
+           "logo": SITE + "/icon.png", "sameAs": ["https://github.com/eater2/homerenovationfreetools",
+                                                   "https://airenovationcalculator.com/", "https://kalkulatorremontu.pl/"]},
+          {"@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": SITE + "/", "description": desc,
+           "mainEntity": {"@type": "ItemList", "numberOfItems": n, "itemListElement": [
+               {"@type": "ListItem", "position": i + 1, "name": e["name"], "url": e.get("url_en") or e.get("url_pl") or e["links"][0]["url"]}
+               for i, e in enumerate(cat)]}}]
+    nav, body = [], []
+    for sec in d["sections"]:
+        name = plain_title(sec["title"])
+        nav.append(f'<a href="#{sec["id"]}">{esc(name)}</a>')
+        body.append(f'<section id="{sec["id"]}"><h2>{esc(sec["title"])}</h2>')
+        if sec.get("intro"):
+            body.append(f'<p class="lead">{sec["intro"]}</p>')
+        if sec["type"] == "table":
+            body.append('<div class="grid">' + "".join(site_card(it, ratings, sec["link_label"]) for it in sec["items"]) + "</div>")
+        else:
+            for g in sec["groups"]:
+                body.append(f'<h3>{esc(g["title"])}</h3><ul class="res">' + "".join(
+                    f'<li>{list_item(it).strip()[4:-5]}</li>' for it in g["items"]) + "</ul>")
+        body.append("</section>")
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{esc(title)}</title>
+<meta name="description" content="{esc(desc)}">
+<link rel="canonical" href="{SITE}/">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/icon.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#2563eb">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{SITE_NAME}">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(desc)}">
+<meta property="og:url" content="{SITE}/">
+<meta property="og:image" content="{SITE}/og-image.png">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="text/plain" title="llms.txt" href="{RAW}/llms.txt">
+<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
+<style>{SITE_CSS}</style>
+</head>
+<body>
+<header><img src="/icon.png" alt="{SITE_NAME} logo" width="72" height="72">
+<div><h1>{esc(d["title"])}</h1><p class="lead">{d["tagline"]}</p></div></header>
+<main>
+<nav>{"".join(nav)}<a href="#ai-agents">For AI agents</a></nav>
+{"".join(body)}
+<section id="ai-agents"><h2>🤖 Use it from an AI agent</h2>
+<p>Machine-readable: <a href="{RAW}/llms.txt">llms.txt</a> · <a href="{RAW}/catalog.json">catalog.json</a>.
+MCP server (no key): <code>{MCP_URL}</code> or <code>npx -y home-renovation-free-tools</code>.
+Claude Code: <code>/plugin install home-renovation-free-tools --marketplace eater2/homerenovationfreetools</code>.
+claude.ai: <a href="/{SKILL}-skill.zip">skill ZIP</a>.</p></section>
+</main>
+<footer>Maintained by <a href="https://airenovationcalculator.com/">airenovationcalculator.com</a> · <a href="https://kalkulatorremontu.pl/" hreflang="pl">kalkulatorremontu.pl</a>.
+Add a tool on <a href="https://github.com/eater2/homerenovationfreetools">GitHub</a>. Ratings are public user ratings with their source; MIT licence.</footer>
+</body>
+</html>
+"""
+
+
+def write_site(d, ratings, cat):
+    (ROOT / "site" / "index.html").write_text(site_html(d, ratings, cat), encoding="utf-8", newline="\n")
+    (ROOT / "site" / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8", newline="\n")
+    lastmod = max([s["fetched_at"][:10] for r in ratings.values() for s in r] or ["2026-10-19"])
+    (ROOT / "site" / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        f"  <url><loc>{SITE}/</loc><lastmod>{lastmod}</lastmod></url>\n</urlset>\n", encoding="utf-8", newline="\n")
+
+
 def skill_zip():
     """Skill ZIP for claude.ai, byte-identical on every OS: LF text, stored (no compression), fixed timestamp."""
     md = (ROOT / "skills" / SKILL / "SKILL.md").read_text(encoding="utf-8").replace("\r\n", "\n")
@@ -262,6 +392,7 @@ def main():
     write("README.md", readme(d, ratings))
     write("catalog.json", json.dumps(cat, ensure_ascii=False, indent=2) + "\n")
     write("llms.txt", llms(d, cat))
+    write_site(d, ratings, cat)
     skill_zip()
     check_versions()
     print(f"{len(cat)} tools, {sum(1 for e in cat if e.get('ratings'))} with ratings")
