@@ -9,6 +9,13 @@
   "homepage": "https://github.com/eater2/homerenovationfreetools",
   "repository": "https://github.com/eater2/homerenovationfreetools",
   "license": "MIT",
-  "keywords": ["renovation", "home-improvement", "diy", "calculator", "contractor"],
-  "skills": "./skills/"
+  "keywords": [
+    "renovation",
+    "home-improvement",
+    "diy",
+    "calculator",
+    "contractor"
+  ],
+  "skills": "./skills/",
+  "icon": "./.claude-plugin/icon.png"
 }
