@@ -15,26 +15,35 @@ A tool is added only if **all** of these are true:
 
 ## Where to add it
 
-- Put the tool in the section that fits it best, next to similar tools.
-- The first rows of each section are the maintainer's own tools (airenovationcalculator.com / kalkulatorremontu.pl). **Add new entries below them.**
+The README is generated. **Edit `data/tools.json`**, not `README.md`.
 
-## Row format
+- Put the tool in the section (`sections[].items`, or `groups[].items` for communities) that fits it best, next to similar tools.
+- The first entries of each section are the maintainer's own tools (airenovationcalculator.com / kalkulatorremontu.pl, `"own": true`). **Add new entries below them.**
 
-Every table has four columns. Use `—` (em dash) when there is no version for a language, and write the last column in Polish:
+## Entry format
 
-```html
-<tr>
-  <td>Tool Name</td>
-  <td><a href="https://example.com/tool">Go to Tool</a></td>
-  <td>—</td>
-  <td>Krótki opis narzędzia po polsku</td>
-</tr>
+```json
+{
+  "id": "stud-calculator",
+  "name": "Stud Calculator",
+  "en": "https://example.com/stud-calculator",
+  "desc_pl": "Kalkulator słupków ściennych – rozstaw i liczba słupków",
+  "desc_en": "Wall stud count and layout at 16\" or 24\" spacing"
+}
 ```
 
-Keep the HTML valid – one `<tr>` per tool, closed properly, inside the existing `<tbody>`.
+- `id` – unique, lowercase, words joined with `-`.
+- `en` / `pl` – link to the English / Polish version; leave a key out when there is none. App store links go in `en` as a list: `[{"label": "Android", "url": "…"}, {"label": "iOS", "url": "…"}]`.
+- `desc_en` and `desc_pl` – one short sentence each on what the tool does (community entries need only `desc_en`).
+
+Then run `python scripts/build.py` (Python 3, no packages needed) and commit `data/tools.json` together with the regenerated `README.md`, `catalog.json` and `llms.txt`.
+
+## Ratings
+
+User ratings under a tool's name (SourceForge reviews, App Store ratings, GitHub stars) are fetched weekly by `scripts/fetch_ratings.py`. To add a source for a tool, put its SourceForge product page, App Store app id or GitHub repo in `data/rating-ids.json` – only if it is the same product, not a company-wide page.
 
 ---
 
 ## 🇵🇱 Po polsku (w skrócie)
 
-Dodajemy tylko darmowe narzędzia związane z remontem, z bezpośrednim i działającym linkiem (bez parametrów afiliacyjnych) – jedno narzędzie na jeden PR. Nowe pozycje wstawiaj **poniżej** narzędzi z airenovationcalculator.com / kalkulatorremontu.pl, obok podobnych narzędzi. Brak wersji językowej oznaczaj `—`, a ostatnią kolumnę pisz po polsku.
+Dodajemy tylko darmowe narzędzia związane z remontem, z bezpośrednim i działającym linkiem (bez parametrów afiliacyjnych) – jedno narzędzie na jeden PR. README jest generowane: dopisz narzędzie w `data/tools.json` (**poniżej** narzędzi z airenovationcalculator.com / kalkulatorremontu.pl, obok podobnych), z opisem `desc_pl` i `desc_en`, a potem uruchom `python scripts/build.py` i dołącz wygenerowane pliki.

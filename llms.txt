@@ -1,0 +1,195 @@
+# Home Renovation Free Tools & Calculators
+
+> Curated list of free home renovation calculators, document templates, room planners, contractor directories, mobile apps and DIY communities, in English and Polish. Free = the core feature works without payment (a free account is fine).
+
+Full data (JSON): https://raw.githubusercontent.com/eater2/homerenovationfreetools/main/catalog.json
+Agent instructions: https://raw.githubusercontent.com/eater2/homerenovationfreetools/main/AGENTS.md
+Fields per line: name | English link | Polish link | what it does | rating (when known). [own] = maintained by the list owner (airenovationcalculator.com / kalkulatorremontu.pl).
+
+## Free Renovation Calculators
+
+- Paint Calculator [own] | https://airenovationcalculator.com/paint-calculator | https://kalkulatorremontu.pl/kalkulator-farb | Paint and primer quantity for walls and ceilings
+- Tile Calculator [own] | https://airenovationcalculator.com/tile-calculator | https://kalkulatorremontu.pl/kalkulator-plytek | Number of tiles, adhesive and grout for floors and walls
+- Renovation Cost Estimator (AI) [own] | https://airenovationcalculator.com/renovation-work | https://kalkulatorremontu.pl/remont-kompleksowy | AI estimate of a complete renovation: labour, materials and transport
+- Interior Design Quote Calculator [own] | https://airenovationcalculator.com/interior-design | https://kalkulatorremontu.pl/dla-projektantow-wnetrz | Pricing calculator for interior designers and architects quoting a project
+- Damage Assessment Calculator [own] | https://airenovationcalculator.com/damage-assessment | https://kalkulatorremontu.pl/wyceny-szkod | Cost of flood or fire damage, with documentation for the insurer
+- PRO Calculators for Contractors [own] | https://airenovationcalculator.com/pro-calculators | https://kalkulatorremontu.pl/pro | PRO calculators for trades: electrical, air conditioning, tiling, heat pumps and more
+- Flooring Calculator | https://measuresquare.com/tools/flooring-calculator/ | - | Flooring quantity for a room
+- Concrete Calculator | https://www.inchcalculator.com/concrete-calculator/ | - | Concrete volume for slabs, footings and columns
+- Concrete Calculator Hub | https://concreteestimatorhub.com/ | - | Concrete bags, volume and cost, ready-mix vs bags
+- Drywall Calculator | https://www.omnicalculator.com/construction/drywall | - | Drywall sheets for walls and ceilings
+- Insulation Calculator | https://www.omnicalculator.com/construction/insulation | - | Insulation quantity for walls, attics and floors
+- Roofing Calculator | https://www.calculator.net/roofing-calculator.html | - | Roofing material quantity (squares, shingles)
+- Decking Calculator | https://www.omnicalculator.com/construction/decking | - | Deck boards, joists and fasteners for a deck
+- Fencing Calculator | https://www.omnicalculator.com/construction/fence | - | Posts, rails and pickets for a fence
+- Wallpaper Calculator | https://www.omnicalculator.com/construction/wallpaper | - | Wallpaper rolls for a room
+- Baseboard Calculator | https://miniwebtool.com/baseboard-trim-calculator/ | - | Baseboard trim length and pieces
+- Crown Molding Calculator | https://www.blocklayer.com/crown-molding.aspx | - | Crown molding length and pieces
+- Stair Calculator | https://www.calculator.net/stair-calculator.html | - | Stair rise, run, number of steps and stringer length
+- Window Replacement Cost Calculator | https://www.homewyse.com/services/cost_to_install_replacement_windows.html | - | Window replacement cost: materials and installation
+- Exterior Door Installation Cost Calculator | https://www.homewyse.com/services/cost_to_install_exterior_door.html | - | Exterior door installation cost
+- HVAC Load Calculator (Manual J) | https://www.loadcalc.net/ | - | Heating and cooling load of a house (Manual J)
+- Electrical Load Calculator | https://ask-the-electrician.com/residential-electrical-load-calculation.html | - | Electrical load of a home's circuits and service
+- Plumbing Pipe Size Calculator | https://www.housecallpro.com/plumbing/templates-calculators/plumbing-pipe-size-calculator/ | - | Pipe diameter for a plumbing run
+- Carpet Calculator | https://www.inchcalculator.com/carpet-calculator/ | - | Carpet quantity and cost
+- Mulch Calculator | https://www.omnicalculator.com/biology/mulch | - | Mulch volume for garden beds
+- Grass Seed Calculator | https://www.omnicalculator.com/biology/grass-seed | - | Grass seed for a lawn area
+- Brick Calculator | https://www.omnicalculator.com/construction/brick | - | Bricks for walls and fences
+- Gravel Calculator | https://www.omnicalculator.com/construction/gravel | - | Gravel volume and weight for driveways and paths
+- Lumber Calculator | https://www.omnicalculator.com/construction/lumber | - | Lumber quantity and cost
+- Board Foot Calculator | https://www.calculatorcampus.com/calculators/board-foot-calculator | - | Board feet and cost of lumber
+- Countertop Calculator | https://measuresquare.com/tools/countertop-calculator/ | - | Countertop area and price
+- Siding Calculator | https://www.omnicalculator.com/construction/siding | - | Siding panels and materials for exterior walls
+- Gutter Calculator | https://www.homewyse.com/services/cost_to_install_gutters.html | - | Gutter installation cost: length and fittings
+- Bathroom Remodel Cost Calculator | https://www.homewyse.com/project_costs/cost_of_typical_bathroom_remodel.html | - | Bathroom remodel cost
+- Foundation Cost Calculator | https://foundationcostcalculator.com/ | - | Foundation repair and replacement cost
+- Square Footage Calculator | https://www.calculator.net/square-footage-calculator.html | - | Square footage of rooms and lots
+- Plywood Calculator | https://www.omnicalculator.com/construction/plywood | - | Plywood and OSB sheets needed
+- Shiplap Calculator | https://www.omnicalculator.com/construction/shiplap | - | Shiplap boards and cost for a wall
+- Epoxy Calculator | https://www.omnicalculator.com/construction/epoxy | - | Epoxy resin for floors and countertops
+- Rebar Calculator | https://www.omnicalculator.com/construction/rebar | - | Rebar count and length for a slab
+- Paver Calculator | https://www.inchcalculator.com/paver-calculator/ | - | Pavers, base material and cost
+- Retaining Wall Calculator | https://www.omnicalculator.com/construction/retaining-wall | - | Retaining wall blocks and materials
+- Sand Calculator | https://www.omnicalculator.com/construction/sand | - | Sand volume and weight
+- Asphalt Calculator | https://www.omnicalculator.com/construction/asphalt | - | Asphalt for driveways and paths
+- Roof Pitch Calculator | https://www.omnicalculator.com/construction/roof-pitch | - | Roof pitch angle
+- BTU Calculator | https://www.calculator.net/btu-calculator.html | - | Heating and cooling power (BTU) for a room
+- Heat Demand Calculator (OZC) | - | https://policzcieplo.pl/ | Free heat demand (OZC) calculation per PN-EN 12831 to size a heat source (Polish)
+- U-Value Calculator | - | https://budowlaneabc.gov.pl/charakterystyka-energetyczna-budynkow/kalkulatory/calc-wpc/ | U-value (thermal transmittance) of walls, roofs and floors (Budowlane ABC, Polish government)
+- Wire Size Calculator | https://www.omnicalculator.com/physics/wire-size | - | Electrical wire cross-section
+- Voltage Drop Calculator | https://www.calculator.net/voltage-drop-calculator.html | - | Voltage drop in an electrical circuit
+- Lumen Calculator | https://www.omnicalculator.com/physics/lumen | - | Lighting: lumens, lux and number of fixtures
+- Electricity Cost Calculator | https://www.calculator.net/electricity-calculator.html | - | Electricity cost of appliances
+- Solar Panel Calculator | https://www.omnicalculator.com/ecology/solar-panel | - | Number of solar panels and system size
+- Electrification Savings Calculator (Rewiring America) | https://homes.rewiringamerica.org/calculator | - | Rebates and savings for heat pumps, solar and insulation (USA)
+
+## Free Document Generators for Renovation
+
+- Residential Lease Agreement [own] | https://docs.airenovationcalculator.com/apartment-rental | https://dokumenty.kalkulatorremontu.pl/umowa-najmu | Residential lease agreement generator
+- Sublease Agreement [own] | https://docs.airenovationcalculator.com/sublease-agreement | https://dokumenty.kalkulatorremontu.pl/umowa-podnajmu | Sublease agreement generator
+- Lease Termination Notice [own] | https://docs.airenovationcalculator.com/lease-termination-notice | https://dokumenty.kalkulatorremontu.pl/wypowiedzenie-umowy-najmu | Lease termination notice generator
+- Handover Protocol [own] | https://docs.airenovationcalculator.com/handover-protocol | https://dokumenty.kalkulatorremontu.pl/protokol-przekazania | Property handover protocol (move-in / move-out record)
+- Renovation Contract [own] | https://docs.airenovationcalculator.com/works-contract | https://dokumenty.kalkulatorremontu.pl/umowa-wykonawcza | Renovation works contract
+- Simple Renovation Contract (Contractor Version) [own] | https://docs.airenovationcalculator.com/simple-works-contract | https://dokumenty.kalkulatorremontu.pl/umowa-remontowa | Simplified renovation contract, contractor's version
+- Renovation Estimate [own] | https://docs.airenovationcalculator.com/renovation-estimate | https://dokumenty.kalkulatorremontu.pl/kosztorys-remontu | Renovation estimate: contractor's quote template
+- Contract Amendment [own] | https://docs.airenovationcalculator.com/contract-amendment | https://dokumenty.kalkulatorremontu.pl/aneks-do-umowy | Contract amendment
+- Certificate of Completion [own] | https://docs.airenovationcalculator.com/completion-certificate | https://dokumenty.kalkulatorremontu.pl/protokol-odbioru-robot | Certificate of completion (acceptance of works)
+- Independent Contractor Agreement [own] | https://docs.airenovationcalculator.com/independent-contractor-agreement | https://dokumenty.kalkulatorremontu.pl/umowa-zlecenia | Independent contractor agreement
+- Demand for Payment [own] | https://docs.airenovationcalculator.com/demand-for-payment | https://dokumenty.kalkulatorremontu.pl/wezwanie-do-zaplaty | Demand for payment letter
+- Home Inspection Checklist | https://www.jotform.com/form-templates/home-renovation-checklist | - | Home inspection checklist
+- Renovation Budget Template | https://www.template.net/editable/272978/checklist-for-home-renovation-budget | - | Renovation budget spreadsheet template
+- Subcontractor Agreement | https://www.jotform.com/pdf-templates/subcontractor-agreement | - | Subcontractor agreement, free PDF template
+- Construction Change Order Form | https://www.jotform.com/form-templates/construction-change-order-form | - | Construction change order form
+- Interior Design Contract | https://www.pandadoc.com/interior-design-contract-template/ | - | Interior designer contract template
+- Construction Estimate Templates | https://www.smartsheet.com/content/construction-estimate-templates | - | Construction estimate templates in Excel, Word and PDF
+- Punch List Templates | https://www.smartsheet.com/free-punch-list-templates | - | Punch list templates for the final walkthrough
+- Construction Invoice Template | https://eforms.com/invoice-template/construction/ | - | Construction invoice template in PDF and Word
+- Invoice Generator | https://invoice-generator.com/ | - | Online invoice generator for contractors and tradespeople
+
+## Free Room Design & Visualization Tools
+
+- Room Planner [own] | https://roomplanner.airenovationcalculator.com/ | https://planer.kalkulatorremontu.pl | Room planner: draw a room and arrange furniture
+- Wall Color Palette [own] | https://airenovationcalculator.com/color-palette | https://kalkulatorremontu.pl/paleta-kolorow | Wall colour palette
+- SketchUp Free | https://www.sketchup.com/plans-and-pricing/sketchup-free | - | 3D modelling in the browser | 4.0/5 from 5 (sourceforge)
+- Roomstyler 3D Planner | https://roomstyler.com/3dplanner | - | 3D room planner | 2.0/5 from 50 (appstore)
+- Sweet Home 3D | https://www.sweethome3d.com/ | - | 3D interior design (desktop and online) | 4.2/5 from 6 (sourceforge)
+- Floorplanner | https://floorplanner.com/ | - | Floor plans of apartments and houses
+- Homestyler | https://www.homestyler.com/ | - | Interior visualisation and rendering | 4.4/5 from 5567 (appstore)
+- Coohom | https://www.coohom.com/ | - | 3D interior design | 4.8/5 from 20 (sourceforge); 3.0/5 from 8 (appstore)
+- Planner 5D | https://planner5d.com/ | - | 2D/3D home design with a furniture catalogue | 3.0/5 from 2 (sourceforge)
+- HomeByMe | https://home.by.me/en/ | - | Free 3D interior planner with brand-name products | 4.6/5 from 3012 (appstore)
+- RoomSketcher | https://www.roomsketcher.com/ | - | Accurate floor plans and room visualisations
+- IKEA Kitchen Planner | https://kitchen.planner.ikea.com/us/en/ | - | IKEA kitchen planner, online in 3D
+- Cedreo | https://cedreo.com/ | - | Professional house designs with 3D rendering | 5.0/5 from 2 (sourceforge)
+- SmartDraw | https://www.smartdraw.com/ | - | Floor plans and diagrams from templates | 4.4/5 from 25 (sourceforge)
+- Space Designer 3D | https://www.spacedesigner3d.com/ | - | 3D space design in the browser
+- Foyr Neo | https://foyr.com/ | - | Advanced interior design with AI and rendering | 3.8/5 from 4 (sourceforge)
+- Home Design 3D | https://en.homedesign3d.net/ | - | 2D/3D home design, 60M+ users | 2.0/5 from 1 (sourceforge)
+- DreamPlan Home Design | https://www.nchsoftware.com/design/index.html | - | Free 3D house and garden design software (home use) | 1.0/5 from 1 (sourceforge)
+- Floor Plan Creator | https://floorplancreator.net/ | - | Draw floor plans of apartments and houses, browser and Android
+- FreeCAD | https://www.freecad.org/ | - | Free open-source 3D CAD, also for building design (BIM) | 34502 GitHub stars
+- LibreCAD | https://librecad.org/ | - | Free open-source 2D CAD for floor plans and technical drawings | 6511 GitHub stars
+
+## Renovation Company Catalog & Contractor Directories
+
+- Renovation Company Catalog [own] | https://airenovationcalculator.com/companies | https://kalkulatorremontu.pl/katalog-firm | Directory of renovation companies
+- Angi (Angie's List) | https://www.angi.com/ | - | Largest US contractor directory with reviews and quotes | 1.0/5 from 1 (sourceforge); 4.5/5 from 116367 (appstore)
+- HomeAdvisor | https://www.homeadvisor.com/ | - | Find local renovation contractors (USA)
+- Thumbtack | https://www.thumbtack.com/ | - | Home services marketplace: compare quotes and prices | 1.0/5 from 2 (sourceforge); 4.9/5 from 475735 (appstore)
+- Bark | https://www.bark.com/ | - | Find tradespeople in 1,000+ categories | 4.7/5 from 217 (appstore)
+- Porch | https://www.porch.com/ | - | Contractor directory for larger renovation projects (USA) | 3.9/5 from 142 (appstore)
+- BuildZoom | https://www.buildzoom.com/ | - | Vetted building contractors with licences and permits
+- TaskRabbit | https://www.taskrabbit.com/ | - | Hire help for small home jobs (IKEA) | 4.7/5 from 45688 (appstore)
+- Checkatrade | https://www.checkatrade.com/ | - | Vetted tradespeople with customer reviews (UK)
+- Houzz Pros | https://www.houzz.com/professionals | - | Directory of architects, designers and contractors with portfolios and reviews
+- Better Business Bureau (BBB) | https://www.bbb.org/ | - | Check a company's rating and complaints before hiring (USA, Canada)
+- Fixly.pl | - | https://fixly.pl/ | Polish directory of electricians, plumbers and renovation contractors
+- Oferteo.pl | - | https://www.oferteo.pl/ | Compare quotes from renovation companies in Poland | 4.8/5 from 1478 (appstore)
+- CEIDG Business Search | - | https://www.biznes.gov.pl/pl/wyszukiwarka-firm | Check that a Polish sole trader is registered (CEIDG, biznes.gov.pl)
+- KRS Company Search | - | https://wyszukiwarka-krs.ms.gov.pl/ | Look up a company in the Polish National Court Register (KRS)
+- VAT Taxpayer Whitelist | - | https://www.podatki.gov.pl/wykaz-podatnikow-vat-wyszukiwarka/ | Polish VAT whitelist: check a contractor's bank account and VAT status before paying
+
+## Best Free Mobile Apps for Home Renovation
+
+- magicplan | https://www.magicplan.app/ | - | Scan and plan rooms with your phone | 4.7/5 from 41261 (appstore)
+- iScape | https://www.iscapeit.com/ | - | Garden and landscape design | 4.6/5 from 28866 (appstore)
+- HomeZada | https://www.homezada.com/ | - | Home management and renovation tracking | 1.0/5 from 1 (sourceforge); 2.9/5 from 44 (appstore)
+- Houzz | https://www.houzz.com/ | - | Interior inspiration and projects | 4.8/5 from 324541 (appstore)
+- Pinterest | https://www.pinterest.com/ | - | Renovation inspiration boards | 4.8/5 from 5799930 (appstore)
+- ColorSnap Visualizer (Sherwin-Williams) | https://www.sherwin-williams.com/homeowners/color-through-the-decades/color-tools/colorsnap-mobile | - | Preview Sherwin-Williams paint colours on your walls (AR)
+- Dulux Visualizer | Android: https://play.google.com/store/apps/details?id=com.akzonobel.uk.dulux / iOS: https://apps.apple.com/gb/app/dulux-visualiser/id404007106 | - | Preview Dulux colours on your wall in real time (AR) | 4.4/5 from 2535 (appstore)
+- AR Ruler App | Android: https://play.google.com/store/apps/details?id=com.grymala.aruler / iOS: https://apps.apple.com/us/app/ar-ruler-digital-tape-measure/id1326773975 | - | AR tape measure: measure distances and areas with your phone | 4.7/5 from 975 (appstore)
+- Photo Measures | iOS: https://apps.apple.com/us/app/photo-measures/id415038787 | - | Write measurements directly on photos of rooms | 4.6/5 from 528 (appstore)
+- Home Design 3D (mobile) | Android: https://play.google.com/store/apps/details?id=fr.anuman.HomeDesign3D / iOS: https://apps.apple.com/us/app/home-design-3d-draw-plan/id463768717 | - | Design floor plans and 3D interiors on a smartphone | 4.3/5 from 104861 (appstore)
+- Planner 5D (mobile) | Android: https://play.google.com/store/apps/details?id=com.planner5d.planner5d / iOS: https://apps.apple.com/us/app/planner-5d-ai-home-design/id606173978 | - | Mobile home design app with AI | 4.4/5 from 42063 (appstore)
+- RoomScan Pro | iOS: https://apps.apple.com/us/app/roomscan-pro-lidar-floor-plans/id1504050801 | - | Scan rooms automatically and create floor plans | 4.3/5 from 2124 (appstore)
+- Polycam | https://poly.cam/ | - | 3D-scan rooms and get floor plans from LiDAR or photos | 4.7/5 from 43857 (appstore)
+- Measure (Apple) | iOS: https://apps.apple.com/us/app/measure/id1383426740 | - | Built-in AR tape measure on iPhone and iPad | 3.1/5 from 1828 (appstore)
+- Color Portfolio (Benjamin Moore) | Android: https://play.google.com/store/apps/details?id=com.benjaminmoore.colorportfolio / iOS: https://apps.apple.com/us/app/color-portfolio/id1490161691 | - | Benjamin Moore virtual colour fan deck with AR preview | 4.5/5 from 11679 (appstore)
+- Bubble Level | Android: https://play.google.com/store/apps/details?id=net.androgames.level | - | Spirit level on your phone for shelves, cabinets and pictures
+
+## Home Improvement Communities & DIY Resources
+
+- r/renovationToolsApps | https://www.reddit.com/r/renovationToolsApps/ | - | Renovation tools, apps, and calculators (EN)
+- r/wystrojWnetrz | https://www.reddit.com/r/wystrojWnetrz/ | - | Interior design and home decor (PL)
+- Kalkulator Remontu on YouTube | https://www.youtube.com/@kalkulatorRemontuPL | - | Renovation planning tips and smart, budget-friendly apartment makeovers (PL)
+- Kalkulator Remontu – Facebook group | https://www.facebook.com/groups/1075910455921206/ | - | Renovation community (PL)
+- Kalkulator Remontu on Pinterest | EN: https://pl.pinterest.com/airenovationcalculator/ / PL: https://pl.pinterest.com/KalkulatorRemontu/ | - | Renovation and interior ideas
+- kalkulatorremontu.pl on Instagram | https://www.instagram.com/kalkulatorremontu.pl/ | - | Renovation ideas and tool updates (PL)
+- r/HomeImprovement | https://www.reddit.com/r/HomeImprovement/ | - | Home renovation questions, before-and-afters, and tips
+- r/DIY | https://www.reddit.com/r/DIY/ | - | Creative and practical home projects
+- r/Homeowners | https://www.reddit.com/r/Homeowners/ | - | Advice and stories from homeowners
+- r/HomeMaintenance | https://www.reddit.com/r/HomeMaintenance/ | - | Regular home upkeep, repairs, and tricks
+- r/InteriorDesign | https://www.reddit.com/r/InteriorDesign/ | - | 1M+ members sharing interior design inspiration and advice
+- r/woodworking | https://www.reddit.com/r/woodworking/ | - | Woodworkers and DIYers sharing wood projects
+- r/landscaping | https://www.reddit.com/r/landscaping/ | - | Garden, lawn, and landscaping advice
+- r/Renovations | https://www.reddit.com/r/Renovations/ | - | Renovation projects, progress photos, and advice
+- r/remodel | https://www.reddit.com/r/remodel/ | - | Kitchen, bathroom, and whole-house remodeling discussions
+- r/Plumbing | https://www.reddit.com/r/Plumbing/ | - | Plumbing questions answered by DIYers and pros
+- r/electricians | https://www.reddit.com/r/electricians/ | - | Community of electricians discussing wiring and code
+- r/hvacadvice | https://www.reddit.com/r/hvacadvice/ | - | Heating, cooling, and ventilation advice
+- r/Flooring | https://www.reddit.com/r/Flooring/ | - | Choosing and installing floors
+- r/Roofing | https://www.reddit.com/r/Roofing/ | - | Roof repairs, replacement, and materials
+- Home Improvement Stack Exchange | https://diy.stackexchange.com/ | - | Q&A site for contractors and serious DIYers
+- Hometalk | https://www.hometalk.com/ | - | DIY tutorials and project ideas
+- The Family Handyman | https://www.familyhandyman.com/ | - | Expert DIY tips and how-tos
+- Bob Vila | https://www.bobvila.com/ | - | Renovation tips and DIY projects from the TV home improvement expert
+- This Old House | https://www.thisoldhouse.com/ | - | Home restoration, how-to guides, and renovation trends
+- Fine Homebuilding | https://www.finehomebuilding.com/ | - | Professional advice for builders and remodelers
+- Instructables – Home Projects | https://www.instructables.com/Home-Projects/ | - | Step-by-step DIY home projects from the community
+- This Old House on YouTube | https://www.youtube.com/@thisoldhouse | - | Renovation how-to videos from the long-running TV show
+- Home RenoVision DIY | https://www.youtube.com/@HomeRenoVisionDIY | - | Detailed renovation tutorials from a professional contractor
+- Muratordom.pl | https://muratordom.pl/ | - | Building and renovating a house: advice, designs, forum (PL)
+- Forum Muratora | https://forum.murator.pl/ | - | The largest Polish building and renovation forum (PL)
+- BudujemyDom.pl – Forum | https://forum.budujemydom.pl/ | - | Homeowners and contractors sharing experience (PL)
+- HomeGuide Cost Guides | https://homeguide.com/costs | - | Current home improvement and repair prices (USA)
+- Fixr Cost Guides | https://www.fixr.com/costs | - | Pricing guides for remodeling projects (USA)
+- Cost vs Value Report | https://www.jlconline.com/cost-vs-value/ | - | Annual report on remodeling costs and resale value (USA)
+- ENERGY STAR – Seal and Insulate | https://www.energystar.gov/saveathome/seal_insulate | - | DIY guide to air sealing and insulation
+- ENERGY STAR Product Finder | https://www.energystar.gov/productfinder/ | - | Compare certified appliances, windows, and heat pumps
+- EPA Lead Renovation, Repair and Painting (RRP) | https://www.epa.gov/lead/lead-renovation-repair-and-painting-program | - | Lead-safe rules for renovating pre-1978 homes (USA)
+- Green Building Advisor | https://www.greenbuildingadvisor.com/ | - | Building science and energy-efficient remodeling
+- Building Science Corporation | https://buildingscience.com/ | - | Research on insulation, moisture, and ventilation
+- Czyste Powietrze | https://czystepowietrze.gov.pl/ | - | Government grants for thermal modernization and heat source replacement (PL)
+- Ulga termomodernizacyjna | https://www.podatki.gov.pl/ulgi-i-odliczenia/ulga-termomodernizacyjna-pit | - | Tax deduction for insulation, windows, heat pumps, and PV (PL)
+- ZONE / CEEB | https://zone.gunb.gov.pl/ | - | Government portal for building heat source declarations (PL)

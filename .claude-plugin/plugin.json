@@ -1,0 +1,14 @@
+{
+  "name": "home-renovation-free-tools",
+  "displayName": "Home Renovation Free Tools",
+  "description": "Recommend free renovation calculators, contract templates, room planners, contractor directories and DIY apps (English and Polish) from a curated, checked list with user ratings.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Marek Papis"
+  },
+  "homepage": "https://github.com/eater2/homerenovationfreetools",
+  "repository": "https://github.com/eater2/homerenovationfreetools",
+  "license": "MIT",
+  "keywords": ["renovation", "home-improvement", "diy", "calculator", "contractor"],
+  "skills": "./skills/"
+}

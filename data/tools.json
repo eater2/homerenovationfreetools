@@ -1,0 +1,1366 @@
+{
+  "title": "🛠️ Home Renovation Free Tools & Calculators",
+  "tagline": "A curated collection of <strong>free home renovation calculators, room planners, design tools, and document generators</strong> for DIY homeowners and contractors. Estimate paint, tiles, flooring, roofing, and more — available in English and Polish.",
+  "sections": [
+    {
+      "id": "calculators",
+      "title": "🔢 Free Renovation Calculators",
+      "intro": "Free online calculators to estimate materials and costs for home renovation projects — paint, tiles, flooring, concrete, drywall, roofing, and more:",
+      "type": "table",
+      "headers": [
+        "🧮 Calculator",
+        "🇬🇧 EN",
+        "🇵🇱 PL",
+        "📝 Opis PL"
+      ],
+      "row_style": "multiline",
+      "link_label": "Go to Tool",
+      "items": [
+        {
+          "id": "paint-calculator",
+          "name": "Paint Calculator",
+          "en": "https://airenovationcalculator.com/paint-calculator",
+          "pl": "https://kalkulatorremontu.pl/kalkulator-farb",
+          "desc_pl": "Kalkulator farby i gruntu",
+          "desc_en": "Paint and primer quantity for walls and ceilings",
+          "own": true
+        },
+        {
+          "id": "tile-calculator",
+          "name": "Tile Calculator",
+          "en": "https://airenovationcalculator.com/tile-calculator",
+          "pl": "https://kalkulatorremontu.pl/kalkulator-plytek",
+          "desc_pl": "Kalkulator płytek",
+          "desc_en": "Number of tiles, adhesive and grout for floors and walls",
+          "own": true
+        },
+        {
+          "id": "renovation-cost-estimator-ai",
+          "name": "Renovation Cost Estimator (AI)",
+          "en": "https://airenovationcalculator.com/renovation-work",
+          "pl": "https://kalkulatorremontu.pl/remont-kompleksowy",
+          "desc_pl": "Kalkulator remontu kompleksowego – kosztorys AI z robocizną, materiałami i transportem",
+          "desc_en": "AI estimate of a complete renovation: labour, materials and transport",
+          "own": true
+        },
+        {
+          "id": "interior-design-quote-calculator",
+          "name": "Interior Design Quote Calculator",
+          "en": "https://airenovationcalculator.com/interior-design",
+          "pl": "https://kalkulatorremontu.pl/dla-projektantow-wnetrz",
+          "desc_pl": "Kalkulator wyceny projektu dla projektantów wnętrz i architektów",
+          "desc_en": "Pricing calculator for interior designers and architects quoting a project",
+          "own": true
+        },
+        {
+          "id": "damage-assessment-calculator",
+          "name": "Damage Assessment Calculator",
+          "en": "https://airenovationcalculator.com/damage-assessment",
+          "pl": "https://kalkulatorremontu.pl/wyceny-szkod",
+          "desc_pl": "Wycena szkód po zalaniu lub pożarze – dokumentacja dla ubezpieczyciela",
+          "desc_en": "Cost of flood or fire damage, with documentation for the insurer",
+          "own": true
+        },
+        {
+          "id": "pro-calculators-for-contractors",
+          "name": "PRO Calculators for Contractors",
+          "en": "https://airenovationcalculator.com/pro-calculators",
+          "pl": "https://kalkulatorremontu.pl/pro",
+          "desc_pl": "Kalkulatory PRO dla fachowców – elektryka, klimatyzacja, glazura, pompy ciepła i inne",
+          "desc_en": "PRO calculators for trades: electrical, air conditioning, tiling, heat pumps and more",
+          "own": true
+        },
+        {
+          "id": "flooring-calculator",
+          "name": "Flooring Calculator",
+          "en": "https://measuresquare.com/tools/flooring-calculator/",
+          "desc_pl": "Kalkulator podłogi",
+          "desc_en": "Flooring quantity for a room"
+        },
+        {
+          "id": "concrete-calculator",
+          "name": "Concrete Calculator",
+          "en": "https://www.inchcalculator.com/concrete-calculator/",
+          "desc_pl": "Kalkulator betonu",
+          "desc_en": "Concrete volume for slabs, footings and columns"
+        },
+        {
+          "id": "concrete-calculator-hub",
+          "name": "Concrete Calculator Hub",
+          "en": "https://concreteestimatorhub.com/",
+          "desc_pl": "Kalkulator betonu – liczba worków, objętość i koszt",
+          "desc_en": "Concrete bags, volume and cost, ready-mix vs bags"
+        },
+        {
+          "id": "drywall-calculator",
+          "name": "Drywall Calculator",
+          "en": "https://www.omnicalculator.com/construction/drywall",
+          "desc_pl": "Kalkulator płyt gipsowych",
+          "desc_en": "Drywall sheets for walls and ceilings"
+        },
+        {
+          "id": "insulation-calculator",
+          "name": "Insulation Calculator",
+          "en": "https://www.omnicalculator.com/construction/insulation",
+          "desc_pl": "Kalkulator izolacji",
+          "desc_en": "Insulation quantity for walls, attics and floors"
+        },
+        {
+          "id": "roofing-calculator",
+          "name": "Roofing Calculator",
+          "en": "https://www.calculator.net/roofing-calculator.html",
+          "desc_pl": "Kalkulator pokrycia dachowego",
+          "desc_en": "Roofing material quantity (squares, shingles)"
+        },
+        {
+          "id": "decking-calculator",
+          "name": "Decking Calculator",
+          "en": "https://www.omnicalculator.com/construction/decking",
+          "desc_pl": "Kalkulator tarasu",
+          "desc_en": "Deck boards, joists and fasteners for a deck"
+        },
+        {
+          "id": "fencing-calculator",
+          "name": "Fencing Calculator",
+          "en": "https://www.omnicalculator.com/construction/fence",
+          "desc_pl": "Kalkulator ogrodzenia",
+          "desc_en": "Posts, rails and pickets for a fence"
+        },
+        {
+          "id": "wallpaper-calculator",
+          "name": "Wallpaper Calculator",
+          "en": "https://www.omnicalculator.com/construction/wallpaper",
+          "desc_pl": "Kalkulator tapety",
+          "desc_en": "Wallpaper rolls for a room"
+        },
+        {
+          "id": "baseboard-calculator",
+          "name": "Baseboard Calculator",
+          "en": "https://miniwebtool.com/baseboard-trim-calculator/",
+          "desc_pl": "Kalkulator listew przypodłogowych",
+          "desc_en": "Baseboard trim length and pieces"
+        },
+        {
+          "id": "crown-molding-calculator",
+          "name": "Crown Molding Calculator",
+          "en": "https://www.blocklayer.com/crown-molding.aspx",
+          "desc_pl": "Kalkulator sztukaterii sufitowej",
+          "desc_en": "Crown molding length and pieces"
+        },
+        {
+          "id": "stair-calculator",
+          "name": "Stair Calculator",
+          "en": "https://www.calculator.net/stair-calculator.html",
+          "desc_pl": "Kalkulator schodów",
+          "desc_en": "Stair rise, run, number of steps and stringer length"
+        },
+        {
+          "id": "window-replacement-cost-calculator",
+          "name": "Window Replacement Cost Calculator",
+          "en": "https://www.homewyse.com/services/cost_to_install_replacement_windows.html",
+          "desc_pl": "Kalkulator kosztu wymiany okien – materiał i montaż",
+          "desc_en": "Window replacement cost: materials and installation"
+        },
+        {
+          "id": "exterior-door-installation-cost-calculator",
+          "name": "Exterior Door Installation Cost Calculator",
+          "en": "https://www.homewyse.com/services/cost_to_install_exterior_door.html",
+          "desc_pl": "Kalkulator kosztu montażu drzwi zewnętrznych",
+          "desc_en": "Exterior door installation cost"
+        },
+        {
+          "id": "hvac-load-calculator-manual-j",
+          "name": "HVAC Load Calculator (Manual J)",
+          "en": "https://www.loadcalc.net/",
+          "desc_pl": "Obliczenie zapotrzebowania domu na ogrzewanie i chłodzenie (Manual J)",
+          "desc_en": "Heating and cooling load of a house (Manual J)"
+        },
+        {
+          "id": "electrical-load-calculator",
+          "name": "Electrical Load Calculator",
+          "en": "https://ask-the-electrician.com/residential-electrical-load-calculation.html",
+          "desc_pl": "Kalkulator obciążenia elektrycznego",
+          "desc_en": "Electrical load of a home's circuits and service"
+        },
+        {
+          "id": "plumbing-pipe-size-calculator",
+          "name": "Plumbing Pipe Size Calculator",
+          "en": "https://www.housecallpro.com/plumbing/templates-calculators/plumbing-pipe-size-calculator/",
+          "desc_pl": "Kalkulator średnicy rur",
+          "desc_en": "Pipe diameter for a plumbing run"
+        },
+        {
+          "id": "carpet-calculator",
+          "name": "Carpet Calculator",
+          "en": "https://www.inchcalculator.com/carpet-calculator/",
+          "desc_pl": "Kalkulator wykładziny dywanowej – oblicz ilość i koszt",
+          "desc_en": "Carpet quantity and cost"
+        },
+        {
+          "id": "mulch-calculator",
+          "name": "Mulch Calculator",
+          "en": "https://www.omnicalculator.com/biology/mulch",
+          "desc_pl": "Kalkulator ściółki ogrodowej – ilość i objętość",
+          "desc_en": "Mulch volume for garden beds"
+        },
+        {
+          "id": "grass-seed-calculator",
+          "name": "Grass Seed Calculator",
+          "en": "https://www.omnicalculator.com/biology/grass-seed",
+          "desc_pl": "Kalkulator nasion trawnika – pokrycie powierzchni",
+          "desc_en": "Grass seed for a lawn area"
+        },
+        {
+          "id": "brick-calculator",
+          "name": "Brick Calculator",
+          "en": "https://www.omnicalculator.com/construction/brick",
+          "desc_pl": "Kalkulator cegieł – ilość na ściany i ogrodzenia",
+          "desc_en": "Bricks for walls and fences"
+        },
+        {
+          "id": "gravel-calculator",
+          "name": "Gravel Calculator",
+          "en": "https://www.omnicalculator.com/construction/gravel",
+          "desc_pl": "Kalkulator żwiru – objętość i waga na podjazdy",
+          "desc_en": "Gravel volume and weight for driveways and paths"
+        },
+        {
+          "id": "lumber-calculator",
+          "name": "Lumber Calculator",
+          "en": "https://www.omnicalculator.com/construction/lumber",
+          "desc_pl": "Kalkulator drewna budowlanego – ilość i koszt",
+          "desc_en": "Lumber quantity and cost"
+        },
+        {
+          "id": "board-foot-calculator",
+          "name": "Board Foot Calculator",
+          "en": "https://www.calculatorcampus.com/calculators/board-foot-calculator",
+          "desc_pl": "Kalkulator stóp deskowych – objętość i koszt tarcicy",
+          "desc_en": "Board feet and cost of lumber"
+        },
+        {
+          "id": "countertop-calculator",
+          "name": "Countertop Calculator",
+          "en": "https://measuresquare.com/tools/countertop-calculator/",
+          "desc_pl": "Kalkulator blatu kuchennego – powierzchnia i cena",
+          "desc_en": "Countertop area and price"
+        },
+        {
+          "id": "siding-calculator",
+          "name": "Siding Calculator",
+          "en": "https://www.omnicalculator.com/construction/siding",
+          "desc_pl": "Kalkulator elewacji – ilość paneli i materiałów",
+          "desc_en": "Siding panels and materials for exterior walls"
+        },
+        {
+          "id": "gutter-calculator",
+          "name": "Gutter Calculator",
+          "en": "https://www.homewyse.com/services/cost_to_install_gutters.html",
+          "desc_pl": "Kalkulator kosztu montażu rynien – długość i osprzęt",
+          "desc_en": "Gutter installation cost: length and fittings"
+        },
+        {
+          "id": "bathroom-remodel-cost-calculator",
+          "name": "Bathroom Remodel Cost Calculator",
+          "en": "https://www.homewyse.com/project_costs/cost_of_typical_bathroom_remodel.html",
+          "desc_pl": "Kalkulator kosztu remontu łazienki",
+          "desc_en": "Bathroom remodel cost"
+        },
+        {
+          "id": "foundation-cost-calculator",
+          "name": "Foundation Cost Calculator",
+          "en": "https://foundationcostcalculator.com/",
+          "desc_pl": "Kalkulator kosztu fundamentów i napraw",
+          "desc_en": "Foundation repair and replacement cost"
+        },
+        {
+          "id": "square-footage-calculator",
+          "name": "Square Footage Calculator",
+          "en": "https://www.calculator.net/square-footage-calculator.html",
+          "desc_pl": "Kalkulator powierzchni – metraż pomieszczeń i działki",
+          "desc_en": "Square footage of rooms and lots"
+        },
+        {
+          "id": "plywood-calculator",
+          "name": "Plywood Calculator",
+          "en": "https://www.omnicalculator.com/construction/plywood",
+          "desc_pl": "Kalkulator sklejki i płyt OSB – liczba arkuszy",
+          "desc_en": "Plywood and OSB sheets needed"
+        },
+        {
+          "id": "shiplap-calculator",
+          "name": "Shiplap Calculator",
+          "en": "https://www.omnicalculator.com/construction/shiplap",
+          "desc_pl": "Kalkulator desek ściennych shiplap – ilość i koszt",
+          "desc_en": "Shiplap boards and cost for a wall"
+        },
+        {
+          "id": "epoxy-calculator",
+          "name": "Epoxy Calculator",
+          "en": "https://www.omnicalculator.com/construction/epoxy",
+          "desc_pl": "Kalkulator żywicy epoksydowej – posadzki i blaty",
+          "desc_en": "Epoxy resin for floors and countertops"
+        },
+        {
+          "id": "rebar-calculator",
+          "name": "Rebar Calculator",
+          "en": "https://www.omnicalculator.com/construction/rebar",
+          "desc_pl": "Kalkulator zbrojenia – liczba i długość prętów",
+          "desc_en": "Rebar count and length for a slab"
+        },
+        {
+          "id": "paver-calculator",
+          "name": "Paver Calculator",
+          "en": "https://www.inchcalculator.com/paver-calculator/",
+          "desc_pl": "Kalkulator kostki brukowej – ilość, podsypka i koszt",
+          "desc_en": "Pavers, base material and cost"
+        },
+        {
+          "id": "retaining-wall-calculator",
+          "name": "Retaining Wall Calculator",
+          "en": "https://www.omnicalculator.com/construction/retaining-wall",
+          "desc_pl": "Kalkulator muru oporowego – bloczki i materiały",
+          "desc_en": "Retaining wall blocks and materials"
+        },
+        {
+          "id": "sand-calculator",
+          "name": "Sand Calculator",
+          "en": "https://www.omnicalculator.com/construction/sand",
+          "desc_pl": "Kalkulator piasku – objętość i waga",
+          "desc_en": "Sand volume and weight"
+        },
+        {
+          "id": "asphalt-calculator",
+          "name": "Asphalt Calculator",
+          "en": "https://www.omnicalculator.com/construction/asphalt",
+          "desc_pl": "Kalkulator asfaltu – podjazdy i ścieżki",
+          "desc_en": "Asphalt for driveways and paths"
+        },
+        {
+          "id": "roof-pitch-calculator",
+          "name": "Roof Pitch Calculator",
+          "en": "https://www.omnicalculator.com/construction/roof-pitch",
+          "desc_pl": "Kalkulator kąta nachylenia dachu",
+          "desc_en": "Roof pitch angle"
+        },
+        {
+          "id": "btu-calculator",
+          "name": "BTU Calculator",
+          "en": "https://www.calculator.net/btu-calculator.html",
+          "desc_pl": "Kalkulator mocy grzewczej i chłodniczej pomieszczenia (BTU)",
+          "desc_en": "Heating and cooling power (BTU) for a room"
+        },
+        {
+          "id": "heat-demand-calculator-ozc",
+          "name": "Heat Demand Calculator (OZC)",
+          "pl": "https://policzcieplo.pl/",
+          "desc_pl": "Darmowy kalkulator OZC wg PN-EN 12831 – dobór mocy źródła ciepła",
+          "desc_en": "Free heat demand (OZC) calculation per PN-EN 12831 to size a heat source (Polish)"
+        },
+        {
+          "id": "u-value-calculator",
+          "name": "U-Value Calculator",
+          "pl": "https://budowlaneabc.gov.pl/charakterystyka-energetyczna-budynkow/kalkulatory/calc-wpc/",
+          "desc_pl": "Kalkulator współczynnika przenikania ciepła U przegród (Budowlane ABC, MRiT)",
+          "desc_en": "U-value (thermal transmittance) of walls, roofs and floors (Budowlane ABC, Polish government)"
+        },
+        {
+          "id": "wire-size-calculator",
+          "name": "Wire Size Calculator",
+          "en": "https://www.omnicalculator.com/physics/wire-size",
+          "desc_pl": "Kalkulator przekroju przewodów elektrycznych",
+          "desc_en": "Electrical wire cross-section"
+        },
+        {
+          "id": "voltage-drop-calculator",
+          "name": "Voltage Drop Calculator",
+          "en": "https://www.calculator.net/voltage-drop-calculator.html",
+          "desc_pl": "Kalkulator spadku napięcia w instalacji elektrycznej",
+          "desc_en": "Voltage drop in an electrical circuit"
+        },
+        {
+          "id": "lumen-calculator",
+          "name": "Lumen Calculator",
+          "en": "https://www.omnicalculator.com/physics/lumen",
+          "desc_pl": "Kalkulator oświetlenia – lumeny, luksy i liczba lamp",
+          "desc_en": "Lighting: lumens, lux and number of fixtures"
+        },
+        {
+          "id": "electricity-cost-calculator",
+          "name": "Electricity Cost Calculator",
+          "en": "https://www.calculator.net/electricity-calculator.html",
+          "desc_pl": "Kalkulator kosztu prądu zużywanego przez urządzenia",
+          "desc_en": "Electricity cost of appliances"
+        },
+        {
+          "id": "solar-panel-calculator",
+          "name": "Solar Panel Calculator",
+          "en": "https://www.omnicalculator.com/ecology/solar-panel",
+          "desc_pl": "Kalkulator fotowoltaiki – liczba paneli i moc instalacji",
+          "desc_en": "Number of solar panels and system size"
+        },
+        {
+          "id": "electrification-savings-calculator-rewiring-america",
+          "name": "Electrification Savings Calculator (Rewiring America)",
+          "en": "https://homes.rewiringamerica.org/calculator",
+          "desc_pl": "Kalkulator dopłat i oszczędności na pompy ciepła, PV i izolację (USA)",
+          "desc_en": "Rebates and savings for heat pumps, solar and insulation (USA)"
+        }
+      ],
+      "hr_after": true
+    },
+    {
+      "id": "documents",
+      "title": "📄 Free Document Generators for Renovation",
+      "type": "table",
+      "headers": [
+        "🖌️ Tool",
+        "🇬🇧 EN",
+        "🇵🇱 PL",
+        "📝 Opis PL"
+      ],
+      "row_style": "compact",
+      "link_label": "Visit",
+      "items": [
+        {
+          "id": "residential-lease-agreement",
+          "name": "Residential Lease Agreement",
+          "en": "https://docs.airenovationcalculator.com/apartment-rental",
+          "pl": "https://dokumenty.kalkulatorremontu.pl/umowa-najmu",
+          "desc_pl": "Umowa najmu mieszkania",
+          "desc_en": "Residential lease agreement generator",
+          "own": true
+        },
+        {
+          "id": "sublease-agreement",
+          "name": "Sublease Agreement",
+          "en": "https://docs.airenovationcalculator.com/sublease-agreement",
+          "pl": "https://dokumenty.kalkulatorremontu.pl/umowa-podnajmu",
+          "desc_pl": "Umowa podnajmu lokalu",
+          "desc_en": "Sublease agreement generator",
+          "own": true
+        },
+        {
+          "id": "lease-termination-notice",
+          "name": "Lease Termination Notice",
+          "en": "https://docs.airenovationcalculator.com/lease-termination-notice",
+          "pl": "https://dokumenty.kalkulatorremontu.pl/wypowiedzenie-umowy-najmu",
+          "desc_pl": "Wypowiedzenie umowy najmu",
+          "desc_en": "Lease termination notice generator",
+          "own": true
+        },
+        {
+          "id": "handover-protocol",
+          "name": "Handover Protocol",
+          "en": "https://docs.airenovationcalculator.com/handover-protocol",
+          "pl": "https://dokumenty.kalkulatorremontu.pl/protokol-przekazania",
+          "desc_pl": "Protokół zdawczo-odbiorczy",
+          "desc_en": "Property handover protocol (move-in / move-out record)",
+          "own": true
+        },
+        {
+          "id": "renovation-contract",
+          "name": "Renovation Contract",
+          "en": "https://docs.airenovationcalculator.com/works-contract",
+          "pl": "https://dokumenty.kalkulatorremontu.pl/umowa-wykonawcza",
+          "desc_pl": "Umowa o roboty remontowe",
+          "desc_en": "Renovation works contract",
+          "own": true
+        },
+        {
+          "id": "simple-renovation-contract-contractor-version",
+          "name": "Simple Renovation Contract (Contractor Version)",
+          "en": "https://docs.airenovationcalculator.com/simple-works-contract",
+          "pl": "https://dokumenty.kalkulatorremontu.pl/umowa-remontowa",
+          "desc_pl": "Uproszczona umowa remontowa – wersja dla wykonawcy",
+          "desc_en": "Simplified renovation contract, contractor's version",
+          "own": true
+        },
+        {
+          "id": "renovation-estimate",
+          "name": "Renovation Estimate",
+          "en": "https://docs.airenovationcalculator.com/renovation-estimate",
+          "pl": "https://dokumenty.kalkulatorremontu.pl/kosztorys-remontu",
+          "desc_pl": "Kosztorys remontu – wzór oferty wykonawcy",
+          "desc_en": "Renovation estimate: contractor's quote template",
+          "own": true
+        },
+        {
+          "id": "contract-amendment",
+          "name": "Contract Amendment",
+          "en": "https://docs.airenovationcalculator.com/contract-amendment",
+          "pl": "https://dokumenty.kalkulatorremontu.pl/aneks-do-umowy",
+          "desc_pl": "Aneks do umowy",
+          "desc_en": "Contract amendment",
+          "own": true
+        },
+        {
+          "id": "certificate-of-completion",
+          "name": "Certificate of Completion",
+          "en": "https://docs.airenovationcalculator.com/completion-certificate",
+          "pl": "https://dokumenty.kalkulatorremontu.pl/protokol-odbioru-robot",
+          "desc_pl": "Protokół odbioru robót",
+          "desc_en": "Certificate of completion (acceptance of works)",
+          "own": true
+        },
+        {
+          "id": "independent-contractor-agreement",
+          "name": "Independent Contractor Agreement",
+          "en": "https://docs.airenovationcalculator.com/independent-contractor-agreement",
+          "pl": "https://dokumenty.kalkulatorremontu.pl/umowa-zlecenia",
+          "desc_pl": "Umowa zlecenia z wykonawcą",
+          "desc_en": "Independent contractor agreement",
+          "own": true
+        },
+        {
+          "id": "demand-for-payment",
+          "name": "Demand for Payment",
+          "en": "https://docs.airenovationcalculator.com/demand-for-payment",
+          "pl": "https://dokumenty.kalkulatorremontu.pl/wezwanie-do-zaplaty",
+          "desc_pl": "Wezwanie do zapłaty",
+          "desc_en": "Demand for payment letter",
+          "own": true
+        },
+        {
+          "id": "home-inspection-checklist",
+          "name": "Home Inspection Checklist",
+          "en": "https://www.jotform.com/form-templates/home-renovation-checklist",
+          "desc_pl": "Lista kontrolna inspekcji nieruchomości",
+          "desc_en": "Home inspection checklist"
+        },
+        {
+          "id": "renovation-budget-template",
+          "name": "Renovation Budget Template",
+          "en": "https://www.template.net/editable/272978/checklist-for-home-renovation-budget",
+          "desc_pl": "Szablon budżetu remontu – arkusz kalkulacyjny",
+          "desc_en": "Renovation budget spreadsheet template"
+        },
+        {
+          "id": "subcontractor-agreement",
+          "name": "Subcontractor Agreement",
+          "en": "https://www.jotform.com/pdf-templates/subcontractor-agreement",
+          "desc_pl": "Umowa z podwykonawcą – darmowy wzór PDF",
+          "desc_en": "Subcontractor agreement, free PDF template"
+        },
+        {
+          "id": "construction-change-order-form",
+          "name": "Construction Change Order Form",
+          "en": "https://www.jotform.com/form-templates/construction-change-order-form",
+          "desc_pl": "Formularz zmiany zakresu prac budowlanych",
+          "desc_en": "Construction change order form"
+        },
+        {
+          "id": "interior-design-contract",
+          "name": "Interior Design Contract",
+          "en": "https://www.pandadoc.com/interior-design-contract-template/",
+          "desc_pl": "Umowa z projektantem wnętrz",
+          "desc_en": "Interior designer contract template"
+        },
+        {
+          "id": "construction-estimate-templates",
+          "name": "Construction Estimate Templates",
+          "en": "https://www.smartsheet.com/content/construction-estimate-templates",
+          "desc_pl": "Szablony kosztorysów budowlanych – Excel, Word, PDF",
+          "desc_en": "Construction estimate templates in Excel, Word and PDF"
+        },
+        {
+          "id": "punch-list-templates",
+          "name": "Punch List Templates",
+          "en": "https://www.smartsheet.com/free-punch-list-templates",
+          "desc_pl": "Szablony list usterek do odbioru prac",
+          "desc_en": "Punch list templates for the final walkthrough"
+        },
+        {
+          "id": "construction-invoice-template",
+          "name": "Construction Invoice Template",
+          "en": "https://eforms.com/invoice-template/construction/",
+          "desc_pl": "Wzór faktury za prace budowlane – PDF i Word",
+          "desc_en": "Construction invoice template in PDF and Word"
+        },
+        {
+          "id": "invoice-generator",
+          "name": "Invoice Generator",
+          "en": "https://invoice-generator.com/",
+          "desc_pl": "Generator faktur online dla wykonawców i fachowców",
+          "desc_en": "Online invoice generator for contractors and tradespeople"
+        }
+      ],
+      "hr_after": false
+    },
+    {
+      "id": "design",
+      "title": "🎨 Free Room Design & Visualization Tools",
+      "type": "table",
+      "headers": [
+        "🖌️ Tool",
+        "🇬🇧 EN",
+        "🇵🇱 PL",
+        "📝 Opis PL"
+      ],
+      "row_style": "compact",
+      "link_label": "Visit",
+      "items": [
+        {
+          "id": "room-planner",
+          "name": "Room Planner",
+          "en": "https://roomplanner.airenovationcalculator.com/",
+          "pl": "https://planer.kalkulatorremontu.pl",
+          "desc_pl": "Planer pomieszczeń",
+          "desc_en": "Room planner: draw a room and arrange furniture",
+          "own": true
+        },
+        {
+          "id": "wall-color-palette",
+          "name": "Wall Color Palette",
+          "en": "https://airenovationcalculator.com/color-palette",
+          "pl": "https://kalkulatorremontu.pl/paleta-kolorow",
+          "desc_pl": "Paleta kolorów ścian",
+          "desc_en": "Wall colour palette",
+          "own": true
+        },
+        {
+          "id": "sketchup-free",
+          "name": "SketchUp Free",
+          "en": "https://www.sketchup.com/plans-and-pricing/sketchup-free",
+          "desc_pl": "Modelowanie 3D",
+          "desc_en": "3D modelling in the browser"
+        },
+        {
+          "id": "roomstyler-3d-planner",
+          "name": "Roomstyler 3D Planner",
+          "en": "https://roomstyler.com/3dplanner",
+          "desc_pl": "Planer 3D pokoju",
+          "desc_en": "3D room planner"
+        },
+        {
+          "id": "sweet-home-3d",
+          "name": "Sweet Home 3D",
+          "en": "https://www.sweethome3d.com/",
+          "desc_pl": "Projektowanie wnętrz 3D",
+          "desc_en": "3D interior design (desktop and online)"
+        },
+        {
+          "id": "floorplanner",
+          "name": "Floorplanner",
+          "en": "https://floorplanner.com/",
+          "desc_pl": "Planer rzutu mieszkania",
+          "desc_en": "Floor plans of apartments and houses"
+        },
+        {
+          "id": "homestyler",
+          "name": "Homestyler",
+          "en": "https://www.homestyler.com/",
+          "desc_pl": "Wizualizacja wnętrz",
+          "desc_en": "Interior visualisation and rendering"
+        },
+        {
+          "id": "coohom",
+          "name": "Coohom",
+          "en": "https://www.coohom.com/",
+          "desc_pl": "Projektowanie wnętrz 3D",
+          "desc_en": "3D interior design"
+        },
+        {
+          "id": "planner-5d",
+          "name": "Planner 5D",
+          "en": "https://planner5d.com/",
+          "desc_pl": "Projektowanie domu 2D/3D z katalogiem mebli",
+          "desc_en": "2D/3D home design with a furniture catalogue"
+        },
+        {
+          "id": "homebyme",
+          "name": "HomeByMe",
+          "en": "https://home.by.me/en/",
+          "desc_pl": "Darmowy planer wnętrz 3D z produktami marek",
+          "desc_en": "Free 3D interior planner with brand-name products"
+        },
+        {
+          "id": "roomsketcher",
+          "name": "RoomSketcher",
+          "en": "https://www.roomsketcher.com/",
+          "desc_pl": "Precyzyjne rzuty i wizualizacje pomieszczeń",
+          "desc_en": "Accurate floor plans and room visualisations"
+        },
+        {
+          "id": "ikea-kitchen-planner",
+          "name": "IKEA Kitchen Planner",
+          "en": "https://kitchen.planner.ikea.com/us/en/",
+          "desc_pl": "Planer kuchni IKEA – projektowanie online 3D",
+          "desc_en": "IKEA kitchen planner, online in 3D"
+        },
+        {
+          "id": "cedreo",
+          "name": "Cedreo",
+          "en": "https://cedreo.com/",
+          "desc_pl": "Profesjonalne projekty domów z renderingiem 3D",
+          "desc_en": "Professional house designs with 3D rendering"
+        },
+        {
+          "id": "smartdraw",
+          "name": "SmartDraw",
+          "en": "https://www.smartdraw.com/",
+          "desc_pl": "Rzuty pomieszczeń i diagramy na bazie szablonów",
+          "desc_en": "Floor plans and diagrams from templates"
+        },
+        {
+          "id": "space-designer-3d",
+          "name": "Space Designer 3D",
+          "en": "https://www.spacedesigner3d.com/",
+          "desc_pl": "Projektowanie przestrzeni 3D online w przeglądarce",
+          "desc_en": "3D space design in the browser"
+        },
+        {
+          "id": "foyr-neo",
+          "name": "Foyr Neo",
+          "en": "https://foyr.com/",
+          "desc_pl": "Zaawansowane projektowanie wnętrz z AI i renderingiem",
+          "desc_en": "Advanced interior design with AI and rendering"
+        },
+        {
+          "id": "home-design-3d",
+          "name": "Home Design 3D",
+          "en": "https://en.homedesign3d.net/",
+          "desc_pl": "Projektowanie domu 2D/3D – ponad 60 mln użytkowników",
+          "desc_en": "2D/3D home design, 60M+ users"
+        },
+        {
+          "id": "dreamplan-home-design",
+          "name": "DreamPlan Home Design",
+          "en": "https://www.nchsoftware.com/design/index.html",
+          "desc_pl": "Darmowy program do projektowania domu i ogrodu 3D (użytek domowy)",
+          "desc_en": "Free 3D house and garden design software (home use)"
+        },
+        {
+          "id": "floor-plan-creator",
+          "name": "Floor Plan Creator",
+          "en": "https://floorplancreator.net/",
+          "desc_pl": "Rysowanie rzutów mieszkań i domów – przeglądarka i Android",
+          "desc_en": "Draw floor plans of apartments and houses, browser and Android"
+        },
+        {
+          "id": "freecad",
+          "name": "FreeCAD",
+          "en": "https://www.freecad.org/",
+          "desc_pl": "Darmowy program CAD 3D open source, także do projektów budowlanych (BIM)",
+          "desc_en": "Free open-source 3D CAD, also for building design (BIM)"
+        },
+        {
+          "id": "librecad",
+          "name": "LibreCAD",
+          "en": "https://librecad.org/",
+          "desc_pl": "Darmowy program CAD 2D open source do rzutów i rysunków technicznych",
+          "desc_en": "Free open-source 2D CAD for floor plans and technical drawings"
+        }
+      ],
+      "hr_after": true
+    },
+    {
+      "id": "contractors",
+      "title": "🏢 Renovation Company Catalog & Contractor Directories",
+      "type": "table",
+      "headers": [
+        "📋 Resource",
+        "🇬🇧 EN",
+        "🇵🇱 PL",
+        "📝 Opis PL"
+      ],
+      "row_style": "compact",
+      "link_label": "Visit",
+      "items": [
+        {
+          "id": "renovation-company-catalog",
+          "name": "Renovation Company Catalog",
+          "en": "https://airenovationcalculator.com/companies",
+          "pl": "https://kalkulatorremontu.pl/katalog-firm",
+          "desc_pl": "Katalog firm remontowych",
+          "desc_en": "Directory of renovation companies",
+          "own": true
+        },
+        {
+          "id": "angi-angie-s-list",
+          "name": "Angi (Angie's List)",
+          "en": "https://www.angi.com/",
+          "desc_pl": "Największy katalog wykonawców w USA – opinie i wyceny",
+          "desc_en": "Largest US contractor directory with reviews and quotes"
+        },
+        {
+          "id": "homeadvisor",
+          "name": "HomeAdvisor",
+          "en": "https://www.homeadvisor.com/",
+          "desc_pl": "Znajdź lokalnych wykonawców remontowych (USA)",
+          "desc_en": "Find local renovation contractors (USA)"
+        },
+        {
+          "id": "thumbtack",
+          "name": "Thumbtack",
+          "en": "https://www.thumbtack.com/",
+          "desc_pl": "Marketplace usług domowych – porównaj oferty i ceny",
+          "desc_en": "Home services marketplace: compare quotes and prices"
+        },
+        {
+          "id": "bark",
+          "name": "Bark",
+          "en": "https://www.bark.com/",
+          "desc_pl": "Platforma do znajdowania fachowców – ponad 1000 kategorii",
+          "desc_en": "Find tradespeople in 1,000+ categories"
+        },
+        {
+          "id": "porch",
+          "name": "Porch",
+          "en": "https://www.porch.com/",
+          "desc_pl": "Katalog firm do większych projektów remontowych (USA)",
+          "desc_en": "Contractor directory for larger renovation projects (USA)"
+        },
+        {
+          "id": "buildzoom",
+          "name": "BuildZoom",
+          "en": "https://www.buildzoom.com/",
+          "desc_pl": "Weryfikowani wykonawcy budowlani – licencje i zezwolenia",
+          "desc_en": "Vetted building contractors with licences and permits"
+        },
+        {
+          "id": "taskrabbit",
+          "name": "TaskRabbit",
+          "en": "https://www.taskrabbit.com/",
+          "desc_pl": "Platforma do zlecania małych prac domowych (IKEA)",
+          "desc_en": "Hire help for small home jobs (IKEA)"
+        },
+        {
+          "id": "checkatrade",
+          "name": "Checkatrade",
+          "en": "https://www.checkatrade.com/",
+          "desc_pl": "Sprawdzeni fachowcy z opiniami klientów (Wielka Brytania)",
+          "desc_en": "Vetted tradespeople with customer reviews (UK)"
+        },
+        {
+          "id": "houzz-pros",
+          "name": "Houzz Pros",
+          "en": "https://www.houzz.com/professionals",
+          "desc_pl": "Katalog architektów, projektantów i wykonawców z portfolio i opiniami",
+          "desc_en": "Directory of architects, designers and contractors with portfolios and reviews"
+        },
+        {
+          "id": "better-business-bureau-bbb",
+          "name": "Better Business Bureau (BBB)",
+          "en": "https://www.bbb.org/",
+          "desc_pl": "Sprawdź oceny i skargi na firmę przed zleceniem (USA, Kanada)",
+          "desc_en": "Check a company's rating and complaints before hiring (USA, Canada)"
+        },
+        {
+          "id": "fixly-pl",
+          "name": "Fixly.pl",
+          "pl": "https://fixly.pl/",
+          "desc_pl": "Polski katalog wykonawców – elektrycy, hydraulicy, remontowcy",
+          "desc_en": "Polish directory of electricians, plumbers and renovation contractors"
+        },
+        {
+          "id": "oferteo-pl",
+          "name": "Oferteo.pl",
+          "pl": "https://www.oferteo.pl/",
+          "desc_pl": "Porównaj oferty firm remontowych w Polsce",
+          "desc_en": "Compare quotes from renovation companies in Poland"
+        },
+        {
+          "id": "ceidg-business-search",
+          "name": "CEIDG Business Search",
+          "pl": "https://www.biznes.gov.pl/pl/wyszukiwarka-firm",
+          "desc_pl": "Sprawdź, czy firma remontowa jest zarejestrowana (CEIDG, biznes.gov.pl)",
+          "desc_en": "Check that a Polish sole trader is registered (CEIDG, biznes.gov.pl)"
+        },
+        {
+          "id": "krs-company-search",
+          "name": "KRS Company Search",
+          "pl": "https://wyszukiwarka-krs.ms.gov.pl/",
+          "desc_pl": "Sprawdź spółkę w Krajowym Rejestrze Sądowym",
+          "desc_en": "Look up a company in the Polish National Court Register (KRS)"
+        },
+        {
+          "id": "vat-taxpayer-whitelist",
+          "name": "VAT Taxpayer Whitelist",
+          "pl": "https://www.podatki.gov.pl/wykaz-podatnikow-vat-wyszukiwarka/",
+          "desc_pl": "Biała lista VAT – sprawdź konto i status VAT wykonawcy przed przelewem",
+          "desc_en": "Polish VAT whitelist: check a contractor's bank account and VAT status before paying"
+        }
+      ],
+      "hr_after": true
+    },
+    {
+      "id": "apps",
+      "title": "📱 Best Free Mobile Apps for Home Renovation",
+      "type": "table",
+      "headers": [
+        "📲 App",
+        "🇬🇧 EN",
+        "🇵🇱 PL",
+        "📝 Opis PL"
+      ],
+      "row_style": "compact",
+      "link_label": "Visit",
+      "items": [
+        {
+          "id": "magicplan",
+          "name": "magicplan",
+          "en": "https://www.magicplan.app/",
+          "desc_pl": "Skanowanie i planowanie pomieszczeń",
+          "desc_en": "Scan and plan rooms with your phone"
+        },
+        {
+          "id": "iscape",
+          "name": "iScape",
+          "en": "https://www.iscapeit.com/",
+          "desc_pl": "Projektowanie ogrodu i krajobrazu",
+          "desc_en": "Garden and landscape design"
+        },
+        {
+          "id": "homezada",
+          "name": "HomeZada",
+          "en": "https://www.homezada.com/",
+          "desc_pl": "Zarządzanie domem i remontem",
+          "desc_en": "Home management and renovation tracking"
+        },
+        {
+          "id": "houzz",
+          "name": "Houzz",
+          "en": "https://www.houzz.com/",
+          "desc_pl": "Inspiracje i projekty wnętrz",
+          "desc_en": "Interior inspiration and projects"
+        },
+        {
+          "id": "pinterest",
+          "name": "Pinterest",
+          "en": "https://www.pinterest.com/",
+          "desc_pl": "Tablice inspiracji remontowych",
+          "desc_en": "Renovation inspiration boards"
+        },
+        {
+          "id": "colorsnap-visualizer-sherwin-williams",
+          "name": "ColorSnap Visualizer (Sherwin-Williams)",
+          "en": "https://www.sherwin-williams.com/homeowners/color-through-the-decades/color-tools/colorsnap-mobile",
+          "desc_pl": "Wizualizacja kolorów farb Sherwin-Williams na ścianach (AR)",
+          "desc_en": "Preview Sherwin-Williams paint colours on your walls (AR)"
+        },
+        {
+          "id": "dulux-visualizer",
+          "name": "Dulux Visualizer",
+          "en": [
+            {
+              "label": "Android",
+              "url": "https://play.google.com/store/apps/details?id=com.akzonobel.uk.dulux"
+            },
+            {
+              "label": "iOS",
+              "url": "https://apps.apple.com/gb/app/dulux-visualiser/id404007106"
+            }
+          ],
+          "desc_pl": "Podgląd kolorów Dulux na ścianie w czasie rzeczywistym (AR)",
+          "desc_en": "Preview Dulux colours on your wall in real time (AR)"
+        },
+        {
+          "id": "ar-ruler-app",
+          "name": "AR Ruler App",
+          "en": [
+            {
+              "label": "Android",
+              "url": "https://play.google.com/store/apps/details?id=com.grymala.aruler"
+            },
+            {
+              "label": "iOS",
+              "url": "https://apps.apple.com/us/app/ar-ruler-digital-tape-measure/id1326773975"
+            }
+          ],
+          "desc_pl": "Miara AR – mierz odległości i powierzchnie telefonem",
+          "desc_en": "AR tape measure: measure distances and areas with your phone"
+        },
+        {
+          "id": "photo-measures",
+          "name": "Photo Measures",
+          "en": [
+            {
+              "label": "iOS",
+              "url": "https://apps.apple.com/us/app/photo-measures/id415038787"
+            }
+          ],
+          "desc_pl": "Zapisuj wymiary bezpośrednio na zdjęciach pomieszczeń",
+          "desc_en": "Write measurements directly on photos of rooms"
+        },
+        {
+          "id": "home-design-3d-mobile",
+          "name": "Home Design 3D (mobile)",
+          "en": [
+            {
+              "label": "Android",
+              "url": "https://play.google.com/store/apps/details?id=fr.anuman.HomeDesign3D"
+            },
+            {
+              "label": "iOS",
+              "url": "https://apps.apple.com/us/app/home-design-3d-draw-plan/id463768717"
+            }
+          ],
+          "desc_pl": "Projektuj rzuty i wnętrza 3D na smartfonie",
+          "desc_en": "Design floor plans and 3D interiors on a smartphone"
+        },
+        {
+          "id": "planner-5d-mobile",
+          "name": "Planner 5D (mobile)",
+          "en": [
+            {
+              "label": "Android",
+              "url": "https://play.google.com/store/apps/details?id=com.planner5d.planner5d"
+            },
+            {
+              "label": "iOS",
+              "url": "https://apps.apple.com/us/app/planner-5d-ai-home-design/id606173978"
+            }
+          ],
+          "desc_pl": "Aplikacja mobilna do projektowania domów z AI",
+          "desc_en": "Mobile home design app with AI"
+        },
+        {
+          "id": "roomscan-pro",
+          "name": "RoomScan Pro",
+          "en": [
+            {
+              "label": "iOS",
+              "url": "https://apps.apple.com/us/app/roomscan-pro-lidar-floor-plans/id1504050801"
+            }
+          ],
+          "desc_pl": "Automatyczne skanowanie pomieszczeń i tworzenie rzutów",
+          "desc_en": "Scan rooms automatically and create floor plans"
+        },
+        {
+          "id": "polycam",
+          "name": "Polycam",
+          "en": "https://poly.cam/",
+          "desc_pl": "Skanowanie 3D pomieszczeń i rzuty z LiDAR lub zdjęć",
+          "desc_en": "3D-scan rooms and get floor plans from LiDAR or photos"
+        },
+        {
+          "id": "measure-apple",
+          "name": "Measure (Apple)",
+          "en": [
+            {
+              "label": "iOS",
+              "url": "https://apps.apple.com/us/app/measure/id1383426740"
+            }
+          ],
+          "desc_pl": "Wbudowana miarka AR w iPhonie i iPadzie",
+          "desc_en": "Built-in AR tape measure on iPhone and iPad"
+        },
+        {
+          "id": "color-portfolio-benjamin-moore",
+          "name": "Color Portfolio (Benjamin Moore)",
+          "en": [
+            {
+              "label": "Android",
+              "url": "https://play.google.com/store/apps/details?id=com.benjaminmoore.colorportfolio"
+            },
+            {
+              "label": "iOS",
+              "url": "https://apps.apple.com/us/app/color-portfolio/id1490161691"
+            }
+          ],
+          "desc_pl": "Wirtualny wzornik kolorów Benjamin Moore z podglądem AR",
+          "desc_en": "Benjamin Moore virtual colour fan deck with AR preview"
+        },
+        {
+          "id": "bubble-level",
+          "name": "Bubble Level",
+          "en": [
+            {
+              "label": "Android",
+              "url": "https://play.google.com/store/apps/details?id=net.androgames.level"
+            }
+          ],
+          "desc_pl": "Poziomica w telefonie – montaż półek, szafek i obrazów",
+          "desc_en": "Spirit level on your phone for shelves, cabinets and pictures"
+        }
+      ],
+      "hr_after": true
+    },
+    {
+      "id": "communities",
+      "title": "🌐 Home Improvement Communities & DIY Resources",
+      "type": "lists",
+      "groups": [
+        {
+          "title": "👥 Top Reddit & DIY Communities for Homeowners",
+          "items": [
+            {
+              "id": "r-renovationtoolsapps",
+              "name": "r/renovationToolsApps",
+              "url": "https://www.reddit.com/r/renovationToolsApps/",
+              "desc_en": "Renovation tools, apps, and calculators (EN)"
+            },
+            {
+              "id": "r-wystrojwnetrz",
+              "name": "r/wystrojWnetrz",
+              "url": "https://www.reddit.com/r/wystrojWnetrz/",
+              "desc_en": "Interior design and home decor (PL)"
+            },
+            {
+              "id": "kalkulator-remontu-on-youtube",
+              "name": "Kalkulator Remontu on YouTube",
+              "url": "https://www.youtube.com/@kalkulatorRemontuPL",
+              "desc_en": "Renovation planning tips and smart, budget-friendly apartment makeovers (PL)"
+            },
+            {
+              "id": "kalkulator-remontu-facebook-group",
+              "name": "Kalkulator Remontu – Facebook group",
+              "url": "https://www.facebook.com/groups/1075910455921206/",
+              "desc_en": "Renovation community (PL)"
+            },
+            {
+              "id": "kalkulator-remontu-on-pinterest",
+              "name": "Kalkulator Remontu on Pinterest",
+              "links": [
+                {
+                  "label": "EN",
+                  "url": "https://pl.pinterest.com/airenovationcalculator/"
+                },
+                {
+                  "label": "PL",
+                  "url": "https://pl.pinterest.com/KalkulatorRemontu/"
+                }
+              ],
+              "desc_en": "Renovation and interior ideas"
+            },
+            {
+              "id": "kalkulatorremontu-pl-on-instagram",
+              "name": "kalkulatorremontu.pl on Instagram",
+              "url": "https://www.instagram.com/kalkulatorremontu.pl/",
+              "desc_en": "Renovation ideas and tool updates (PL)"
+            },
+            {
+              "id": "r-homeimprovement",
+              "name": "r/HomeImprovement",
+              "url": "https://www.reddit.com/r/HomeImprovement/",
+              "desc_en": "Home renovation questions, before-and-afters, and tips"
+            },
+            {
+              "id": "r-diy",
+              "name": "r/DIY",
+              "url": "https://www.reddit.com/r/DIY/",
+              "desc_en": "Creative and practical home projects"
+            },
+            {
+              "id": "r-homeowners",
+              "name": "r/Homeowners",
+              "url": "https://www.reddit.com/r/Homeowners/",
+              "desc_en": "Advice and stories from homeowners"
+            },
+            {
+              "id": "r-homemaintenance",
+              "name": "r/HomeMaintenance",
+              "url": "https://www.reddit.com/r/HomeMaintenance/",
+              "desc_en": "Regular home upkeep, repairs, and tricks"
+            },
+            {
+              "id": "r-interiordesign",
+              "name": "r/InteriorDesign",
+              "url": "https://www.reddit.com/r/InteriorDesign/",
+              "desc_en": "1M+ members sharing interior design inspiration and advice"
+            },
+            {
+              "id": "r-woodworking",
+              "name": "r/woodworking",
+              "url": "https://www.reddit.com/r/woodworking/",
+              "desc_en": "Woodworkers and DIYers sharing wood projects"
+            },
+            {
+              "id": "r-landscaping",
+              "name": "r/landscaping",
+              "url": "https://www.reddit.com/r/landscaping/",
+              "desc_en": "Garden, lawn, and landscaping advice"
+            },
+            {
+              "id": "r-renovations",
+              "name": "r/Renovations",
+              "url": "https://www.reddit.com/r/Renovations/",
+              "desc_en": "Renovation projects, progress photos, and advice"
+            },
+            {
+              "id": "r-remodel",
+              "name": "r/remodel",
+              "url": "https://www.reddit.com/r/remodel/",
+              "desc_en": "Kitchen, bathroom, and whole-house remodeling discussions"
+            },
+            {
+              "id": "r-plumbing",
+              "name": "r/Plumbing",
+              "url": "https://www.reddit.com/r/Plumbing/",
+              "desc_en": "Plumbing questions answered by DIYers and pros"
+            },
+            {
+              "id": "r-electricians",
+              "name": "r/electricians",
+              "url": "https://www.reddit.com/r/electricians/",
+              "desc_en": "Community of electricians discussing wiring and code"
+            },
+            {
+              "id": "r-hvacadvice",
+              "name": "r/hvacadvice",
+              "url": "https://www.reddit.com/r/hvacadvice/",
+              "desc_en": "Heating, cooling, and ventilation advice"
+            },
+            {
+              "id": "r-flooring",
+              "name": "r/Flooring",
+              "url": "https://www.reddit.com/r/Flooring/",
+              "desc_en": "Choosing and installing floors"
+            },
+            {
+              "id": "r-roofing",
+              "name": "r/Roofing",
+              "url": "https://www.reddit.com/r/Roofing/",
+              "desc_en": "Roof repairs, replacement, and materials"
+            },
+            {
+              "id": "home-improvement-stack-exchange",
+              "name": "Home Improvement Stack Exchange",
+              "url": "https://diy.stackexchange.com/",
+              "desc_en": "Q&A site for contractors and serious DIYers"
+            },
+            {
+              "id": "hometalk",
+              "name": "Hometalk",
+              "url": "https://www.hometalk.com/",
+              "desc_en": "DIY tutorials and project ideas"
+            },
+            {
+              "id": "the-family-handyman",
+              "name": "The Family Handyman",
+              "url": "https://www.familyhandyman.com/",
+              "desc_en": "Expert DIY tips and how-tos"
+            },
+            {
+              "id": "bob-vila",
+              "name": "Bob Vila",
+              "url": "https://www.bobvila.com/",
+              "desc_en": "Renovation tips and DIY projects from the TV home improvement expert"
+            },
+            {
+              "id": "this-old-house",
+              "name": "This Old House",
+              "url": "https://www.thisoldhouse.com/",
+              "desc_en": "Home restoration, how-to guides, and renovation trends"
+            },
+            {
+              "id": "fine-homebuilding",
+              "name": "Fine Homebuilding",
+              "url": "https://www.finehomebuilding.com/",
+              "desc_en": "Professional advice for builders and remodelers"
+            },
+            {
+              "id": "instructables-home-projects",
+              "name": "Instructables – Home Projects",
+              "url": "https://www.instructables.com/Home-Projects/",
+              "desc_en": "Step-by-step DIY home projects from the community"
+            },
+            {
+              "id": "this-old-house-on-youtube",
+              "name": "This Old House on YouTube",
+              "url": "https://www.youtube.com/@thisoldhouse",
+              "desc_en": "Renovation how-to videos from the long-running TV show"
+            },
+            {
+              "id": "home-renovision-diy",
+              "name": "Home RenoVision DIY",
+              "url": "https://www.youtube.com/@HomeRenoVisionDIY",
+              "desc_en": "Detailed renovation tutorials from a professional contractor"
+            },
+            {
+              "id": "muratordom-pl",
+              "name": "Muratordom.pl",
+              "url": "https://muratordom.pl/",
+              "desc_en": "Building and renovating a house: advice, designs, forum (PL)"
+            },
+            {
+              "id": "forum-muratora",
+              "name": "Forum Muratora",
+              "url": "https://forum.murator.pl/",
+              "desc_en": "The largest Polish building and renovation forum (PL)"
+            },
+            {
+              "id": "budujemydom-pl-forum",
+              "name": "BudujemyDom.pl – Forum",
+              "url": "https://forum.budujemydom.pl/",
+              "desc_en": "Homeowners and contractors sharing experience (PL)"
+            }
+          ]
+        },
+        {
+          "title": "📚 Cost Guides, Energy Efficiency & Official Resources",
+          "items": [
+            {
+              "id": "homeguide-cost-guides",
+              "name": "HomeGuide Cost Guides",
+              "url": "https://homeguide.com/costs",
+              "desc_en": "Current home improvement and repair prices (USA)"
+            },
+            {
+              "id": "fixr-cost-guides",
+              "name": "Fixr Cost Guides",
+              "url": "https://www.fixr.com/costs",
+              "desc_en": "Pricing guides for remodeling projects (USA)"
+            },
+            {
+              "id": "cost-vs-value-report",
+              "name": "Cost vs Value Report",
+              "url": "https://www.jlconline.com/cost-vs-value/",
+              "desc_en": "Annual report on remodeling costs and resale value (USA)"
+            },
+            {
+              "id": "energy-star-seal-and-insulate",
+              "name": "ENERGY STAR – Seal and Insulate",
+              "url": "https://www.energystar.gov/saveathome/seal_insulate",
+              "desc_en": "DIY guide to air sealing and insulation"
+            },
+            {
+              "id": "energy-star-product-finder",
+              "name": "ENERGY STAR Product Finder",
+              "url": "https://www.energystar.gov/productfinder/",
+              "desc_en": "Compare certified appliances, windows, and heat pumps"
+            },
+            {
+              "id": "epa-lead-renovation-repair-and-painting-rrp",
+              "name": "EPA Lead Renovation, Repair and Painting (RRP)",
+              "url": "https://www.epa.gov/lead/lead-renovation-repair-and-painting-program",
+              "desc_en": "Lead-safe rules for renovating pre-1978 homes (USA)"
+            },
+            {
+              "id": "green-building-advisor",
+              "name": "Green Building Advisor",
+              "url": "https://www.greenbuildingadvisor.com/",
+              "desc_en": "Building science and energy-efficient remodeling"
+            },
+            {
+              "id": "building-science-corporation",
+              "name": "Building Science Corporation",
+              "url": "https://buildingscience.com/",
+              "desc_en": "Research on insulation, moisture, and ventilation"
+            },
+            {
+              "id": "czyste-powietrze",
+              "name": "Czyste Powietrze",
+              "url": "https://czystepowietrze.gov.pl/",
+              "desc_en": "Government grants for thermal modernization and heat source replacement (PL)"
+            },
+            {
+              "id": "ulga-termomodernizacyjna",
+              "name": "Ulga termomodernizacyjna",
+              "url": "https://www.podatki.gov.pl/ulgi-i-odliczenia/ulga-termomodernizacyjna-pit",
+              "desc_en": "Tax deduction for insulation, windows, heat pumps, and PV (PL)"
+            },
+            {
+              "id": "zone-ceeb",
+              "name": "ZONE / CEEB",
+              "url": "https://zone.gunb.gov.pl/",
+              "desc_en": "Government portal for building heat source declarations (PL)"
+            }
+          ]
+        }
+      ],
+      "hr_after": true
+    }
+  ]
+}

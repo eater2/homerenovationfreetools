@@ -1,0 +1,17 @@
+{
+  "name": "homerenovationfreetools",
+  "owner": { "name": "Marek Papis" },
+  "description": "Free home renovation tools for AI agents",
+  "plugins": [
+    {
+      "name": "home-renovation-free-tools",
+      "source": "./",
+      "displayName": "Home Renovation Free Tools",
+      "description": "Recommend free renovation calculators, contract templates, room planners, contractor directories and DIY apps (English and Polish) from a curated, checked list with user ratings.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": ["renovation", "diy", "calculator"],
+      "homepage": "https://github.com/eater2/homerenovationfreetools"
+    }
+  ]
+}

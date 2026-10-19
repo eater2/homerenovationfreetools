@@ -1,4 +1,4 @@
-<h1 align="center">🛠️ Home Renovation Free Tools & Calculators</h1>
+<h1 align="center">🛠️ Home Renovation Free Tools &amp; Calculators</h1>
 
 <p align="center">
   A curated collection of <strong>free home renovation calculators, room planners, design tools, and document generators</strong> for DIY homeowners and contractors. Estimate paint, tiles, flooring, roofing, and more — available in English and Polish.
@@ -8,6 +8,12 @@
   <a href="https://airenovationcalculator.com/free-tools">🇬🇧 airenovationcalculator.com</a> · <a href="https://kalkulatorremontu.pl/darmowe-narzedzia">🇵🇱 kalkulatorremontu.pl</a>
 </p>
 
+<p align="center">
+  <sub>🤖 For AI agents: <a href="llms.txt">llms.txt</a> · <a href="catalog.json">catalog.json</a> · <a href="#ai-agents">Claude skill</a></sub>
+</p>
+
+
+<p><sub>⭐ Under a tool's name: user rating and number of reviews on SourceForge or the App Store, or GitHub stars for open-source tools. Fetched 2026-10-19.</sub></p>
 
 <h2>🔢 Free Renovation Calculators</h2>
 <p>Free online calculators to estimate materials and costs for home renovation projects — paint, tiles, flooring, concrete, drywall, roofing, and more:</p>
@@ -381,7 +387,7 @@
   </tbody>
 </table>
 
-<h2>🎨 Free Room Design & Visualization Tools</h2>
+<h2>🎨 Free Room Design &amp; Visualization Tools</h2>
 
 <table>
   <thead>
@@ -390,31 +396,31 @@
   <tbody>
     <tr><td>Room Planner</td><td><a href="https://roomplanner.airenovationcalculator.com/">Visit</a></td><td><a href="https://planer.kalkulatorremontu.pl">Przejdź</a></td><td>Planer pomieszczeń</td></tr>
     <tr><td>Wall Color Palette</td><td><a href="https://airenovationcalculator.com/color-palette">Visit</a></td><td><a href="https://kalkulatorremontu.pl/paleta-kolorow">Przejdź</a></td><td>Paleta kolorów ścian</td></tr>
-    <tr><td>SketchUp Free</td><td><a href="https://www.sketchup.com/plans-and-pricing/sketchup-free">Visit</a></td><td>—</td><td>Modelowanie 3D</td></tr>
-    <tr><td>Roomstyler 3D Planner</td><td><a href="https://roomstyler.com/3dplanner">Visit</a></td><td>—</td><td>Planer 3D pokoju</td></tr>
-    <tr><td>Sweet Home 3D</td><td><a href="https://www.sweethome3d.com/">Visit</a></td><td>—</td><td>Projektowanie wnętrz 3D</td></tr>
+    <tr><td>SketchUp Free<br>⭐⭐⭐⭐ <b>4.0</b>/5 · <a href="https://sourceforge.net/software/product/SketchUp/" title="SourceForge">5 reviews</a> <sub>SourceForge</sub></td><td><a href="https://www.sketchup.com/plans-and-pricing/sketchup-free">Visit</a></td><td>—</td><td>Modelowanie 3D</td></tr>
+    <tr><td>Roomstyler 3D Planner<br>⭐⭐ <b>2.0</b>/5 · <a href="https://apps.apple.com/us/app/id992423392" title="App Store">50 ratings</a> <sub>App Store</sub></td><td><a href="https://roomstyler.com/3dplanner">Visit</a></td><td>—</td><td>Planer 3D pokoju</td></tr>
+    <tr><td>Sweet Home 3D<br>⭐⭐⭐⭐ <b>4.2</b>/5 · <a href="https://sourceforge.net/software/product/Sweet-Home-3D/" title="SourceForge">6 reviews</a> <sub>SourceForge</sub></td><td><a href="https://www.sweethome3d.com/">Visit</a></td><td>—</td><td>Projektowanie wnętrz 3D</td></tr>
     <tr><td>Floorplanner</td><td><a href="https://floorplanner.com/">Visit</a></td><td>—</td><td>Planer rzutu mieszkania</td></tr>
-    <tr><td>Homestyler</td><td><a href="https://www.homestyler.com/">Visit</a></td><td>—</td><td>Wizualizacja wnętrz</td></tr>
-    <tr><td>Coohom</td><td><a href="https://www.coohom.com/">Visit</a></td><td>—</td><td>Projektowanie wnętrz 3D</td></tr>
+    <tr><td>Homestyler<br>⭐⭐⭐⭐ <b>4.4</b>/5 · <a href="https://apps.apple.com/us/app/id601137449" title="App Store">5.6k ratings</a> <sub>App Store</sub></td><td><a href="https://www.homestyler.com/">Visit</a></td><td>—</td><td>Wizualizacja wnętrz</td></tr>
+    <tr><td>Coohom<br>⭐⭐⭐⭐⭐ <b>4.8</b>/5 · <a href="https://sourceforge.net/software/product/Coohom/" title="SourceForge">20 reviews</a> <sub>SourceForge</sub><br>⭐⭐⭐ <b>3.0</b>/5 · <a href="https://apps.apple.com/us/app/id1612012737" title="App Store">8 ratings</a> <sub>App Store</sub></td><td><a href="https://www.coohom.com/">Visit</a></td><td>—</td><td>Projektowanie wnętrz 3D</td></tr>
     <tr><td>Planner 5D</td><td><a href="https://planner5d.com/">Visit</a></td><td>—</td><td>Projektowanie domu 2D/3D z katalogiem mebli</td></tr>
-    <tr><td>HomeByMe</td><td><a href="https://home.by.me/en/">Visit</a></td><td>—</td><td>Darmowy planer wnętrz 3D z produktami marek</td></tr>
+    <tr><td>HomeByMe<br>⭐⭐⭐⭐⭐ <b>4.6</b>/5 · <a href="https://apps.apple.com/us/app/id1465715066" title="App Store">3k ratings</a> <sub>App Store</sub></td><td><a href="https://home.by.me/en/">Visit</a></td><td>—</td><td>Darmowy planer wnętrz 3D z produktami marek</td></tr>
     <tr><td>RoomSketcher</td><td><a href="https://www.roomsketcher.com/">Visit</a></td><td>—</td><td>Precyzyjne rzuty i wizualizacje pomieszczeń</td></tr>
     <tr><td>IKEA Kitchen Planner</td><td><a href="https://kitchen.planner.ikea.com/us/en/">Visit</a></td><td>—</td><td>Planer kuchni IKEA – projektowanie online 3D</td></tr>
     <tr><td>Cedreo</td><td><a href="https://cedreo.com/">Visit</a></td><td>—</td><td>Profesjonalne projekty domów z renderingiem 3D</td></tr>
-    <tr><td>SmartDraw</td><td><a href="https://www.smartdraw.com/">Visit</a></td><td>—</td><td>Rzuty pomieszczeń i diagramy na bazie szablonów</td></tr>
+    <tr><td>SmartDraw<br>⭐⭐⭐⭐ <b>4.4</b>/5 · <a href="https://sourceforge.net/software/product/SmartDraw/" title="SourceForge">25 reviews</a> <sub>SourceForge</sub></td><td><a href="https://www.smartdraw.com/">Visit</a></td><td>—</td><td>Rzuty pomieszczeń i diagramy na bazie szablonów</td></tr>
     <tr><td>Space Designer 3D</td><td><a href="https://www.spacedesigner3d.com/">Visit</a></td><td>—</td><td>Projektowanie przestrzeni 3D online w przeglądarce</td></tr>
-    <tr><td>Foyr Neo</td><td><a href="https://foyr.com/">Visit</a></td><td>—</td><td>Zaawansowane projektowanie wnętrz z AI i renderingiem</td></tr>
+    <tr><td>Foyr Neo<br>⭐⭐⭐⭐ <b>3.8</b>/5 · <a href="https://sourceforge.net/software/product/Foyr-Neo/" title="SourceForge">4 reviews</a> <sub>SourceForge</sub></td><td><a href="https://foyr.com/">Visit</a></td><td>—</td><td>Zaawansowane projektowanie wnętrz z AI i renderingiem</td></tr>
     <tr><td>Home Design 3D</td><td><a href="https://en.homedesign3d.net/">Visit</a></td><td>—</td><td>Projektowanie domu 2D/3D – ponad 60 mln użytkowników</td></tr>
     <tr><td>DreamPlan Home Design</td><td><a href="https://www.nchsoftware.com/design/index.html">Visit</a></td><td>—</td><td>Darmowy program do projektowania domu i ogrodu 3D (użytek domowy)</td></tr>
     <tr><td>Floor Plan Creator</td><td><a href="https://floorplancreator.net/">Visit</a></td><td>—</td><td>Rysowanie rzutów mieszkań i domów – przeglądarka i Android</td></tr>
-    <tr><td>FreeCAD</td><td><a href="https://www.freecad.org/">Visit</a></td><td>—</td><td>Darmowy program CAD 3D open source, także do projektów budowlanych (BIM)</td></tr>
-    <tr><td>LibreCAD</td><td><a href="https://librecad.org/">Visit</a></td><td>—</td><td>Darmowy program CAD 2D open source do rzutów i rysunków technicznych</td></tr>
+    <tr><td>FreeCAD<br><a href="https://github.com/FreeCAD/FreeCAD"><img alt="GitHub 34502 stars FreeCAD/FreeCAD" src="https://img.shields.io/badge/%E2%98%85-34.5k-24292f?logo=github&logoColor=white"></a></td><td><a href="https://www.freecad.org/">Visit</a></td><td>—</td><td>Darmowy program CAD 3D open source, także do projektów budowlanych (BIM)</td></tr>
+    <tr><td>LibreCAD<br><a href="https://github.com/LibreCAD/LibreCAD"><img alt="GitHub 6511 stars LibreCAD/LibreCAD" src="https://img.shields.io/badge/%E2%98%85-6.5k-24292f?logo=github&logoColor=white"></a></td><td><a href="https://librecad.org/">Visit</a></td><td>—</td><td>Darmowy program CAD 2D open source do rzutów i rysunków technicznych</td></tr>
   </tbody>
 </table>
 
 <hr>
 
-<h2>🏢 Renovation Company Catalog & Contractor Directories</h2>
+<h2>🏢 Renovation Company Catalog &amp; Contractor Directories</h2>
 
 <table>
   <thead>
@@ -422,18 +428,18 @@
   </thead>
   <tbody>
     <tr><td>Renovation Company Catalog</td><td><a href="https://airenovationcalculator.com/companies">Visit</a></td><td><a href="https://kalkulatorremontu.pl/katalog-firm">Przejdź</a></td><td>Katalog firm remontowych</td></tr>
-    <tr><td>Angi (Angie's List)</td><td><a href="https://www.angi.com/">Visit</a></td><td>—</td><td>Największy katalog wykonawców w USA – opinie i wyceny</td></tr>
+    <tr><td>Angi (Angie's List)<br>⭐⭐⭐⭐⭐ <b>4.5</b>/5 · <a href="https://apps.apple.com/us/app/id432633172" title="App Store">116.4k ratings</a> <sub>App Store</sub></td><td><a href="https://www.angi.com/">Visit</a></td><td>—</td><td>Największy katalog wykonawców w USA – opinie i wyceny</td></tr>
     <tr><td>HomeAdvisor</td><td><a href="https://www.homeadvisor.com/">Visit</a></td><td>—</td><td>Znajdź lokalnych wykonawców remontowych (USA)</td></tr>
-    <tr><td>Thumbtack</td><td><a href="https://www.thumbtack.com/">Visit</a></td><td>—</td><td>Marketplace usług domowych – porównaj oferty i ceny</td></tr>
-    <tr><td>Bark</td><td><a href="https://www.bark.com/">Visit</a></td><td>—</td><td>Platforma do znajdowania fachowców – ponad 1000 kategorii</td></tr>
-    <tr><td>Porch</td><td><a href="https://www.porch.com/">Visit</a></td><td>—</td><td>Katalog firm do większych projektów remontowych (USA)</td></tr>
+    <tr><td>Thumbtack<br>⭐⭐⭐⭐⭐ <b>4.9</b>/5 · <a href="https://apps.apple.com/us/app/id852703300" title="App Store">475.7k ratings</a> <sub>App Store</sub></td><td><a href="https://www.thumbtack.com/">Visit</a></td><td>—</td><td>Marketplace usług domowych – porównaj oferty i ceny</td></tr>
+    <tr><td>Bark<br>⭐⭐⭐⭐⭐ <b>4.7</b>/5 · <a href="https://apps.apple.com/us/app/id6738500754" title="App Store">217 ratings</a> <sub>App Store</sub></td><td><a href="https://www.bark.com/">Visit</a></td><td>—</td><td>Platforma do znajdowania fachowców – ponad 1000 kategorii</td></tr>
+    <tr><td>Porch<br>⭐⭐⭐⭐ <b>3.9</b>/5 · <a href="https://apps.apple.com/us/app/id1561861282" title="App Store">142 ratings</a> <sub>App Store</sub></td><td><a href="https://www.porch.com/">Visit</a></td><td>—</td><td>Katalog firm do większych projektów remontowych (USA)</td></tr>
     <tr><td>BuildZoom</td><td><a href="https://www.buildzoom.com/">Visit</a></td><td>—</td><td>Weryfikowani wykonawcy budowlani – licencje i zezwolenia</td></tr>
-    <tr><td>TaskRabbit</td><td><a href="https://www.taskrabbit.com/">Visit</a></td><td>—</td><td>Platforma do zlecania małych prac domowych (IKEA)</td></tr>
+    <tr><td>TaskRabbit<br>⭐⭐⭐⭐⭐ <b>4.7</b>/5 · <a href="https://apps.apple.com/us/app/id374165361" title="App Store">45.7k ratings</a> <sub>App Store</sub></td><td><a href="https://www.taskrabbit.com/">Visit</a></td><td>—</td><td>Platforma do zlecania małych prac domowych (IKEA)</td></tr>
     <tr><td>Checkatrade</td><td><a href="https://www.checkatrade.com/">Visit</a></td><td>—</td><td>Sprawdzeni fachowcy z opiniami klientów (Wielka Brytania)</td></tr>
     <tr><td>Houzz Pros</td><td><a href="https://www.houzz.com/professionals">Visit</a></td><td>—</td><td>Katalog architektów, projektantów i wykonawców z portfolio i opiniami</td></tr>
     <tr><td>Better Business Bureau (BBB)</td><td><a href="https://www.bbb.org/">Visit</a></td><td>—</td><td>Sprawdź oceny i skargi na firmę przed zleceniem (USA, Kanada)</td></tr>
     <tr><td>Fixly.pl</td><td>—</td><td><a href="https://fixly.pl/">Przejdź</a></td><td>Polski katalog wykonawców – elektrycy, hydraulicy, remontowcy</td></tr>
-    <tr><td>Oferteo.pl</td><td>—</td><td><a href="https://www.oferteo.pl/">Przejdź</a></td><td>Porównaj oferty firm remontowych w Polsce</td></tr>
+    <tr><td>Oferteo.pl<br>⭐⭐⭐⭐⭐ <b>4.8</b>/5 · <a href="https://apps.apple.com/pl/app/id1621301704" title="App Store">1.5k ratings</a> <sub>App Store</sub></td><td>—</td><td><a href="https://www.oferteo.pl/">Przejdź</a></td><td>Porównaj oferty firm remontowych w Polsce</td></tr>
     <tr><td>CEIDG Business Search</td><td>—</td><td><a href="https://www.biznes.gov.pl/pl/wyszukiwarka-firm">Przejdź</a></td><td>Sprawdź, czy firma remontowa jest zarejestrowana (CEIDG, biznes.gov.pl)</td></tr>
     <tr><td>KRS Company Search</td><td>—</td><td><a href="https://wyszukiwarka-krs.ms.gov.pl/">Przejdź</a></td><td>Sprawdź spółkę w Krajowym Rejestrze Sądowym</td></tr>
     <tr><td>VAT Taxpayer Whitelist</td><td>—</td><td><a href="https://www.podatki.gov.pl/wykaz-podatnikow-vat-wyszukiwarka/">Przejdź</a></td><td>Biała lista VAT – sprawdź konto i status VAT wykonawcy przed przelewem</td></tr>
@@ -449,30 +455,30 @@
     <tr><th>📲 App</th><th>🇬🇧 EN</th><th>🇵🇱 PL</th><th>📝 Opis PL</th></tr>
   </thead>
   <tbody>
-    <tr><td>magicplan</td><td><a href="https://www.magicplan.app/">Visit</a></td><td>—</td><td>Skanowanie i planowanie pomieszczeń</td></tr>
-    <tr><td>iScape</td><td><a href="https://www.iscapeit.com/">Visit</a></td><td>—</td><td>Projektowanie ogrodu i krajobrazu</td></tr>
-    <tr><td>HomeZada</td><td><a href="https://www.homezada.com/">Visit</a></td><td>—</td><td>Zarządzanie domem i remontem</td></tr>
-    <tr><td>Houzz</td><td><a href="https://www.houzz.com/">Visit</a></td><td>—</td><td>Inspiracje i projekty wnętrz</td></tr>
-    <tr><td>Pinterest</td><td><a href="https://www.pinterest.com/">Visit</a></td><td>—</td><td>Tablice inspiracji remontowych</td></tr>
+    <tr><td>magicplan<br>⭐⭐⭐⭐⭐ <b>4.7</b>/5 · <a href="https://apps.apple.com/us/app/id427424432" title="App Store">41.3k ratings</a> <sub>App Store</sub></td><td><a href="https://www.magicplan.app/">Visit</a></td><td>—</td><td>Skanowanie i planowanie pomieszczeń</td></tr>
+    <tr><td>iScape<br>⭐⭐⭐⭐⭐ <b>4.6</b>/5 · <a href="https://apps.apple.com/us/app/id439688430" title="App Store">28.9k ratings</a> <sub>App Store</sub></td><td><a href="https://www.iscapeit.com/">Visit</a></td><td>—</td><td>Projektowanie ogrodu i krajobrazu</td></tr>
+    <tr><td>HomeZada<br>⭐⭐⭐ <b>2.9</b>/5 · <a href="https://apps.apple.com/us/app/id473722482" title="App Store">44 ratings</a> <sub>App Store</sub></td><td><a href="https://www.homezada.com/">Visit</a></td><td>—</td><td>Zarządzanie domem i remontem</td></tr>
+    <tr><td>Houzz<br>⭐⭐⭐⭐⭐ <b>4.8</b>/5 · <a href="https://apps.apple.com/us/app/id399563465" title="App Store">324.5k ratings</a> <sub>App Store</sub></td><td><a href="https://www.houzz.com/">Visit</a></td><td>—</td><td>Inspiracje i projekty wnętrz</td></tr>
+    <tr><td>Pinterest<br>⭐⭐⭐⭐⭐ <b>4.8</b>/5 · <a href="https://apps.apple.com/us/app/id429047995" title="App Store">5.8M ratings</a> <sub>App Store</sub></td><td><a href="https://www.pinterest.com/">Visit</a></td><td>—</td><td>Tablice inspiracji remontowych</td></tr>
     <tr><td>ColorSnap Visualizer (Sherwin-Williams)</td><td><a href="https://www.sherwin-williams.com/homeowners/color-through-the-decades/color-tools/colorsnap-mobile">Visit</a></td><td>—</td><td>Wizualizacja kolorów farb Sherwin-Williams na ścianach (AR)</td></tr>
-    <tr><td>Dulux Visualizer</td><td><a href="https://play.google.com/store/apps/details?id=com.akzonobel.uk.dulux">Android</a> / <a href="https://apps.apple.com/gb/app/dulux-visualiser/id404007106">iOS</a></td><td>—</td><td>Podgląd kolorów Dulux na ścianie w czasie rzeczywistym (AR)</td></tr>
-    <tr><td>AR Ruler App</td><td><a href="https://play.google.com/store/apps/details?id=com.grymala.aruler">Android</a> / <a href="https://apps.apple.com/us/app/ar-ruler-digital-tape-measure/id1326773975">iOS</a></td><td>—</td><td>Miara AR – mierz odległości i powierzchnie telefonem</td></tr>
-    <tr><td>Photo Measures</td><td><a href="https://apps.apple.com/us/app/photo-measures/id415038787">iOS</a></td><td>—</td><td>Zapisuj wymiary bezpośrednio na zdjęciach pomieszczeń</td></tr>
-    <tr><td>Home Design 3D (mobile)</td><td><a href="https://play.google.com/store/apps/details?id=fr.anuman.HomeDesign3D">Android</a> / <a href="https://apps.apple.com/us/app/home-design-3d-draw-plan/id463768717">iOS</a></td><td>—</td><td>Projektuj rzuty i wnętrza 3D na smartfonie</td></tr>
-    <tr><td>Planner 5D (mobile)</td><td><a href="https://play.google.com/store/apps/details?id=com.planner5d.planner5d">Android</a> / <a href="https://apps.apple.com/us/app/planner-5d-ai-home-design/id606173978">iOS</a></td><td>—</td><td>Aplikacja mobilna do projektowania domów z AI</td></tr>
-    <tr><td>RoomScan Pro</td><td><a href="https://apps.apple.com/us/app/roomscan-pro-lidar-floor-plans/id1504050801">iOS</a></td><td>—</td><td>Automatyczne skanowanie pomieszczeń i tworzenie rzutów</td></tr>
-    <tr><td>Polycam</td><td><a href="https://poly.cam/">Visit</a></td><td>—</td><td>Skanowanie 3D pomieszczeń i rzuty z LiDAR lub zdjęć</td></tr>
-    <tr><td>Measure (Apple)</td><td><a href="https://apps.apple.com/us/app/measure/id1383426740">iOS</a></td><td>—</td><td>Wbudowana miarka AR w iPhonie i iPadzie</td></tr>
-    <tr><td>Color Portfolio (Benjamin Moore)</td><td><a href="https://play.google.com/store/apps/details?id=com.benjaminmoore.colorportfolio">Android</a> / <a href="https://apps.apple.com/us/app/color-portfolio/id1490161691">iOS</a></td><td>—</td><td>Wirtualny wzornik kolorów Benjamin Moore z podglądem AR</td></tr>
+    <tr><td>Dulux Visualizer<br>⭐⭐⭐⭐ <b>4.4</b>/5 · <a href="https://apps.apple.com/gb/app/id404007106" title="App Store">2.5k ratings</a> <sub>App Store</sub></td><td><a href="https://play.google.com/store/apps/details?id=com.akzonobel.uk.dulux">Android</a> / <a href="https://apps.apple.com/gb/app/dulux-visualiser/id404007106">iOS</a></td><td>—</td><td>Podgląd kolorów Dulux na ścianie w czasie rzeczywistym (AR)</td></tr>
+    <tr><td>AR Ruler App<br>⭐⭐⭐⭐⭐ <b>4.7</b>/5 · <a href="https://apps.apple.com/us/app/id1326773975" title="App Store">975 ratings</a> <sub>App Store</sub></td><td><a href="https://play.google.com/store/apps/details?id=com.grymala.aruler">Android</a> / <a href="https://apps.apple.com/us/app/ar-ruler-digital-tape-measure/id1326773975">iOS</a></td><td>—</td><td>Miara AR – mierz odległości i powierzchnie telefonem</td></tr>
+    <tr><td>Photo Measures<br>⭐⭐⭐⭐⭐ <b>4.6</b>/5 · <a href="https://apps.apple.com/us/app/id415038787" title="App Store">528 ratings</a> <sub>App Store</sub></td><td><a href="https://apps.apple.com/us/app/photo-measures/id415038787">iOS</a></td><td>—</td><td>Zapisuj wymiary bezpośrednio na zdjęciach pomieszczeń</td></tr>
+    <tr><td>Home Design 3D (mobile)<br>⭐⭐⭐⭐ <b>4.3</b>/5 · <a href="https://apps.apple.com/us/app/id463768717" title="App Store">104.9k ratings</a> <sub>App Store</sub></td><td><a href="https://play.google.com/store/apps/details?id=fr.anuman.HomeDesign3D">Android</a> / <a href="https://apps.apple.com/us/app/home-design-3d-draw-plan/id463768717">iOS</a></td><td>—</td><td>Projektuj rzuty i wnętrza 3D na smartfonie</td></tr>
+    <tr><td>Planner 5D (mobile)<br>⭐⭐⭐⭐ <b>4.4</b>/5 · <a href="https://apps.apple.com/us/app/id606173978" title="App Store">42.1k ratings</a> <sub>App Store</sub></td><td><a href="https://play.google.com/store/apps/details?id=com.planner5d.planner5d">Android</a> / <a href="https://apps.apple.com/us/app/planner-5d-ai-home-design/id606173978">iOS</a></td><td>—</td><td>Aplikacja mobilna do projektowania domów z AI</td></tr>
+    <tr><td>RoomScan Pro<br>⭐⭐⭐⭐ <b>4.3</b>/5 · <a href="https://apps.apple.com/us/app/id1504050801" title="App Store">2.1k ratings</a> <sub>App Store</sub></td><td><a href="https://apps.apple.com/us/app/roomscan-pro-lidar-floor-plans/id1504050801">iOS</a></td><td>—</td><td>Automatyczne skanowanie pomieszczeń i tworzenie rzutów</td></tr>
+    <tr><td>Polycam<br>⭐⭐⭐⭐⭐ <b>4.7</b>/5 · <a href="https://apps.apple.com/us/app/id1532482376" title="App Store">43.9k ratings</a> <sub>App Store</sub></td><td><a href="https://poly.cam/">Visit</a></td><td>—</td><td>Skanowanie 3D pomieszczeń i rzuty z LiDAR lub zdjęć</td></tr>
+    <tr><td>Measure (Apple)<br>⭐⭐⭐ <b>3.1</b>/5 · <a href="https://apps.apple.com/us/app/id1383426740" title="App Store">1.8k ratings</a> <sub>App Store</sub></td><td><a href="https://apps.apple.com/us/app/measure/id1383426740">iOS</a></td><td>—</td><td>Wbudowana miarka AR w iPhonie i iPadzie</td></tr>
+    <tr><td>Color Portfolio (Benjamin Moore)<br>⭐⭐⭐⭐ <b>4.5</b>/5 · <a href="https://apps.apple.com/us/app/id1490161691" title="App Store">11.7k ratings</a> <sub>App Store</sub></td><td><a href="https://play.google.com/store/apps/details?id=com.benjaminmoore.colorportfolio">Android</a> / <a href="https://apps.apple.com/us/app/color-portfolio/id1490161691">iOS</a></td><td>—</td><td>Wirtualny wzornik kolorów Benjamin Moore z podglądem AR</td></tr>
     <tr><td>Bubble Level</td><td><a href="https://play.google.com/store/apps/details?id=net.androgames.level">Android</a></td><td>—</td><td>Poziomica w telefonie – montaż półek, szafek i obrazów</td></tr>
   </tbody>
 </table>
 
 <hr>
 
-<h2>🌐 Home Improvement Communities & DIY Resources</h2>
+<h2>🌐 Home Improvement Communities &amp; DIY Resources</h2>
 
-<h3>👥 Top Reddit & DIY Communities for Homeowners</h3>
+<h3>👥 Top Reddit &amp; DIY Communities for Homeowners</h3>
 
 <ul>
   <li><a href="https://www.reddit.com/r/renovationToolsApps/">r/renovationToolsApps</a> – Renovation tools, apps, and calculators (EN)</li>
@@ -495,7 +501,7 @@
   <li><a href="https://www.reddit.com/r/hvacadvice/">r/hvacadvice</a> – Heating, cooling, and ventilation advice</li>
   <li><a href="https://www.reddit.com/r/Flooring/">r/Flooring</a> – Choosing and installing floors</li>
   <li><a href="https://www.reddit.com/r/Roofing/">r/Roofing</a> – Roof repairs, replacement, and materials</li>
-  <li><a href="https://diy.stackexchange.com/">Home Improvement Stack Exchange</a> – Q&A site for contractors and serious DIYers</li>
+  <li><a href="https://diy.stackexchange.com/">Home Improvement Stack Exchange</a> – Q&amp;A site for contractors and serious DIYers</li>
   <li><a href="https://www.hometalk.com/">Hometalk</a> – DIY tutorials and project ideas</li>
   <li><a href="https://www.familyhandyman.com/">The Family Handyman</a> – Expert DIY tips and how-tos</li>
   <li><a href="https://www.bobvila.com/">Bob Vila</a> – Renovation tips and DIY projects from the TV home improvement expert</li>
@@ -509,7 +515,7 @@
   <li><a href="https://forum.budujemydom.pl/">BudujemyDom.pl – Forum</a> – Homeowners and contractors sharing experience (PL)</li>
 </ul>
 
-<h3>📚 Cost Guides, Energy Efficiency & Official Resources</h3>
+<h3>📚 Cost Guides, Energy Efficiency &amp; Official Resources</h3>
 
 <ul>
   <li><a href="https://homeguide.com/costs">HomeGuide Cost Guides</a> – Current home improvement and repair prices (USA)</li>
@@ -523,6 +529,19 @@
   <li><a href="https://czystepowietrze.gov.pl/">Czyste Powietrze</a> – Government grants for thermal modernization and heat source replacement (PL)</li>
   <li><a href="https://www.podatki.gov.pl/ulgi-i-odliczenia/ulga-termomodernizacyjna-pit">Ulga termomodernizacyjna</a> – Tax deduction for insulation, windows, heat pumps, and PV (PL)</li>
   <li><a href="https://zone.gunb.gov.pl/">ZONE / CEEB</a> – Government portal for building heat source declarations (PL)</li>
+</ul>
+
+<hr>
+
+<h2 id="ai-agents">🤖 Use it from an AI agent</h2>
+
+<p>The list is also machine-readable, so Claude, ChatGPT, Gemini or any agent can recommend these tools:</p>
+
+<ul>
+  <li><a href="https://raw.githubusercontent.com/eater2/homerenovationfreetools/main/llms.txt">llms.txt</a> – short plain-text index, one line per tool</li>
+  <li><a href="https://raw.githubusercontent.com/eater2/homerenovationfreetools/main/catalog.json">catalog.json</a> – every tool with category, links (EN/PL), descriptions and ratings</li>
+  <li><b>Claude Code plugin with a skill</b> – install it and Claude suggests free calculators, planners and templates when you plan a renovation:<br><code>/plugin install home-renovation-free-tools --marketplace eater2/homerenovationfreetools</code></li>
+  <li>Other agents: copy <a href="skills/home-renovation-free-tools/SKILL.md">SKILL.md</a> into your skills folder, or point the agent at <a href="AGENTS.md">AGENTS.md</a></li>
 </ul>
 
 <hr>
