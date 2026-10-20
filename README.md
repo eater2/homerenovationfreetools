@@ -65,12 +65,6 @@
       <td>Kalkulatory PRO dla fachowców – elektryka, klimatyzacja, glazura, pompy ciepła i inne</td>
     </tr>
     <tr>
-      <td>Roof Cost Data</td>
-      <td><a href="https://roofcostdata.com/roof-replacement-cost-calculator">Go to Tool</a></td>
-      <td>—</td>
-      <td>Kalkulator zakresu kosztów wymiany dachu w USA według powierzchni, materiału, lokalizacji i demontażu</td>
-    </tr>
-    <tr>
       <td>Flooring Calculator</td>
       <td><a href="https://measuresquare.com/tools/flooring-calculator/">Go to Tool</a></td>
       <td>—</td>
@@ -111,6 +105,12 @@
       <td><a href="https://www.calculator.net/roofing-calculator.html">Go to Tool</a></td>
       <td>—</td>
       <td>Kalkulator pokrycia dachowego</td>
+    </tr>
+    <tr>
+      <td>Roof Cost Data</td>
+      <td><a href="https://roofcostdata.com/roof-replacement-cost-calculator">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator zakresu kosztów wymiany dachu w USA według powierzchni, materiału, lokalizacji i demontażu</td>
     </tr>
     <tr>
       <td>Decking Calculator</td>

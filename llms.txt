@@ -14,7 +14,6 @@ Fields per line: name | English link | Polish link | what it does | rating (when
 - Interior Design Quote Calculator [own] | https://airenovationcalculator.com/interior-design | https://kalkulatorremontu.pl/dla-projektantow-wnetrz | Pricing calculator for interior designers and architects quoting a project
 - Damage Assessment Calculator [own] | https://airenovationcalculator.com/damage-assessment | https://kalkulatorremontu.pl/wyceny-szkod | Cost of flood or fire damage, with documentation for the insurer
 - PRO Calculators for Contractors [own] | https://airenovationcalculator.com/pro-calculators | https://kalkulatorremontu.pl/pro | PRO calculators for trades: electrical, air conditioning, tiling, heat pumps and more
-- Roof Cost Data | https://roofcostdata.com/roof-replacement-cost-calculator | - | US roof replacement cost range by roof size, material, location and tear-off choice
 - Flooring Calculator | https://measuresquare.com/tools/flooring-calculator/ | - | Flooring quantity for a room
 - Concrete Calculator | https://www.inchcalculator.com/concrete-calculator/ | - | Concrete volume for slabs, footings and columns
 - Concrete Calculator Hub | https://concreteestimatorhub.com/ | - | Concrete bags, volume and cost, ready-mix vs bags
@@ -22,6 +21,7 @@ Fields per line: name | English link | Polish link | what it does | rating (when
 - Stud Calculator | https://dashcalculator.com/calculators/stud | - | Wall stud count and positions at 16" or 24" on centre
 - Insulation Calculator | https://www.omnicalculator.com/construction/insulation | - | Insulation quantity for walls, attics and floors
 - Roofing Calculator | https://www.calculator.net/roofing-calculator.html | - | Roofing material quantity (squares, shingles)
+- Roof Cost Data | https://roofcostdata.com/roof-replacement-cost-calculator | - | US roof replacement cost range by roof size, material, location and tear-off choice
 - Decking Calculator | https://www.omnicalculator.com/construction/decking | - | Deck boards, joists and fasteners for a deck
 - Fencing Calculator | https://www.omnicalculator.com/construction/fence | - | Posts, rails and pickets for a fence
 - Wallpaper Calculator | https://www.omnicalculator.com/construction/wallpaper | - | Wallpaper rolls for a room
