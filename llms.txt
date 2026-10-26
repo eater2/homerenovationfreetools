@@ -96,10 +96,10 @@ Fields per line: name | English link | Polish link | what it does | rating (when
 - Roomstyler 3D Planner | https://roomstyler.com/3dplanner | - | 3D room planner | 2.0/5 from 50 (appstore)
 - Sweet Home 3D | https://www.sweethome3d.com/ | - | 3D interior design (desktop and online) | 4.2/5 from 6 (sourceforge)
 - Floorplanner | https://floorplanner.com/ | - | Floor plans of apartments and houses
-- Homestyler | https://www.homestyler.com/ | - | Interior visualisation and rendering | 4.4/5 from 5567 (appstore)
+- Homestyler | https://www.homestyler.com/ | - | Interior visualisation and rendering | 4.4/5 from 5566 (appstore)
 - Coohom | https://www.coohom.com/ | - | 3D interior design | 4.8/5 from 20 (sourceforge); 3.0/5 from 8 (appstore)
 - Planner 5D | https://planner5d.com/ | - | 2D/3D home design with a furniture catalogue | 3.0/5 from 2 (sourceforge)
-- HomeByMe | https://home.by.me/en/ | - | Free 3D interior planner with brand-name products | 4.6/5 from 3012 (appstore)
+- HomeByMe | https://home.by.me/en/ | - | Free 3D interior planner with brand-name products | 4.6/5 from 3013 (appstore)
 - RoomSketcher | https://www.roomsketcher.com/ | - | Accurate floor plans and room visualisations
 - IKEA Kitchen Planner | https://kitchen.planner.ikea.com/us/en/ | - | IKEA kitchen planner, online in 3D
 - Cedreo | https://cedreo.com/ | - | Professional house designs with 3D rendering | 5.0/5 from 2 (sourceforge)
@@ -109,44 +109,44 @@ Fields per line: name | English link | Polish link | what it does | rating (when
 - Home Design 3D | https://en.homedesign3d.net/ | - | 2D/3D home design, 60M+ users | 2.0/5 from 1 (sourceforge)
 - DreamPlan Home Design | https://www.nchsoftware.com/design/index.html | - | Free 3D house and garden design software (home use) | 1.0/5 from 1 (sourceforge)
 - Floor Plan Creator | https://floorplancreator.net/ | - | Draw floor plans of apartments and houses, browser and Android
-- FreeCAD | https://www.freecad.org/ | - | Free open-source 3D CAD, also for building design (BIM) | 34502 GitHub stars
-- LibreCAD | https://librecad.org/ | - | Free open-source 2D CAD for floor plans and technical drawings | 6511 GitHub stars
+- FreeCAD | https://www.freecad.org/ | - | Free open-source 3D CAD, also for building design (BIM) | 34801 GitHub stars
+- LibreCAD | https://librecad.org/ | - | Free open-source 2D CAD for floor plans and technical drawings | 6513 GitHub stars
 
 ## Renovation Company Catalog & Contractor Directories
 
 - Renovation Company Catalog [own] | https://airenovationcalculator.com/companies | https://kalkulatorremontu.pl/katalog-firm | Directory of renovation companies
-- Angi (Angie's List) | https://www.angi.com/ | - | Largest US contractor directory with reviews and quotes | 1.0/5 from 1 (sourceforge); 4.5/5 from 116367 (appstore)
+- Angi (Angie's List) | https://www.angi.com/ | - | Largest US contractor directory with reviews and quotes | 1.0/5 from 1 (sourceforge); 4.5/5 from 116461 (appstore)
 - HomeAdvisor | https://www.homeadvisor.com/ | - | Find local renovation contractors (USA)
-- Thumbtack | https://www.thumbtack.com/ | - | Home services marketplace: compare quotes and prices | 1.0/5 from 2 (sourceforge); 4.9/5 from 475735 (appstore)
-- Bark | https://www.bark.com/ | - | Find tradespeople in 1,000+ categories | 4.7/5 from 217 (appstore)
+- Thumbtack | https://www.thumbtack.com/ | - | Home services marketplace: compare quotes and prices | 1.0/5 from 2 (sourceforge); 4.9/5 from 477106 (appstore)
+- Bark | https://www.bark.com/ | - | Find tradespeople in 1,000+ categories | 4.7/5 from 220 (appstore)
 - Porch | https://www.porch.com/ | - | Contractor directory for larger renovation projects (USA) | 3.9/5 from 142 (appstore)
 - BuildZoom | https://www.buildzoom.com/ | - | Vetted building contractors with licences and permits
-- TaskRabbit | https://www.taskrabbit.com/ | - | Hire help for small home jobs (IKEA) | 4.7/5 from 45688 (appstore)
+- TaskRabbit | https://www.taskrabbit.com/ | - | Hire help for small home jobs (IKEA) | 4.7/5 from 45695 (appstore)
 - Checkatrade | https://www.checkatrade.com/ | - | Vetted tradespeople with customer reviews (UK)
 - Houzz Pros | https://www.houzz.com/professionals | - | Directory of architects, designers and contractors with portfolios and reviews
 - Better Business Bureau (BBB) | https://www.bbb.org/ | - | Check a company's rating and complaints before hiring (USA, Canada)
 - Fixly.pl | - | https://fixly.pl/ | Polish directory of electricians, plumbers and renovation contractors
-- Oferteo.pl | - | https://www.oferteo.pl/ | Compare quotes from renovation companies in Poland | 4.8/5 from 1478 (appstore)
+- Oferteo.pl | - | https://www.oferteo.pl/ | Compare quotes from renovation companies in Poland | 4.8/5 from 1485 (appstore)
 - CEIDG Business Search | - | https://www.biznes.gov.pl/pl/wyszukiwarka-firm | Check that a Polish sole trader is registered (CEIDG, biznes.gov.pl)
 - KRS Company Search | - | https://wyszukiwarka-krs.ms.gov.pl/ | Look up a company in the Polish National Court Register (KRS)
 - VAT Taxpayer Whitelist | - | https://www.podatki.gov.pl/wykaz-podatnikow-vat-wyszukiwarka/ | Polish VAT whitelist: check a contractor's bank account and VAT status before paying
 
 ## Best Free Mobile Apps for Home Renovation
 
-- magicplan | https://www.magicplan.app/ | - | Scan and plan rooms with your phone | 4.7/5 from 41261 (appstore)
-- iScape | https://www.iscapeit.com/ | - | Garden and landscape design | 4.6/5 from 28866 (appstore)
+- magicplan | https://www.magicplan.app/ | - | Scan and plan rooms with your phone | 4.7/5 from 41297 (appstore)
+- iScape | https://www.iscapeit.com/ | - | Garden and landscape design | 4.6/5 from 28869 (appstore)
 - HomeZada | https://www.homezada.com/ | - | Home management and renovation tracking | 1.0/5 from 1 (sourceforge); 2.9/5 from 44 (appstore)
-- Houzz | https://www.houzz.com/ | - | Interior inspiration and projects | 4.8/5 from 324541 (appstore)
-- Pinterest | https://www.pinterest.com/ | - | Renovation inspiration boards | 4.8/5 from 5799930 (appstore)
+- Houzz | https://www.houzz.com/ | - | Interior inspiration and projects | 4.8/5 from 324677 (appstore)
+- Pinterest | https://www.pinterest.com/ | - | Renovation inspiration boards | 4.8/5 from 5806217 (appstore)
 - ColorSnap Visualizer (Sherwin-Williams) | https://www.sherwin-williams.com/homeowners/color-through-the-decades/color-tools/colorsnap-mobile | - | Preview Sherwin-Williams paint colours on your walls (AR)
-- Dulux Visualizer | Android: https://play.google.com/store/apps/details?id=com.akzonobel.uk.dulux / iOS: https://apps.apple.com/gb/app/dulux-visualiser/id404007106 | - | Preview Dulux colours on your wall in real time (AR) | 4.4/5 from 2535 (appstore)
+- Dulux Visualizer | Android: https://play.google.com/store/apps/details?id=com.akzonobel.uk.dulux / iOS: https://apps.apple.com/gb/app/dulux-visualiser/id404007106 | - | Preview Dulux colours on your wall in real time (AR) | 4.4/5 from 2537 (appstore)
 - AR Ruler App | Android: https://play.google.com/store/apps/details?id=com.grymala.aruler / iOS: https://apps.apple.com/us/app/ar-ruler-digital-tape-measure/id1326773975 | - | AR tape measure: measure distances and areas with your phone | 4.7/5 from 975 (appstore)
-- Home Design 3D (mobile) | Android: https://play.google.com/store/apps/details?id=fr.anuman.HomeDesign3D / iOS: https://apps.apple.com/us/app/home-design-3d-draw-plan/id463768717 | - | Design floor plans and 3D interiors on a smartphone | 4.3/5 from 104861 (appstore)
-- Planner 5D (mobile) | Android: https://play.google.com/store/apps/details?id=com.planner5d.planner5d / iOS: https://apps.apple.com/us/app/planner-5d-ai-home-design/id606173978 | - | Mobile home design app with AI | 4.4/5 from 42063 (appstore)
-- RoomScan Pro | iOS: https://apps.apple.com/us/app/roomscan-pro-lidar-floor-plans/id1504050801 | - | Scan rooms automatically and create floor plans | 4.3/5 from 2124 (appstore)
-- Polycam | https://poly.cam/ | - | 3D-scan rooms and get floor plans from LiDAR or photos | 4.7/5 from 43857 (appstore)
-- Measure (Apple) | iOS: https://apps.apple.com/us/app/measure/id1383426740 | - | Built-in AR tape measure on iPhone and iPad | 3.1/5 from 1828 (appstore)
-- Color Portfolio (Benjamin Moore) | Android: https://play.google.com/store/apps/details?id=com.benjaminmoore.colorportfolio / iOS: https://apps.apple.com/us/app/color-portfolio/id1490161691 | - | Benjamin Moore virtual colour fan deck with AR preview | 4.5/5 from 11679 (appstore)
+- Home Design 3D (mobile) | Android: https://play.google.com/store/apps/details?id=fr.anuman.HomeDesign3D / iOS: https://apps.apple.com/us/app/home-design-3d-draw-plan/id463768717 | - | Design floor plans and 3D interiors on a smartphone | 4.3/5 from 104882 (appstore)
+- Planner 5D (mobile) | Android: https://play.google.com/store/apps/details?id=com.planner5d.planner5d / iOS: https://apps.apple.com/us/app/planner-5d-ai-home-design/id606173978 | - | Mobile home design app with AI | 4.4/5 from 42274 (appstore)
+- RoomScan Pro | iOS: https://apps.apple.com/us/app/roomscan-pro-lidar-floor-plans/id1504050801 | - | Scan rooms automatically and create floor plans | 4.3/5 from 2129 (appstore)
+- Polycam | https://poly.cam/ | - | 3D-scan rooms and get floor plans from LiDAR or photos | 4.7/5 from 43943 (appstore)
+- Measure (Apple) | iOS: https://apps.apple.com/us/app/measure/id1383426740 | - | Built-in AR tape measure on iPhone and iPad | 3.0/5 from 1837 (appstore)
+- Color Portfolio (Benjamin Moore) | Android: https://play.google.com/store/apps/details?id=com.benjaminmoore.colorportfolio / iOS: https://apps.apple.com/us/app/color-portfolio/id1490161691 | - | Benjamin Moore virtual colour fan deck with AR preview | 4.5/5 from 11695 (appstore)
 - Bubble Level | Android: https://play.google.com/store/apps/details?id=net.androgames.level | - | Spirit level on your phone for shelves, cabinets and pictures
 
 ## Home Improvement Communities & DIY Resources
