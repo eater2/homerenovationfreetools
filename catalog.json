@@ -677,6 +677,16 @@
     "maintainer_tool": false
   },
   {
+    "id": "remodeler-conversation-worksheet",
+    "name": "Remodeler Conversation Worksheet",
+    "category": "documents",
+    "category_name": "Free Document Generators for Renovation",
+    "desc_en": "Free worksheet to organize room priorities, photos and questions before a remodeler conversation",
+    "desc_pl": "Bezpłatny arkusz do uporządkowania priorytetów dotyczących pomieszczenia, zdjęć i pytań przed rozmową z wykonawcą remontu",
+    "url_en": "https://www.leadtoscope.com/resources/remodel-preparation.pdf",
+    "maintainer_tool": false
+  },
+  {
     "id": "renovation-budget-template",
     "name": "Renovation Budget Template",
     "category": "documents",
