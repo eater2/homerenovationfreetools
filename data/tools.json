@@ -529,6 +529,13 @@
           "desc_en": "Home inspection checklist"
         },
         {
+          "id": "remodeler-conversation-worksheet",
+          "name": "Remodeler Conversation Worksheet",
+          "en": "https://www.leadtoscope.com/resources/remodel-preparation.pdf",
+          "desc_pl": "Bezpłatny arkusz do uporządkowania priorytetów dotyczących pomieszczenia, zdjęć i pytań przed rozmową z wykonawcą remontu",
+          "desc_en": "Free worksheet to organize room priorities, photos and questions before a remodeler conversation"
+        },
+        {
           "id": "renovation-budget-template",
           "name": "Renovation Budget Template",
           "en": "https://www.template.net/editable/272978/checklist-for-home-renovation-budget",

@@ -77,6 +77,7 @@ Fields per line: name | English link | Polish link | what it does | rating (when
 - Independent Contractor Agreement [own] | https://docs.airenovationcalculator.com/independent-contractor-agreement | https://dokumenty.kalkulatorremontu.pl/umowa-zlecenia | Independent contractor agreement
 - Demand for Payment [own] | https://docs.airenovationcalculator.com/demand-for-payment | https://dokumenty.kalkulatorremontu.pl/wezwanie-do-zaplaty | Demand for payment letter
 - Home Inspection Checklist | https://www.jotform.com/form-templates/home-renovation-checklist | - | Home inspection checklist
+- Remodeler Conversation Worksheet | https://www.leadtoscope.com/resources/remodel-preparation.pdf | - | Free worksheet to organize room priorities, photos and questions before a remodeler conversation
 - Renovation Budget Template | https://www.template.net/editable/272978/checklist-for-home-renovation-budget | - | Renovation budget spreadsheet template
 - Subcontractor Agreement | https://www.jotform.com/pdf-templates/subcontractor-agreement | - | Subcontractor agreement, free PDF template
 - Construction Change Order Form | https://www.jotform.com/form-templates/construction-change-order-form | - | Construction change order form
