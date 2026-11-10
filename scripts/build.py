@@ -444,6 +444,9 @@ def write_site(d, ratings, cat):
     (ROOT / "site" / "index.html").write_text(site_html(d, ratings, cat), encoding="utf-8", newline="\n")
     (ROOT / "site" / "pl").mkdir(exist_ok=True)
     (ROOT / "site" / "pl" / "index.html").write_text(site_html(d, ratings, cat, "pl"), encoding="utf-8", newline="\n")
+    # Google Search Console ownership proof for the Vercel host; must stay published after verification.
+    (ROOT / "site" / "google0d09eb26482fc109.html").write_text(
+        "google-site-verification: google0d09eb26482fc109.html", encoding="utf-8", newline="\n")
     (ROOT / "site" / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8", newline="\n")
     lastmod = max([s["fetched_at"][:10] for r in ratings.values() for s in r] or ["2026-10-19"])
     urls = "".join(f"  <url><loc>{SITE}{p}</loc><lastmod>{lastmod}</lastmod></url>\n" for p in ("/", "/pl/"))
