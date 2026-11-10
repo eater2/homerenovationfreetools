@@ -21,7 +21,6 @@ Fields per line: name | English link | Polish link | what it does | rating (when
 - Stud Calculator | https://dashcalculator.com/calculators/stud | - | Wall stud count and positions at 16" or 24" on centre
 - Insulation Calculator | https://www.omnicalculator.com/construction/insulation | - | Insulation quantity for walls, attics and floors
 - Roofing Calculator | https://www.calculator.net/roofing-calculator.html | - | Roofing material quantity (squares, shingles)
-- Roof Cost Data | https://roofcostdata.com/roof-replacement-cost-calculator | - | US roof replacement cost range by roof size, material, location and tear-off choice
 - Decking Calculator | https://www.omnicalculator.com/construction/decking | - | Deck boards, joists and fasteners for a deck
 - Fencing Calculator | https://www.omnicalculator.com/construction/fence | - | Posts, rails and pickets for a fence
 - Wallpaper Calculator | https://www.omnicalculator.com/construction/wallpaper | - | Wallpaper rolls for a room

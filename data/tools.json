@@ -120,13 +120,6 @@
           "desc_en": "Roofing material quantity (squares, shingles)"
         },
         {
-          "id": "roof-cost-data",
-          "name": "Roof Cost Data",
-          "en": "https://roofcostdata.com/roof-replacement-cost-calculator",
-          "desc_pl": "Kalkulator zakresu kosztów wymiany dachu w USA według powierzchni, materiału, lokalizacji i demontażu",
-          "desc_en": "US roof replacement cost range by roof size, material, location and tear-off choice"
-        },
-        {
           "id": "decking-calculator",
           "name": "Decking Calculator",
           "en": "https://www.omnicalculator.com/construction/decking",
@@ -1091,24 +1084,28 @@
               "id": "r-renovationtoolsapps",
               "name": "r/renovationToolsApps",
               "url": "https://www.reddit.com/r/renovationToolsApps/",
+              "desc_pl": "Narzędzia, aplikacje i kalkulatory remontowe (EN)",
               "desc_en": "Renovation tools, apps, and calculators (EN)"
             },
             {
               "id": "r-wystrojwnetrz",
               "name": "r/wystrojWnetrz",
               "url": "https://www.reddit.com/r/wystrojWnetrz/",
+              "desc_pl": "Wystrój i aranżacja wnętrz (PL)",
               "desc_en": "Interior design and home decor (PL)"
             },
             {
               "id": "kalkulator-remontu-on-youtube",
               "name": "Kalkulator Remontu on YouTube",
               "url": "https://www.youtube.com/@kalkulatorRemontuPL",
+              "desc_pl": "Porady o planowaniu remontu i tanich metamorfozach mieszkań (PL)",
               "desc_en": "Renovation planning tips and smart, budget-friendly apartment makeovers (PL)"
             },
             {
               "id": "kalkulator-remontu-facebook-group",
               "name": "Kalkulator Remontu – Facebook group",
               "url": "https://www.facebook.com/groups/1075910455921206/",
+              "desc_pl": "Społeczność remontowa (PL)",
               "desc_en": "Renovation community (PL)"
             },
             {
@@ -1124,168 +1121,196 @@
                   "url": "https://pl.pinterest.com/KalkulatorRemontu/"
                 }
               ],
+              "desc_pl": "Pomysły na remont i wnętrza",
               "desc_en": "Renovation and interior ideas"
             },
             {
               "id": "kalkulatorremontu-pl-on-instagram",
               "name": "kalkulatorremontu.pl on Instagram",
               "url": "https://www.instagram.com/kalkulatorremontu.pl/",
+              "desc_pl": "Pomysły remontowe i nowości w narzędziach (PL)",
               "desc_en": "Renovation ideas and tool updates (PL)"
             },
             {
               "id": "r-homeimprovement",
               "name": "r/HomeImprovement",
               "url": "https://www.reddit.com/r/HomeImprovement/",
+              "desc_pl": "Pytania o remonty, efekty przed i po, porady (EN)",
               "desc_en": "Home renovation questions, before-and-afters, and tips"
             },
             {
               "id": "r-diy",
               "name": "r/DIY",
               "url": "https://www.reddit.com/r/DIY/",
+              "desc_pl": "Domowe projekty majsterkowiczów (EN)",
               "desc_en": "Creative and practical home projects"
             },
             {
               "id": "r-homeowners",
               "name": "r/Homeowners",
               "url": "https://www.reddit.com/r/Homeowners/",
+              "desc_pl": "Porady i historie właścicieli domów (EN)",
               "desc_en": "Advice and stories from homeowners"
             },
             {
               "id": "r-homemaintenance",
               "name": "r/HomeMaintenance",
               "url": "https://www.reddit.com/r/HomeMaintenance/",
+              "desc_pl": "Bieżąca konserwacja domu, naprawy i triki (EN)",
               "desc_en": "Regular home upkeep, repairs, and tricks"
             },
             {
               "id": "r-interiordesign",
               "name": "r/InteriorDesign",
               "url": "https://www.reddit.com/r/InteriorDesign/",
+              "desc_pl": "Ponad milion osób dzieli się inspiracjami i poradami o wnętrzach (EN)",
               "desc_en": "1M+ members sharing interior design inspiration and advice"
             },
             {
               "id": "r-woodworking",
               "name": "r/woodworking",
               "url": "https://www.reddit.com/r/woodworking/",
+              "desc_pl": "Projekty z drewna stolarzy i majsterkowiczów (EN)",
               "desc_en": "Woodworkers and DIYers sharing wood projects"
             },
             {
               "id": "r-landscaping",
               "name": "r/landscaping",
               "url": "https://www.reddit.com/r/landscaping/",
+              "desc_pl": "Porady o ogrodzie, trawniku i zagospodarowaniu terenu (EN)",
               "desc_en": "Garden, lawn, and landscaping advice"
             },
             {
               "id": "r-renovations",
               "name": "r/Renovations",
               "url": "https://www.reddit.com/r/Renovations/",
+              "desc_pl": "Projekty remontowe, zdjęcia postępów i porady (EN)",
               "desc_en": "Renovation projects, progress photos, and advice"
             },
             {
               "id": "r-remodel",
               "name": "r/remodel",
               "url": "https://www.reddit.com/r/remodel/",
+              "desc_pl": "Remonty kuchni, łazienek i całych domów (EN)",
               "desc_en": "Kitchen, bathroom, and whole-house remodeling discussions"
             },
             {
               "id": "r-plumbing",
               "name": "r/Plumbing",
               "url": "https://www.reddit.com/r/Plumbing/",
+              "desc_pl": "Pytania hydrauliczne, odpowiedzi majsterkowiczów i fachowców (EN)",
               "desc_en": "Plumbing questions answered by DIYers and pros"
             },
             {
               "id": "r-electricians",
               "name": "r/electricians",
               "url": "https://www.reddit.com/r/electricians/",
+              "desc_pl": "Społeczność elektryków: instalacje i przepisy (EN)",
               "desc_en": "Community of electricians discussing wiring and code"
             },
             {
               "id": "r-hvacadvice",
               "name": "r/hvacadvice",
               "url": "https://www.reddit.com/r/hvacadvice/",
+              "desc_pl": "Porady o ogrzewaniu, chłodzeniu i wentylacji (EN)",
               "desc_en": "Heating, cooling, and ventilation advice"
             },
             {
               "id": "r-flooring",
               "name": "r/Flooring",
               "url": "https://www.reddit.com/r/Flooring/",
+              "desc_pl": "Wybór i montaż podłóg (EN)",
               "desc_en": "Choosing and installing floors"
             },
             {
               "id": "r-roofing",
               "name": "r/Roofing",
               "url": "https://www.reddit.com/r/Roofing/",
+              "desc_pl": "Naprawy i wymiana dachu, materiały (EN)",
               "desc_en": "Roof repairs, replacement, and materials"
             },
             {
               "id": "home-improvement-stack-exchange",
               "name": "Home Improvement Stack Exchange",
               "url": "https://diy.stackexchange.com/",
+              "desc_pl": "Pytania i odpowiedzi dla wykonawców i zaawansowanych majsterkowiczów (EN)",
               "desc_en": "Q&A site for contractors and serious DIYers"
             },
             {
               "id": "hometalk",
               "name": "Hometalk",
               "url": "https://www.hometalk.com/",
+              "desc_pl": "Poradniki i pomysły na projekty DIY (EN)",
               "desc_en": "DIY tutorials and project ideas"
             },
             {
               "id": "the-family-handyman",
               "name": "The Family Handyman",
               "url": "https://www.familyhandyman.com/",
+              "desc_pl": "Eksperckie porady i instrukcje DIY (EN)",
               "desc_en": "Expert DIY tips and how-tos"
             },
             {
               "id": "bob-vila",
               "name": "Bob Vila",
               "url": "https://www.bobvila.com/",
+              "desc_pl": "Porady remontowe i projekty DIY od telewizyjnego eksperta (EN)",
               "desc_en": "Renovation tips and DIY projects from the TV home improvement expert"
             },
             {
               "id": "this-old-house",
               "name": "This Old House",
               "url": "https://www.thisoldhouse.com/",
+              "desc_pl": "Renowacja domów, instrukcje i trendy remontowe (EN)",
               "desc_en": "Home restoration, how-to guides, and renovation trends"
             },
             {
               "id": "fine-homebuilding",
               "name": "Fine Homebuilding",
               "url": "https://www.finehomebuilding.com/",
+              "desc_pl": "Fachowe porady dla budowlańców i remontujących (EN)",
               "desc_en": "Professional advice for builders and remodelers"
             },
             {
               "id": "instructables-home-projects",
               "name": "Instructables – Home Projects",
               "url": "https://www.instructables.com/Home-Projects/",
+              "desc_pl": "Instrukcje krok po kroku projektów domowych od społeczności (EN)",
               "desc_en": "Step-by-step DIY home projects from the community"
             },
             {
               "id": "this-old-house-on-youtube",
               "name": "This Old House on YouTube",
               "url": "https://www.youtube.com/@thisoldhouse",
+              "desc_pl": "Filmy instruktażowe z długoletniego programu telewizyjnego (EN)",
               "desc_en": "Renovation how-to videos from the long-running TV show"
             },
             {
               "id": "home-renovision-diy",
               "name": "Home RenoVision DIY",
               "url": "https://www.youtube.com/@HomeRenoVisionDIY",
+              "desc_pl": "Szczegółowe poradniki remontowe od zawodowego wykonawcy (EN)",
               "desc_en": "Detailed renovation tutorials from a professional contractor"
             },
             {
               "id": "muratordom-pl",
               "name": "Muratordom.pl",
               "url": "https://muratordom.pl/",
+              "desc_pl": "Budowa i remont domu: porady, projekty, forum (PL)",
               "desc_en": "Building and renovating a house: advice, designs, forum (PL)"
             },
             {
               "id": "forum-muratora",
               "name": "Forum Muratora",
               "url": "https://forum.murator.pl/",
+              "desc_pl": "Największe polskie forum o budowie i remontach (PL)",
               "desc_en": "The largest Polish building and renovation forum (PL)"
             },
             {
               "id": "budujemydom-pl-forum",
               "name": "BudujemyDom.pl – Forum",
               "url": "https://forum.budujemydom.pl/",
+              "desc_pl": "Doświadczenia właścicieli domów i wykonawców (PL)",
               "desc_en": "Homeowners and contractors sharing experience (PL)"
             }
           ]
@@ -1297,66 +1322,77 @@
               "id": "homeguide-cost-guides",
               "name": "HomeGuide Cost Guides",
               "url": "https://homeguide.com/costs",
+              "desc_pl": "Aktualne ceny remontów i napraw (USA)",
               "desc_en": "Current home improvement and repair prices (USA)"
             },
             {
               "id": "fixr-cost-guides",
               "name": "Fixr Cost Guides",
               "url": "https://www.fixr.com/costs",
+              "desc_pl": "Przewodniki po cenach prac remontowych (USA)",
               "desc_en": "Pricing guides for remodeling projects (USA)"
             },
             {
               "id": "cost-vs-value-report",
               "name": "Cost vs Value Report",
               "url": "https://www.jlconline.com/cost-vs-value/",
+              "desc_pl": "Coroczny raport o kosztach remontów i wartości odsprzedaży (USA)",
               "desc_en": "Annual report on remodeling costs and resale value (USA)"
             },
             {
               "id": "energy-star-seal-and-insulate",
               "name": "ENERGY STAR – Seal and Insulate",
               "url": "https://www.energystar.gov/saveathome/seal_insulate",
+              "desc_pl": "Poradnik DIY o uszczelnianiu i ociepleniu (EN)",
               "desc_en": "DIY guide to air sealing and insulation"
             },
             {
               "id": "energy-star-product-finder",
               "name": "ENERGY STAR Product Finder",
               "url": "https://www.energystar.gov/productfinder/",
+              "desc_pl": "Porównanie certyfikowanych urządzeń, okien i pomp ciepła (USA)",
               "desc_en": "Compare certified appliances, windows, and heat pumps"
             },
             {
               "id": "epa-lead-renovation-repair-and-painting-rrp",
               "name": "EPA Lead Renovation, Repair and Painting (RRP)",
               "url": "https://www.epa.gov/lead/lead-renovation-repair-and-painting-program",
+              "desc_pl": "Zasady bezpiecznej pracy z ołowiem w domach sprzed 1978 r. (USA)",
               "desc_en": "Lead-safe rules for renovating pre-1978 homes (USA)"
             },
             {
               "id": "green-building-advisor",
               "name": "Green Building Advisor",
               "url": "https://www.greenbuildingadvisor.com/",
+              "desc_pl": "Fizyka budowli i energooszczędne remonty (EN)",
               "desc_en": "Building science and energy-efficient remodeling"
             },
             {
               "id": "building-science-corporation",
               "name": "Building Science Corporation",
               "url": "https://buildingscience.com/",
+              "desc_pl": "Badania nad izolacją, wilgocią i wentylacją (EN)",
               "desc_en": "Research on insulation, moisture, and ventilation"
             },
             {
               "id": "czyste-powietrze",
               "name": "Czyste Powietrze",
               "url": "https://czystepowietrze.gov.pl/",
+              "desc_pl": "Rządowe dotacje na termomodernizację i wymianę źródła ciepła (PL)",
               "desc_en": "Government grants for thermal modernization and heat source replacement (PL)"
             },
             {
               "id": "ulga-termomodernizacyjna",
               "name": "Ulga termomodernizacyjna",
               "url": "https://www.podatki.gov.pl/ulgi-i-odliczenia/ulga-termomodernizacyjna-pit",
+              "desc_pl": "Odliczenie podatkowe za ocieplenie, okna, pompy ciepła i fotowoltaikę (PL)",
               "desc_en": "Tax deduction for insulation, windows, heat pumps, and PV (PL)"
             },
             {
               "id": "zone-ceeb",
               "name": "ZONE / CEEB",
               "url": "https://zone.gunb.gov.pl/",
+              "desc_pl": "Rządowy portal deklaracji źródeł ciepła w budynkach (PL)",
               "desc_en": "Government portal for building heat source declarations (PL)"
             }
           ]

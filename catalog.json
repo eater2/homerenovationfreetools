@@ -136,16 +136,6 @@
     "maintainer_tool": false
   },
   {
-    "id": "roof-cost-data",
-    "name": "Roof Cost Data",
-    "category": "calculators",
-    "category_name": "Free Renovation Calculators",
-    "desc_en": "US roof replacement cost range by roof size, material, location and tear-off choice",
-    "desc_pl": "Kalkulator zakresu kosztów wymiany dachu w USA według powierzchni, materiału, lokalizacji i demontażu",
-    "url_en": "https://roofcostdata.com/roof-replacement-cost-calculator",
-    "maintainer_tool": false
-  },
-  {
     "id": "decking-calculator",
     "name": "Decking Calculator",
     "category": "calculators",
@@ -1762,6 +1752,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Renovation tools, apps, and calculators (EN)",
+    "desc_pl": "Narzędzia, aplikacje i kalkulatory remontowe (EN)",
     "url_en": "https://www.reddit.com/r/renovationToolsApps/",
     "maintainer_tool": false
   },
@@ -1772,6 +1763,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Interior design and home decor (PL)",
+    "desc_pl": "Wystrój i aranżacja wnętrz (PL)",
     "url_en": "https://www.reddit.com/r/wystrojWnetrz/",
     "maintainer_tool": false
   },
@@ -1782,6 +1774,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Renovation planning tips and smart, budget-friendly apartment makeovers (PL)",
+    "desc_pl": "Porady o planowaniu remontu i tanich metamorfozach mieszkań (PL)",
     "url_en": "https://www.youtube.com/@kalkulatorRemontuPL",
     "maintainer_tool": false
   },
@@ -1792,6 +1785,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Renovation community (PL)",
+    "desc_pl": "Społeczność remontowa (PL)",
     "url_en": "https://www.facebook.com/groups/1075910455921206/",
     "maintainer_tool": false
   },
@@ -1802,6 +1796,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Renovation and interior ideas",
+    "desc_pl": "Pomysły na remont i wnętrza",
     "links": [
       {
         "label": "EN",
@@ -1821,6 +1816,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Renovation ideas and tool updates (PL)",
+    "desc_pl": "Pomysły remontowe i nowości w narzędziach (PL)",
     "url_en": "https://www.instagram.com/kalkulatorremontu.pl/",
     "maintainer_tool": false
   },
@@ -1831,6 +1827,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Home renovation questions, before-and-afters, and tips",
+    "desc_pl": "Pytania o remonty, efekty przed i po, porady (EN)",
     "url_en": "https://www.reddit.com/r/HomeImprovement/",
     "maintainer_tool": false
   },
@@ -1841,6 +1838,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Creative and practical home projects",
+    "desc_pl": "Domowe projekty majsterkowiczów (EN)",
     "url_en": "https://www.reddit.com/r/DIY/",
     "maintainer_tool": false
   },
@@ -1851,6 +1849,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Advice and stories from homeowners",
+    "desc_pl": "Porady i historie właścicieli domów (EN)",
     "url_en": "https://www.reddit.com/r/Homeowners/",
     "maintainer_tool": false
   },
@@ -1861,6 +1860,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Regular home upkeep, repairs, and tricks",
+    "desc_pl": "Bieżąca konserwacja domu, naprawy i triki (EN)",
     "url_en": "https://www.reddit.com/r/HomeMaintenance/",
     "maintainer_tool": false
   },
@@ -1871,6 +1871,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "1M+ members sharing interior design inspiration and advice",
+    "desc_pl": "Ponad milion osób dzieli się inspiracjami i poradami o wnętrzach (EN)",
     "url_en": "https://www.reddit.com/r/InteriorDesign/",
     "maintainer_tool": false
   },
@@ -1881,6 +1882,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Woodworkers and DIYers sharing wood projects",
+    "desc_pl": "Projekty z drewna stolarzy i majsterkowiczów (EN)",
     "url_en": "https://www.reddit.com/r/woodworking/",
     "maintainer_tool": false
   },
@@ -1891,6 +1893,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Garden, lawn, and landscaping advice",
+    "desc_pl": "Porady o ogrodzie, trawniku i zagospodarowaniu terenu (EN)",
     "url_en": "https://www.reddit.com/r/landscaping/",
     "maintainer_tool": false
   },
@@ -1901,6 +1904,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Renovation projects, progress photos, and advice",
+    "desc_pl": "Projekty remontowe, zdjęcia postępów i porady (EN)",
     "url_en": "https://www.reddit.com/r/Renovations/",
     "maintainer_tool": false
   },
@@ -1911,6 +1915,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Kitchen, bathroom, and whole-house remodeling discussions",
+    "desc_pl": "Remonty kuchni, łazienek i całych domów (EN)",
     "url_en": "https://www.reddit.com/r/remodel/",
     "maintainer_tool": false
   },
@@ -1921,6 +1926,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Plumbing questions answered by DIYers and pros",
+    "desc_pl": "Pytania hydrauliczne, odpowiedzi majsterkowiczów i fachowców (EN)",
     "url_en": "https://www.reddit.com/r/Plumbing/",
     "maintainer_tool": false
   },
@@ -1931,6 +1937,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Community of electricians discussing wiring and code",
+    "desc_pl": "Społeczność elektryków: instalacje i przepisy (EN)",
     "url_en": "https://www.reddit.com/r/electricians/",
     "maintainer_tool": false
   },
@@ -1941,6 +1948,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Heating, cooling, and ventilation advice",
+    "desc_pl": "Porady o ogrzewaniu, chłodzeniu i wentylacji (EN)",
     "url_en": "https://www.reddit.com/r/hvacadvice/",
     "maintainer_tool": false
   },
@@ -1951,6 +1959,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Choosing and installing floors",
+    "desc_pl": "Wybór i montaż podłóg (EN)",
     "url_en": "https://www.reddit.com/r/Flooring/",
     "maintainer_tool": false
   },
@@ -1961,6 +1970,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Roof repairs, replacement, and materials",
+    "desc_pl": "Naprawy i wymiana dachu, materiały (EN)",
     "url_en": "https://www.reddit.com/r/Roofing/",
     "maintainer_tool": false
   },
@@ -1971,6 +1981,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Q&A site for contractors and serious DIYers",
+    "desc_pl": "Pytania i odpowiedzi dla wykonawców i zaawansowanych majsterkowiczów (EN)",
     "url_en": "https://diy.stackexchange.com/",
     "maintainer_tool": false
   },
@@ -1981,6 +1992,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "DIY tutorials and project ideas",
+    "desc_pl": "Poradniki i pomysły na projekty DIY (EN)",
     "url_en": "https://www.hometalk.com/",
     "maintainer_tool": false
   },
@@ -1991,6 +2003,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Expert DIY tips and how-tos",
+    "desc_pl": "Eksperckie porady i instrukcje DIY (EN)",
     "url_en": "https://www.familyhandyman.com/",
     "maintainer_tool": false
   },
@@ -2001,6 +2014,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Renovation tips and DIY projects from the TV home improvement expert",
+    "desc_pl": "Porady remontowe i projekty DIY od telewizyjnego eksperta (EN)",
     "url_en": "https://www.bobvila.com/",
     "maintainer_tool": false
   },
@@ -2011,6 +2025,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Home restoration, how-to guides, and renovation trends",
+    "desc_pl": "Renowacja domów, instrukcje i trendy remontowe (EN)",
     "url_en": "https://www.thisoldhouse.com/",
     "maintainer_tool": false
   },
@@ -2021,6 +2036,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Professional advice for builders and remodelers",
+    "desc_pl": "Fachowe porady dla budowlańców i remontujących (EN)",
     "url_en": "https://www.finehomebuilding.com/",
     "maintainer_tool": false
   },
@@ -2031,6 +2047,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Step-by-step DIY home projects from the community",
+    "desc_pl": "Instrukcje krok po kroku projektów domowych od społeczności (EN)",
     "url_en": "https://www.instructables.com/Home-Projects/",
     "maintainer_tool": false
   },
@@ -2041,6 +2058,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Renovation how-to videos from the long-running TV show",
+    "desc_pl": "Filmy instruktażowe z długoletniego programu telewizyjnego (EN)",
     "url_en": "https://www.youtube.com/@thisoldhouse",
     "maintainer_tool": false
   },
@@ -2051,6 +2069,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Detailed renovation tutorials from a professional contractor",
+    "desc_pl": "Szczegółowe poradniki remontowe od zawodowego wykonawcy (EN)",
     "url_en": "https://www.youtube.com/@HomeRenoVisionDIY",
     "maintainer_tool": false
   },
@@ -2061,6 +2080,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Building and renovating a house: advice, designs, forum (PL)",
+    "desc_pl": "Budowa i remont domu: porady, projekty, forum (PL)",
     "url_en": "https://muratordom.pl/",
     "maintainer_tool": false
   },
@@ -2071,6 +2091,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "The largest Polish building and renovation forum (PL)",
+    "desc_pl": "Największe polskie forum o budowie i remontach (PL)",
     "url_en": "https://forum.murator.pl/",
     "maintainer_tool": false
   },
@@ -2081,6 +2102,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Top Reddit & DIY Communities for Homeowners",
     "desc_en": "Homeowners and contractors sharing experience (PL)",
+    "desc_pl": "Doświadczenia właścicieli domów i wykonawców (PL)",
     "url_en": "https://forum.budujemydom.pl/",
     "maintainer_tool": false
   },
@@ -2091,6 +2113,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Cost Guides, Energy Efficiency & Official Resources",
     "desc_en": "Current home improvement and repair prices (USA)",
+    "desc_pl": "Aktualne ceny remontów i napraw (USA)",
     "url_en": "https://homeguide.com/costs",
     "maintainer_tool": false
   },
@@ -2101,6 +2124,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Cost Guides, Energy Efficiency & Official Resources",
     "desc_en": "Pricing guides for remodeling projects (USA)",
+    "desc_pl": "Przewodniki po cenach prac remontowych (USA)",
     "url_en": "https://www.fixr.com/costs",
     "maintainer_tool": false
   },
@@ -2111,6 +2135,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Cost Guides, Energy Efficiency & Official Resources",
     "desc_en": "Annual report on remodeling costs and resale value (USA)",
+    "desc_pl": "Coroczny raport o kosztach remontów i wartości odsprzedaży (USA)",
     "url_en": "https://www.jlconline.com/cost-vs-value/",
     "maintainer_tool": false
   },
@@ -2121,6 +2146,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Cost Guides, Energy Efficiency & Official Resources",
     "desc_en": "DIY guide to air sealing and insulation",
+    "desc_pl": "Poradnik DIY o uszczelnianiu i ociepleniu (EN)",
     "url_en": "https://www.energystar.gov/saveathome/seal_insulate",
     "maintainer_tool": false
   },
@@ -2131,6 +2157,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Cost Guides, Energy Efficiency & Official Resources",
     "desc_en": "Compare certified appliances, windows, and heat pumps",
+    "desc_pl": "Porównanie certyfikowanych urządzeń, okien i pomp ciepła (USA)",
     "url_en": "https://www.energystar.gov/productfinder/",
     "maintainer_tool": false
   },
@@ -2141,6 +2168,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Cost Guides, Energy Efficiency & Official Resources",
     "desc_en": "Lead-safe rules for renovating pre-1978 homes (USA)",
+    "desc_pl": "Zasady bezpiecznej pracy z ołowiem w domach sprzed 1978 r. (USA)",
     "url_en": "https://www.epa.gov/lead/lead-renovation-repair-and-painting-program",
     "maintainer_tool": false
   },
@@ -2151,6 +2179,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Cost Guides, Energy Efficiency & Official Resources",
     "desc_en": "Building science and energy-efficient remodeling",
+    "desc_pl": "Fizyka budowli i energooszczędne remonty (EN)",
     "url_en": "https://www.greenbuildingadvisor.com/",
     "maintainer_tool": false
   },
@@ -2161,6 +2190,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Cost Guides, Energy Efficiency & Official Resources",
     "desc_en": "Research on insulation, moisture, and ventilation",
+    "desc_pl": "Badania nad izolacją, wilgocią i wentylacją (EN)",
     "url_en": "https://buildingscience.com/",
     "maintainer_tool": false
   },
@@ -2171,6 +2201,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Cost Guides, Energy Efficiency & Official Resources",
     "desc_en": "Government grants for thermal modernization and heat source replacement (PL)",
+    "desc_pl": "Rządowe dotacje na termomodernizację i wymianę źródła ciepła (PL)",
     "url_en": "https://czystepowietrze.gov.pl/",
     "maintainer_tool": false
   },
@@ -2181,6 +2212,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Cost Guides, Energy Efficiency & Official Resources",
     "desc_en": "Tax deduction for insulation, windows, heat pumps, and PV (PL)",
+    "desc_pl": "Odliczenie podatkowe za ocieplenie, okna, pompy ciepła i fotowoltaikę (PL)",
     "url_en": "https://www.podatki.gov.pl/ulgi-i-odliczenia/ulga-termomodernizacyjna-pit",
     "maintainer_tool": false
   },
@@ -2191,6 +2223,7 @@
     "category_name": "Home Improvement Communities & DIY Resources",
     "group": "Cost Guides, Energy Efficiency & Official Resources",
     "desc_en": "Government portal for building heat source declarations (PL)",
+    "desc_pl": "Rządowy portal deklaracji źródeł ciepła w budynkach (PL)",
     "url_en": "https://zone.gunb.gov.pl/",
     "maintainer_tool": false
   }

@@ -107,12 +107,6 @@
       <td>Kalkulator pokrycia dachowego</td>
     </tr>
     <tr>
-      <td>Roof Cost Data</td>
-      <td><a href="https://roofcostdata.com/roof-replacement-cost-calculator">Go to Tool</a></td>
-      <td>—</td>
-      <td>Kalkulator zakresu kosztów wymiany dachu w USA według powierzchni, materiału, lokalizacji i demontażu</td>
-    </tr>
-    <tr>
       <td>Decking Calculator</td>
       <td><a href="https://www.omnicalculator.com/construction/decking">Go to Tool</a></td>
       <td>—</td>

@@ -259,70 +259,156 @@ code{font-size:13px;word-break:break-all}
 """
 
 
-def site_rating(r):
+def site_rating(r, lang="en"):
     out = []
     for s in r:
         if s.get("rating") and s.get("count", 0) >= MIN_REVIEWS:
             label = "SourceForge" if s["source"] == "sourceforge" else "App Store"
-            out.append(f'★ {s["rating"]:.1f}/5 · <a href="{esc(s["url"])}" rel="nofollow">{short_count(s["count"])} {label} '
-                       f'{"reviews" if s["source"] == "sourceforge" else "ratings"}</a>')
+            if lang == "pl":
+                score = f'{s["rating"]:.1f}'.replace(".", ",")
+                out.append(f'★ {score}/5 · <a href="{esc(s["url"])}" rel="nofollow">{label}, '
+                           f'{"opinie" if s["source"] == "sourceforge" else "oceny"}: {short_count(s["count"])}</a>')
+            else:
+                out.append(f'★ {s["rating"]:.1f}/5 · <a href="{esc(s["url"])}" rel="nofollow">{short_count(s["count"])} {label} '
+                           f'{"reviews" if s["source"] == "sourceforge" else "ratings"}</a>')
         elif s.get("stars"):
-            out.append(f'★ {short_count(s["stars"])} <a href="{esc(s["url"])}" rel="nofollow">GitHub stars</a>')
+            if lang == "pl":
+                out.append(f'★ <a href="{esc(s["url"])}" rel="nofollow">gwiazdki GitHub: {short_count(s["stars"])}</a>')
+            else:
+                out.append(f'★ {short_count(s["stars"])} <a href="{esc(s["url"])}" rel="nofollow">GitHub stars</a>')
     return f'<div class="rate">{" · ".join(out)}</div>' if out else ""
 
 
-def site_card(it, ratings, label):
+def site_card(it, ratings, label, lang="en"):
     links = []
     en = it.get("en") or it.get("url")
+    pl_url = it.get("pl")
+    if lang == "pl" and pl_url:
+        links.append(f'<a href="{esc(pl_url)}">Otwórz</a>')
     if isinstance(en, str):
-        links.append(f'<a href="{esc(en)}">{"English" if it.get("pl") else label}</a>')
+        text = "English" if pl_url else "Otwórz (EN)" if lang == "pl" else label
+        links.append(f'<a href="{esc(en)}"{" hreflang=en" if lang == "pl" else ""}>{text}</a>')
     elif en:
         links += [f'<a href="{esc(l["url"])}">{esc(l["label"])}</a>' for l in en]
     links += [f'<a href="{esc(l["url"])}">{esc(l["label"])}</a>' for l in it.get("links", [])]
-    if it.get("pl"):
-        links.append(f'<a href="{esc(it["pl"])}" hreflang="pl">Polski</a>')
-    pl = f'<p class="pl" lang="pl">{esc(it["desc_pl"])}</p>' if it.get("desc_pl") else ""
-    return (f'<article class="tool"><h4>{esc(it["name"])}</h4>{site_rating(ratings.get(it["id"], []))}'
-            f'<p>{esc(it["desc_en"])}</p>{pl}<div class="links">{"".join(links)}</div></article>')
+    if lang == "en" and pl_url:
+        links.append(f'<a href="{esc(pl_url)}" hreflang="pl">Polski</a>')
+    if lang == "pl":
+        text = f'<p>{esc(it.get("desc_pl") or it["desc_en"])}</p>'
+    else:
+        pl = f'<p class="pl" lang="pl">{esc(it["desc_pl"])}</p>' if it.get("desc_pl") else ""
+        text = f'<p>{esc(it["desc_en"])}</p>{pl}'
+    return (f'<article class="tool"><h4>{esc(it["name"])}</h4>{site_rating(ratings.get(it["id"], []), lang)}'
+            f'{text}<div class="links">{"".join(links)}</div></article>')
 
 
-def site_html(d, ratings, cat):
+def site_list_item(it, lang):
+    if lang == "en":
+        return list_item(it).strip()[4:-5]
+    desc = esc(it.get("desc_pl") or it["desc_en"])
+    if "url" in it:
+        return f'{link(it["url"], it["name"])} – {desc}'
+    alts = " / ".join(link(l["url"], l["label"]) for l in it["links"])
+    return f'{esc(it["name"])} – {desc} ({alts})'
+
+
+SITE_PL = {
+    "title": "🛠️ Darmowe narzędzia i kalkulatory remontowe",
+    "tagline": ("Wybrane <strong>darmowe kalkulatory remontowe, planery pomieszczeń, narzędzia do projektowania i generatory "
+                "dokumentów</strong> dla osób remontujących na własną rękę i dla wykonawców. Policz farbę, płytki, podłogi, "
+                "dach i inne materiały. Narzędzia po polsku i po angielsku."),
+    "sections": {
+        "calculators": "🔢 Darmowe kalkulatory remontowe",
+        "documents": "📄 Darmowe generatory dokumentów remontowych",
+        "design": "🎨 Darmowe narzędzia do projektowania i wizualizacji wnętrz",
+        "contractors": "🏢 Katalog firm remontowych i bazy wykonawców",
+        "apps": "📱 Najlepsze darmowe aplikacje mobilne do remontu",
+        "communities": "🌐 Społeczności i poradniki remontowe",
+    },
+    "intros": {"calculators": ("Darmowe kalkulatory online do wyliczenia materiałów i kosztów remontu: "
+                               "farby, płytek, podłóg, betonu, płyt g-k, dachu i innych:")},
+    "groups": {
+        "Top Reddit & DIY Communities for Homeowners": "👥 Reddit i społeczności majsterkowiczów",
+        "Cost Guides, Energy Efficiency & Official Resources": "📚 Poradniki kosztowe, efektywność energetyczna i źródła oficjalne",
+    },
+}
+
+
+def site_html(d, ratings, cat, lang="en"):
     n = len(cat)
+    pl = lang == "pl"
+    url = f"{SITE}/pl/" if pl else f"{SITE}/"
     # Google shows about 60 characters of a title and 155 of a description.
-    title = f"{SITE_NAME}: {n} Calculators & Room Planners"
-    desc = (f"{n} free home renovation tools (EN/PL): paint, tile, flooring and concrete calculators, room planners, "
-            "contract templates and contractor directories.")
-    ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "alternateName": "HomeRenovationFreeTools",
-           "url": SITE + "/", "inLanguage": ["en", "pl"]},
-          {"@context": "https://schema.org", "@type": "Organization", "name": SITE_NAME, "url": SITE + "/",
-           "logo": SITE + "/icon.png", "sameAs": ["https://github.com/eater2/homerenovationfreetools",
-                                                   "https://airenovationcalculator.com/", "https://kalkulatorremontu.pl/"]},
-          {"@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": SITE + "/", "description": desc,
+    if pl:
+        title = f"Darmowe narzędzia remontowe: kalkulatory i planery ({n})"
+        desc = ("Darmowe kalkulatory remontowe: farby, płytki, podłogi, beton, planery pomieszczeń, wzory umów "
+                f"i katalogi firm. Narzędzi na liście: {n}.")
+    else:
+        title = f"{SITE_NAME}: {n} Calculators & Room Planners"
+        desc = (f"{n} free home renovation tools (EN/PL): paint, tile, flooring and concrete calculators, room planners, "
+                "contract templates and contractor directories.")
+    item_url = (lambda e: e.get("url_pl") or e.get("url_en") or e["links"][0]["url"]) if pl else (
+        lambda e: e.get("url_en") or e.get("url_pl") or e["links"][0]["url"])
+    ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": url, "description": desc,
+           "inLanguage": lang,
            "mainEntity": {"@type": "ItemList", "numberOfItems": n, "itemListElement": [
-               {"@type": "ListItem", "position": i + 1, "name": e["name"], "url": e.get("url_en") or e.get("url_pl") or e["links"][0]["url"]}
+               {"@type": "ListItem", "position": i + 1, "name": e["name"], "url": item_url(e)}
                for i, e in enumerate(cat)]}}]
+    if not pl:
+        ld[:0] = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "alternateName": "HomeRenovationFreeTools",
+                   "url": SITE + "/", "inLanguage": ["en", "pl"]},
+                  {"@context": "https://schema.org", "@type": "Organization", "name": SITE_NAME, "url": SITE + "/",
+                   "logo": SITE + "/icon.png", "sameAs": ["https://github.com/eater2/homerenovationfreetools",
+                                                           "https://airenovationcalculator.com/", "https://kalkulatorremontu.pl/"]}]
     nav, body = [], []
     for sec in d["sections"]:
-        name = plain_title(sec["title"])
-        nav.append(f'<a href="#{sec["id"]}">{esc(name)}</a>')
-        body.append(f'<section id="{sec["id"]}"><h2>{esc(sec["title"])}</h2>')
-        if sec.get("intro"):
-            body.append(f'<p class="lead">{sec["intro"]}</p>')
+        sec_title = SITE_PL["sections"].get(sec["id"], sec["title"]) if pl else sec["title"]
+        intro = SITE_PL["intros"].get(sec["id"]) if pl else sec.get("intro")
+        nav.append(f'<a href="#{sec["id"]}">{esc(plain_title(sec_title))}</a>')
+        body.append(f'<section id="{sec["id"]}"><h2>{esc(sec_title)}</h2>')
+        if intro:
+            body.append(f'<p class="lead">{intro}</p>')
         if sec["type"] == "table":
-            body.append('<div class="grid">' + "".join(site_card(it, ratings, sec["link_label"]) for it in sec["items"]) + "</div>")
+            # Polish visitors see the maintainer's tools first, then tools with a Polish version.
+            its = sorted(sec["items"], key=lambda it: (not it.get("own"), not it.get("pl"))) if pl else sec["items"]
+            body.append('<div class="grid">' + "".join(site_card(it, ratings, sec["link_label"], lang) for it in its) + "</div>")
         else:
             for g in sec["groups"]:
-                body.append(f'<h3>{esc(g["title"])}</h3><ul class="res">' + "".join(
-                    f'<li>{list_item(it).strip()[4:-5]}</li>' for it in g["items"]) + "</ul>")
+                g_title = SITE_PL["groups"].get(plain_title(g["title"]), g["title"]) if pl else g["title"]
+                body.append(f'<h3>{esc(g_title)}</h3><ul class="res">' + "".join(
+                    f'<li>{site_list_item(it, lang)}</li>' for it in g["items"]) + "</ul>")
         body.append("</section>")
+    if pl:
+        nav_end = '<a href="#ai-agents">Dla agentów AI</a><a href="/" hreflang="en">English</a>'
+        agents = f"""<section id="ai-agents"><h2>🤖 Użyj z agentem AI</h2>
+<p>Dane do odczytu maszynowego: <a href="{RAW}/llms.txt">llms.txt</a> · <a href="{RAW}/catalog.json">catalog.json</a>.
+Serwer MCP (bez klucza): <code>{MCP_URL}</code> lub <code>npx -y home-renovation-free-tools</code>.
+Claude Code: <code>/plugin install home-renovation-free-tools --marketplace eater2/homerenovationfreetools</code>.
+claude.ai: <a href="/{SKILL}-skill.zip">plik ZIP ze skillem</a>.</p></section>"""
+        footer = """Listę prowadzi <a href="https://kalkulatorremontu.pl/">kalkulatorremontu.pl</a> · <a href="https://airenovationcalculator.com/" hreflang="en">airenovationcalculator.com</a>.
+Narzędzie można zgłosić na <a href="https://github.com/eater2/homerenovationfreetools">GitHubie</a>. Oceny pochodzą od użytkowników i mają podane źródło; licencja MIT."""
+    else:
+        nav_end = '<a href="#ai-agents">For AI agents</a><a href="/pl/" hreflang="pl">Polski</a>'
+        agents = f"""<section id="ai-agents"><h2>🤖 Use it from an AI agent</h2>
+<p>Machine-readable: <a href="{RAW}/llms.txt">llms.txt</a> · <a href="{RAW}/catalog.json">catalog.json</a>.
+MCP server (no key): <code>{MCP_URL}</code> or <code>npx -y home-renovation-free-tools</code>.
+Claude Code: <code>/plugin install home-renovation-free-tools --marketplace eater2/homerenovationfreetools</code>.
+claude.ai: <a href="/{SKILL}-skill.zip">skill ZIP</a>.</p></section>"""
+        footer = """Maintained by <a href="https://airenovationcalculator.com/">airenovationcalculator.com</a> · <a href="https://kalkulatorremontu.pl/" hreflang="pl">kalkulatorremontu.pl</a>.
+Add a tool on <a href="https://github.com/eater2/homerenovationfreetools">GitHub</a>. Ratings are public user ratings with their source; MIT licence."""
+    h1 = SITE_PL["title"] if pl else d["title"]
+    tagline = SITE_PL["tagline"] if pl else d["tagline"]
     return f"""<!doctype html>
-<html lang="en">
+<html lang="{lang}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
-<link rel="canonical" href="{SITE}/">
+<link rel="canonical" href="{url}">
+<link rel="alternate" hreflang="en" href="{SITE}/">
+<link rel="alternate" hreflang="pl" href="{SITE}/pl/">
+<link rel="alternate" hreflang="x-default" href="{SITE}/">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/icon.png" type="image/png" sizes="512x512">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -331,7 +417,7 @@ def site_html(d, ratings, cat):
 <meta property="og:site_name" content="{SITE_NAME}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
-<meta property="og:url" content="{SITE}/">
+<meta property="og:url" content="{url}">
 <meta property="og:image" content="{SITE}/og-image.png">
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="640">
@@ -342,18 +428,13 @@ def site_html(d, ratings, cat):
 </head>
 <body>
 <header><img src="/icon.png" alt="{SITE_NAME} logo" width="72" height="72">
-<div><h1>{esc(d["title"])}</h1><p class="lead">{d["tagline"]}</p></div></header>
+<div><h1>{esc(h1)}</h1><p class="lead">{tagline}</p></div></header>
 <main>
-<nav>{"".join(nav)}<a href="#ai-agents">For AI agents</a></nav>
+<nav>{"".join(nav)}{nav_end}</nav>
 {"".join(body)}
-<section id="ai-agents"><h2>🤖 Use it from an AI agent</h2>
-<p>Machine-readable: <a href="{RAW}/llms.txt">llms.txt</a> · <a href="{RAW}/catalog.json">catalog.json</a>.
-MCP server (no key): <code>{MCP_URL}</code> or <code>npx -y home-renovation-free-tools</code>.
-Claude Code: <code>/plugin install home-renovation-free-tools --marketplace eater2/homerenovationfreetools</code>.
-claude.ai: <a href="/{SKILL}-skill.zip">skill ZIP</a>.</p></section>
+{agents}
 </main>
-<footer>Maintained by <a href="https://airenovationcalculator.com/">airenovationcalculator.com</a> · <a href="https://kalkulatorremontu.pl/" hreflang="pl">kalkulatorremontu.pl</a>.
-Add a tool on <a href="https://github.com/eater2/homerenovationfreetools">GitHub</a>. Ratings are public user ratings with their source; MIT licence.</footer>
+<footer>{footer}</footer>
 </body>
 </html>
 """
@@ -361,11 +442,14 @@ Add a tool on <a href="https://github.com/eater2/homerenovationfreetools">GitHub
 
 def write_site(d, ratings, cat):
     (ROOT / "site" / "index.html").write_text(site_html(d, ratings, cat), encoding="utf-8", newline="\n")
+    (ROOT / "site" / "pl").mkdir(exist_ok=True)
+    (ROOT / "site" / "pl" / "index.html").write_text(site_html(d, ratings, cat, "pl"), encoding="utf-8", newline="\n")
     (ROOT / "site" / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8", newline="\n")
     lastmod = max([s["fetched_at"][:10] for r in ratings.values() for s in r] or ["2026-10-19"])
+    urls = "".join(f"  <url><loc>{SITE}{p}</loc><lastmod>{lastmod}</lastmod></url>\n" for p in ("/", "/pl/"))
     (ROOT / "site" / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        f"  <url><loc>{SITE}/</loc><lastmod>{lastmod}</lastmod></url>\n</urlset>\n", encoding="utf-8", newline="\n")
+        f"{urls}</urlset>\n", encoding="utf-8", newline="\n")
 
 
 def skill_zip():
