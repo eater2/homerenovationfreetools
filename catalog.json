@@ -486,16 +486,6 @@
     "maintainer_tool": false
   },
   {
-    "id": "u-value-calculator",
-    "name": "U-Value Calculator",
-    "category": "calculators",
-    "category_name": "Free Renovation Calculators",
-    "desc_en": "U-value (thermal transmittance) of walls, roofs and floors (Budowlane ABC, Polish government)",
-    "desc_pl": "Kalkulator współczynnika przenikania ciepła U przegród (Budowlane ABC, MRiT)",
-    "url_pl": "https://budowlaneabc.gov.pl/charakterystyka-energetyczna-budynkow/kalkulatory/calc-wpc/",
-    "maintainer_tool": false
-  },
-  {
     "id": "wire-size-calculator",
     "name": "Wire Size Calculator",
     "category": "calculators",

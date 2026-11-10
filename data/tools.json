@@ -365,13 +365,6 @@
           "desc_en": "Free heat demand (OZC) calculation per PN-EN 12831 to size a heat source (Polish)"
         },
         {
-          "id": "u-value-calculator",
-          "name": "U-Value Calculator",
-          "pl": "https://budowlaneabc.gov.pl/charakterystyka-energetyczna-budynkow/kalkulatory/calc-wpc/",
-          "desc_pl": "Kalkulator współczynnika przenikania ciepła U przegród (Budowlane ABC, MRiT)",
-          "desc_en": "U-value (thermal transmittance) of walls, roofs and floors (Budowlane ABC, Polish government)"
-        },
-        {
           "id": "wire-size-calculator",
           "name": "Wire Size Calculator",
           "en": "https://www.omnicalculator.com/physics/wire-size",

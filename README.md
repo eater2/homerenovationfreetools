@@ -317,12 +317,6 @@
       <td>Darmowy kalkulator OZC wg PN-EN 12831 – dobór mocy źródła ciepła</td>
     </tr>
     <tr>
-      <td>U-Value Calculator</td>
-      <td>—</td>
-      <td><a href="https://budowlaneabc.gov.pl/charakterystyka-energetyczna-budynkow/kalkulatory/calc-wpc/">Przejdź</a></td>
-      <td>Kalkulator współczynnika przenikania ciepła U przegród (Budowlane ABC, MRiT)</td>
-    </tr>
-    <tr>
       <td>Wire Size Calculator</td>
       <td><a href="https://www.omnicalculator.com/physics/wire-size">Go to Tool</a></td>
       <td>—</td>

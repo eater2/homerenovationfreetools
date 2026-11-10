@@ -56,7 +56,6 @@ Fields per line: name | English link | Polish link | what it does | rating (when
 - Roof Pitch Calculator | https://www.omnicalculator.com/construction/roof-pitch | - | Roof pitch angle
 - BTU Calculator | https://www.calculator.net/btu-calculator.html | - | Heating and cooling power (BTU) for a room
 - Heat Demand Calculator (OZC) | - | https://policzcieplo.pl/ | Free heat demand (OZC) calculation per PN-EN 12831 to size a heat source (Polish)
-- U-Value Calculator | - | https://budowlaneabc.gov.pl/charakterystyka-energetyczna-budynkow/kalkulatory/calc-wpc/ | U-value (thermal transmittance) of walls, roofs and floors (Budowlane ABC, Polish government)
 - Wire Size Calculator | https://www.omnicalculator.com/physics/wire-size | - | Electrical wire cross-section
 - Voltage Drop Calculator | https://www.calculator.net/voltage-drop-calculator.html | - | Voltage drop in an electrical circuit
 - Lumen Calculator | https://www.omnicalculator.com/physics/lumen | - | Lighting: lumens, lux and number of fixtures
