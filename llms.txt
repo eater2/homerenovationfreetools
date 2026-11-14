@@ -123,6 +123,7 @@ Fields per line: name | English link | Polish link | what it does | rating (when
 - Checkatrade | https://www.checkatrade.com/ | - | Vetted tradespeople with customer reviews (UK)
 - Houzz Pros | https://www.houzz.com/professionals | - | Directory of architects, designers and contractors with portfolios and reviews
 - Better Business Bureau (BBB) | https://www.bbb.org/ | - | Check a company's rating and complaints before hiring (USA, Canada)
+- Contractor License Lookup by State | https://ripoff.pro/tools/license-check | - | Official contractor license lookups for all 50 states and DC, with who needs a license and what to check (USA)
 - Fixly.pl | - | https://fixly.pl/ | Polish directory of electricians, plumbers and renovation contractors
 - Oferteo.pl | - | https://www.oferteo.pl/ | Compare quotes from renovation companies in Poland | 4.8/5 from 1493 (appstore)
 - CEIDG Business Search | - | https://www.biznes.gov.pl/pl/wyszukiwarka-firm | Check that a Polish sole trader is registered (CEIDG, biznes.gov.pl)

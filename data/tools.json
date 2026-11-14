@@ -847,6 +847,13 @@
           "desc_en": "Check a company's rating and complaints before hiring (USA, Canada)"
         },
         {
+          "id": "contractor-license-lookup-by-state",
+          "name": "Contractor License Lookup by State",
+          "en": "https://ripoff.pro/tools/license-check",
+          "desc_pl": "Oficjalne wyszukiwarki licencji wykonawców dla 50 stanów i DC – kto musi mieć licencję i co sprawdzić (USA)",
+          "desc_en": "Official contractor license lookups for all 50 states and DC, with who needs a license and what to check (USA)"
+        },
+        {
           "id": "fixly-pl",
           "name": "Fixly.pl",
           "pl": "https://fixly.pl/",
