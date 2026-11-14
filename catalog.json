@@ -1301,6 +1301,16 @@
     "maintainer_tool": false
   },
   {
+    "id": "contractor-license-lookup-by-state",
+    "name": "Contractor License Lookup by State",
+    "category": "contractors",
+    "category_name": "Renovation Company Catalog & Contractor Directories",
+    "desc_en": "Official contractor license lookups for all 50 states and DC, with who needs a license and what to check (USA)",
+    "desc_pl": "Oficjalne wyszukiwarki licencji wykonawców dla 50 stanów i DC – kto musi mieć licencję i co sprawdzić (USA)",
+    "url_en": "https://ripoff.pro/tools/license-check",
+    "maintainer_tool": false
+  },
+  {
     "id": "fixly-pl",
     "name": "Fixly.pl",
     "category": "contractors",

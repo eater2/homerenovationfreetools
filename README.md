@@ -438,6 +438,7 @@
     <tr><td>Checkatrade</td><td><a href="https://www.checkatrade.com/">Visit</a></td><td>—</td><td>Sprawdzeni fachowcy z opiniami klientów (Wielka Brytania)</td></tr>
     <tr><td>Houzz Pros</td><td><a href="https://www.houzz.com/professionals">Visit</a></td><td>—</td><td>Katalog architektów, projektantów i wykonawców z portfolio i opiniami</td></tr>
     <tr><td>Better Business Bureau (BBB)</td><td><a href="https://www.bbb.org/">Visit</a></td><td>—</td><td>Sprawdź oceny i skargi na firmę przed zleceniem (USA, Kanada)</td></tr>
+    <tr><td>Contractor License Lookup by State</td><td><a href="https://ripoff.pro/tools/license-check">Visit</a></td><td>—</td><td>Oficjalne wyszukiwarki licencji wykonawców dla 50 stanów i DC – kto musi mieć licencję i co sprawdzić (USA)</td></tr>
     <tr><td>Fixly.pl</td><td>—</td><td><a href="https://fixly.pl/">Przejdź</a></td><td>Polski katalog wykonawców – elektrycy, hydraulicy, remontowcy</td></tr>
     <tr><td>Oferteo.pl<br>⭐⭐⭐⭐⭐ <b>4.8</b>/5 · <a href="https://apps.apple.com/pl/app/id1621301704" title="App Store">1.5k ratings</a> <sub>App Store</sub></td><td>—</td><td><a href="https://www.oferteo.pl/">Przejdź</a></td><td>Porównaj oferty firm remontowych w Polsce</td></tr>
     <tr><td>CEIDG Business Search</td><td>—</td><td><a href="https://www.biznes.gov.pl/pl/wyszukiwarka-firm">Przejdź</a></td><td>Sprawdź, czy firma remontowa jest zarejestrowana (CEIDG, biznes.gov.pl)</td></tr>
