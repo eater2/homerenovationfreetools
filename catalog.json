@@ -793,7 +793,7 @@
         "rating": 4.0,
         "count": 5,
         "url": "https://sourceforge.net/software/product/SketchUp/",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -815,7 +815,7 @@
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id992423392",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -834,7 +834,7 @@
         "rating": 4.2,
         "count": 6,
         "url": "https://sourceforge.net/software/product/Sweet-Home-3D/",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -862,11 +862,11 @@
         "source": "appstore",
         "app": "Homestyler-AI Room Planner",
         "rating": 4.42,
-        "count": 5569,
+        "count": 5570,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id601137449",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -885,7 +885,7 @@
         "rating": 4.8,
         "count": 20,
         "url": "https://sourceforge.net/software/product/Coohom/",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       },
       {
         "source": "appstore",
@@ -895,7 +895,7 @@
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id1612012737",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -914,7 +914,7 @@
         "rating": 3.0,
         "count": 2,
         "url": "https://sourceforge.net/software/product/Planner-5D/",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -932,11 +932,11 @@
         "source": "appstore",
         "app": "HomeByMe - House Planner 3D",
         "rating": 4.63,
-        "count": 3015,
+        "count": 3017,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id1465715066",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -975,7 +975,7 @@
         "rating": 5.0,
         "count": 2,
         "url": "https://sourceforge.net/software/product/Cedreo/",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -992,9 +992,9 @@
       {
         "source": "sourceforge",
         "rating": 4.4,
-        "count": 25,
+        "count": 26,
         "url": "https://sourceforge.net/software/product/SmartDraw/",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1023,7 +1023,7 @@
         "rating": 3.8,
         "count": 4,
         "url": "https://sourceforge.net/software/product/Foyr-Neo/",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1042,7 +1042,7 @@
         "rating": 2.0,
         "count": 1,
         "url": "https://sourceforge.net/software/product/Home-Design-3D/",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1061,7 +1061,7 @@
         "rating": 1.0,
         "count": 1,
         "url": "https://sourceforge.net/software/product/DreamPlan-Home-Design/",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1088,10 +1088,10 @@
       {
         "source": "github",
         "repo": "FreeCAD/FreeCAD",
-        "stars": 35302,
-        "pushed_at": "2026-11-09",
+        "stars": 35505,
+        "pushed_at": "2026-11-16",
         "url": "https://github.com/FreeCAD/FreeCAD",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1108,10 +1108,10 @@
       {
         "source": "github",
         "repo": "LibreCAD/LibreCAD",
-        "stars": 6573,
-        "pushed_at": "2026-11-09",
+        "stars": 6603,
+        "pushed_at": "2026-11-16",
         "url": "https://github.com/LibreCAD/LibreCAD",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1141,17 +1141,17 @@
         "rating": 1.0,
         "count": 1,
         "url": "https://sourceforge.net/software/product/Angi/",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       },
       {
         "source": "appstore",
         "app": "Angi: Find Local Home Services",
         "rating": 4.54,
-        "count": 116580,
+        "count": 116628,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id432633172",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1180,17 +1180,17 @@
         "rating": 1.0,
         "count": 2,
         "url": "https://sourceforge.net/software/product/Thumbtack/",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       },
       {
         "source": "appstore",
         "app": "Thumbtack: Home Service Pros",
         "rating": 4.89,
-        "count": 480426,
+        "count": 482081,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id852703300",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1208,11 +1208,11 @@
         "source": "appstore",
         "app": "Bark: Great pros, found fast",
         "rating": 4.67,
-        "count": 224,
+        "count": 225,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id6738500754",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1229,12 +1229,12 @@
       {
         "source": "appstore",
         "app": "Porch",
-        "rating": 3.87,
-        "count": 142,
+        "rating": 3.86,
+        "count": 141,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id1561861282",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1261,12 +1261,12 @@
       {
         "source": "appstore",
         "app": "Taskrabbit - Handyman & more",
-        "rating": 4.72,
-        "count": 45704,
+        "rating": 4.71,
+        "count": 45713,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id374165361",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1324,11 +1324,11 @@
         "source": "appstore",
         "app": "Oferteo znajdź Wykonawcę",
         "rating": 4.82,
-        "count": 1493,
+        "count": 1498,
         "price": "Free",
         "country": "pl",
         "url": "https://apps.apple.com/pl/app/id1621301704",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1376,11 +1376,11 @@
         "source": "appstore",
         "app": "magicplan",
         "rating": 4.66,
-        "count": 41364,
+        "count": 41403,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id427424432",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1398,11 +1398,11 @@
         "source": "appstore",
         "app": "iScape: Landscape Design",
         "rating": 4.6,
-        "count": 28869,
+        "count": 28865,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id439688430",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1421,7 +1421,7 @@
         "rating": 1.0,
         "count": 1,
         "url": "https://sourceforge.net/software/product/HomeZada/",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       },
       {
         "source": "appstore",
@@ -1431,7 +1431,7 @@
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id473722482",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1449,11 +1449,11 @@
         "source": "appstore",
         "app": "Houzz - Home Design & Remodel",
         "rating": 4.84,
-        "count": 324928,
+        "count": 325066,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id399563465",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1471,11 +1471,11 @@
         "source": "appstore",
         "app": "Pinterest",
         "rating": 4.78,
-        "count": 5818378,
+        "count": 5826166,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id429047995",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1512,11 +1512,11 @@
         "source": "appstore",
         "app": "Dulux Visualiser",
         "rating": 4.41,
-        "count": 2539,
+        "count": 2540,
         "price": "Free",
         "country": "gb",
         "url": "https://apps.apple.com/gb/app/id404007106",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1547,7 +1547,7 @@
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id1326773975",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1574,11 +1574,11 @@
         "source": "appstore",
         "app": "Home Design 3D: Draw & Plan",
         "rating": 4.32,
-        "count": 104979,
+        "count": 105040,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id463768717",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1605,11 +1605,11 @@
         "source": "appstore",
         "app": "Planner 5D: AI Home Design",
         "rating": 4.36,
-        "count": 42660,
+        "count": 42849,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id606173978",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1632,11 +1632,11 @@
         "source": "appstore",
         "app": "RoomScan Pro LiDAR floor plans",
         "rating": 4.27,
-        "count": 2132,
+        "count": 2136,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id1504050801",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1654,11 +1654,11 @@
         "source": "appstore",
         "app": "Polycam 3D Scanner & Modeling",
         "rating": 4.65,
-        "count": 44091,
+        "count": 44198,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id1532482376",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1680,12 +1680,12 @@
       {
         "source": "appstore",
         "app": "Measure",
-        "rating": 3.04,
-        "count": 1852,
+        "rating": 3.05,
+        "count": 1862,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id1383426740",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
@@ -1712,11 +1712,11 @@
         "source": "appstore",
         "app": "Color Portfolio",
         "rating": 4.5,
-        "count": 11714,
+        "count": 11726,
         "price": "Free",
         "country": "us",
         "url": "https://apps.apple.com/us/app/id1490161691",
-        "fetched_at": "2026-11-09T16:43Z"
+        "fetched_at": "2026-11-16T16:14Z"
       }
     ]
   },
