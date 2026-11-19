@@ -288,6 +288,13 @@
           "desc_en": "Square footage of rooms and lots"
         },
         {
+          "id": "room-meadow-room-area",
+          "name": "Room Meadow Room Area Calculator",
+          "en": "https://roommeadow.com/room-square-footage-calculator",
+          "desc_pl": "Kalkulator powierzchni pomieszczeń – sumuje prostokątne części i podaje wynik w ft² oraz m²",
+          "desc_en": "Adds rectangular room sections and shows the total in square feet and square metres"
+        },
+        {
           "id": "plywood-calculator",
           "name": "Plywood Calculator",
           "en": "https://www.omnicalculator.com/construction/plywood",

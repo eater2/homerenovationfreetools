@@ -251,6 +251,12 @@
       <td>Kalkulator powierzchni – metraż pomieszczeń i działki</td>
     </tr>
     <tr>
+      <td>Room Meadow Room Area Calculator</td>
+      <td><a href="https://roommeadow.com/room-square-footage-calculator">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator powierzchni pomieszczeń – sumuje prostokątne części i podaje wynik w ft² oraz m²</td>
+    </tr>
+    <tr>
       <td>Plywood Calculator</td>
       <td><a href="https://www.omnicalculator.com/construction/plywood">Go to Tool</a></td>
       <td>—</td>

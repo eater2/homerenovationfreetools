@@ -376,6 +376,16 @@
     "maintainer_tool": false
   },
   {
+    "id": "room-meadow-room-area",
+    "name": "Room Meadow Room Area Calculator",
+    "category": "calculators",
+    "category_name": "Free Renovation Calculators",
+    "desc_en": "Adds rectangular room sections and shows the total in square feet and square metres",
+    "desc_pl": "Kalkulator powierzchni pomieszczeń – sumuje prostokątne części i podaje wynik w ft² oraz m²",
+    "url_en": "https://roommeadow.com/room-square-footage-calculator",
+    "maintainer_tool": false
+  },
+  {
     "id": "plywood-calculator",
     "name": "Plywood Calculator",
     "category": "calculators",
