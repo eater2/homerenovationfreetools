@@ -179,6 +179,12 @@
       <td>Kalkulator wykładziny dywanowej – oblicz ilość i koszt</td>
     </tr>
     <tr>
+      <td>Carpet Roll Cut Calculator</td>
+      <td><a href="https://squarefootagehub.com/carpet-calculator/">Go to Tool</a></td>
+      <td>—</td>
+      <td>Kalkulator wykładziny z rolki – szerokość rolki i kierunek układania</td>
+    </tr>
+    <tr>
       <td>Mulch Calculator</td>
       <td><a href="https://www.omnicalculator.com/biology/mulch">Go to Tool</a></td>
       <td>—</td>

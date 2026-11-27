@@ -33,6 +33,7 @@ Fields per line: name | English link | Polish link | what it does | rating (when
 - Electrical Load Calculator | https://ask-the-electrician.com/residential-electrical-load-calculation.html | - | Electrical load of a home's circuits and service
 - Plumbing Pipe Size Calculator | https://www.housecallpro.com/plumbing/templates-calculators/plumbing-pipe-size-calculator/ | - | Pipe diameter for a plumbing run
 - Carpet Calculator | https://www.inchcalculator.com/carpet-calculator/ | - | Carpet quantity and cost
+- Carpet Roll Cut Calculator | https://squarefootagehub.com/carpet-calculator/ | - | Estimate full-width carpet strips and compare cutting directions for rectangular rooms
 - Mulch Calculator | https://www.omnicalculator.com/biology/mulch | - | Mulch volume for garden beds
 - Grass Seed Calculator | https://www.omnicalculator.com/biology/grass-seed | - | Grass seed for a lawn area
 - Brick Calculator | https://www.omnicalculator.com/construction/brick | - | Bricks for walls and fences

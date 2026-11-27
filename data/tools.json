@@ -204,6 +204,13 @@
           "desc_en": "Carpet quantity and cost"
         },
         {
+          "id": "carpet-roll-cut-calculator",
+          "name": "Carpet Roll Cut Calculator",
+          "en": "https://squarefootagehub.com/carpet-calculator/",
+          "desc_pl": "Kalkulator wykładziny z rolki – szerokość rolki i kierunek układania",
+          "desc_en": "Estimate full-width carpet strips and compare cutting directions for rectangular rooms"
+        },
+        {
           "id": "mulch-calculator",
           "name": "Mulch Calculator",
           "en": "https://www.omnicalculator.com/biology/mulch",
