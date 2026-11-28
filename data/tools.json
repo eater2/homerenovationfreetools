@@ -281,6 +281,13 @@
           "desc_en": "Foundation repair and replacement cost"
         },
         {
+          "id": "foundation-crack-monitoring-log",
+          "name": "Foundation Crack Monitoring Log",
+          "en": "https://foundation-crack-monitoring-log.netlify.app/",
+          "desc_pl": "Dziennik monitorowania pęknięć fundamentu – pomiar szerokości i zmian w czasie",
+          "desc_en": "Log foundation crack width and track changes over time"
+        },
+        {
           "id": "square-footage-calculator",
           "name": "Square Footage Calculator",
           "en": "https://www.calculator.net/square-footage-calculator.html",
