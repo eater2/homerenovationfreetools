@@ -44,6 +44,7 @@ Fields per line: name | English link | Polish link | what it does | rating (when
 - Gutter Calculator | https://www.homewyse.com/services/cost_to_install_gutters.html | - | Gutter installation cost: length and fittings
 - Bathroom Remodel Cost Calculator | https://www.homewyse.com/project_costs/cost_of_typical_bathroom_remodel.html | - | Bathroom remodel cost
 - Foundation Cost Calculator | https://foundationcostcalculator.com/ | - | Foundation repair and replacement cost
+- Foundation Crack Monitoring Log | https://foundation-crack-monitoring-log.netlify.app/ | - | Log foundation crack width and track changes over time
 - Square Footage Calculator | https://www.calculator.net/square-footage-calculator.html | - | Square footage of rooms and lots
 - Plywood Calculator | https://www.omnicalculator.com/construction/plywood | - | Plywood and OSB sheets needed
 - Shiplap Calculator | https://www.omnicalculator.com/construction/shiplap | - | Shiplap boards and cost for a wall

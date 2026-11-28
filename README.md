@@ -245,6 +245,12 @@
       <td>Kalkulator kosztu fundamentów i napraw</td>
     </tr>
     <tr>
+      <td>Foundation Crack Monitoring Log</td>
+      <td><a href="https://foundation-crack-monitoring-log.netlify.app/">Go to Tool</a></td>
+      <td>—</td>
+      <td>Dziennik monitorowania pęknięć fundamentu – pomiar szerokości i zmian w czasie</td>
+    </tr>
+    <tr>
       <td>Square Footage Calculator</td>
       <td><a href="https://www.calculator.net/square-footage-calculator.html">Go to Tool</a></td>
       <td>—</td>

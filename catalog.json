@@ -366,6 +366,16 @@
     "maintainer_tool": false
   },
   {
+    "id": "foundation-crack-monitoring-log",
+    "name": "Foundation Crack Monitoring Log",
+    "category": "calculators",
+    "category_name": "Free Renovation Calculators",
+    "desc_en": "Log foundation crack width and track changes over time",
+    "desc_pl": "Dziennik monitorowania pęknięć fundamentu – pomiar szerokości i zmian w czasie",
+    "url_en": "https://foundation-crack-monitoring-log.netlify.app/",
+    "maintainer_tool": false
+  },
+  {
     "id": "square-footage-calculator",
     "name": "Square Footage Calculator",
     "category": "calculators",
